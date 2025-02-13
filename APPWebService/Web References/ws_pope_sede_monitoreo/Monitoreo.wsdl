@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="FechaActual">
+        <s:complexType />
+      </s:element>
+      <s:element name="FechaActualResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FechaActualResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Version">
+        <s:complexType />
+      </s:element>
+      <s:element name="VersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaPendiente_Region">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaPendiente_RegionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaPendiente_RegionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaPendiente_Detalle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PenalID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaPendiente_DetalleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaPendiente_DetalleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaArchivoTransferencia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Codigo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PenalID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="anioDirectorio" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="numMesRegistro" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaArchivoTransferenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaArchivoTransferenciaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarArchivoTransfer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="intCodigo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strNombreArchivo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="intGrupoPaquete" type="s:short" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarArchivoTransferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EliminarArchivoTransferResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DescargarZipArchivoTransfer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="intCodigo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strNombreArchivo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DescargarZipArchivoTransferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DescargarZipArchivoTransferResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="FechaActualSoapIn">
+    <wsdl:part name="parameters" element="tns:FechaActual" />
+  </wsdl:message>
+  <wsdl:message name="FechaActualSoapOut">
+    <wsdl:part name="parameters" element="tns:FechaActualResponse" />
+  </wsdl:message>
+  <wsdl:message name="VersionSoapIn">
+    <wsdl:part name="parameters" element="tns:Version" />
+  </wsdl:message>
+  <wsdl:message name="VersionSoapOut">
+    <wsdl:part name="parameters" element="tns:VersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaPendiente_RegionSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaPendiente_Region" />
+  </wsdl:message>
+  <wsdl:message name="ListaPendiente_RegionSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaPendiente_RegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaPendiente_DetalleSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaPendiente_Detalle" />
+  </wsdl:message>
+  <wsdl:message name="ListaPendiente_DetalleSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaPendiente_DetalleResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaArchivoTransferenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaArchivoTransferencia" />
+  </wsdl:message>
+  <wsdl:message name="ListaArchivoTransferenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaArchivoTransferenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarArchivoTransferSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarArchivoTransfer" />
+  </wsdl:message>
+  <wsdl:message name="EliminarArchivoTransferSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarArchivoTransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="DescargarZipArchivoTransferSoapIn">
+    <wsdl:part name="parameters" element="tns:DescargarZipArchivoTransfer" />
+  </wsdl:message>
+  <wsdl:message name="DescargarZipArchivoTransferSoapOut">
+    <wsdl:part name="parameters" element="tns:DescargarZipArchivoTransferResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MonitoreoSoap">
+    <wsdl:operation name="FechaActual">
+      <wsdl:input message="tns:FechaActualSoapIn" />
+      <wsdl:output message="tns:FechaActualSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Version">
+      <wsdl:input message="tns:VersionSoapIn" />
+      <wsdl:output message="tns:VersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaPendiente_Region">
+      <wsdl:input message="tns:ListaPendiente_RegionSoapIn" />
+      <wsdl:output message="tns:ListaPendiente_RegionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaPendiente_Detalle">
+      <wsdl:input message="tns:ListaPendiente_DetalleSoapIn" />
+      <wsdl:output message="tns:ListaPendiente_DetalleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaArchivoTransferencia">
+      <wsdl:input message="tns:ListaArchivoTransferenciaSoapIn" />
+      <wsdl:output message="tns:ListaArchivoTransferenciaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarArchivoTransfer">
+      <wsdl:input message="tns:EliminarArchivoTransferSoapIn" />
+      <wsdl:output message="tns:EliminarArchivoTransferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DescargarZipArchivoTransfer">
+      <wsdl:input message="tns:DescargarZipArchivoTransferSoapIn" />
+      <wsdl:output message="tns:DescargarZipArchivoTransferSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MonitoreoSoap" type="tns:MonitoreoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FechaActual">
+      <soap:operation soapAction="http://tempuri.org/FechaActual" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Version">
+      <soap:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaPendiente_Region">
+      <soap:operation soapAction="http://tempuri.org/ListaPendiente_Region" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaPendiente_Detalle">
+      <soap:operation soapAction="http://tempuri.org/ListaPendiente_Detalle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaArchivoTransferencia">
+      <soap:operation soapAction="http://tempuri.org/ListaArchivoTransferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarArchivoTransfer">
+      <soap:operation soapAction="http://tempuri.org/EliminarArchivoTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DescargarZipArchivoTransfer">
+      <soap:operation soapAction="http://tempuri.org/DescargarZipArchivoTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MonitoreoSoap12" type="tns:MonitoreoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FechaActual">
+      <soap12:operation soapAction="http://tempuri.org/FechaActual" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Version">
+      <soap12:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaPendiente_Region">
+      <soap12:operation soapAction="http://tempuri.org/ListaPendiente_Region" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaPendiente_Detalle">
+      <soap12:operation soapAction="http://tempuri.org/ListaPendiente_Detalle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaArchivoTransferencia">
+      <soap12:operation soapAction="http://tempuri.org/ListaArchivoTransferencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarArchivoTransfer">
+      <soap12:operation soapAction="http://tempuri.org/EliminarArchivoTransfer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DescargarZipArchivoTransfer">
+      <soap12:operation soapAction="http://tempuri.org/DescargarZipArchivoTransfer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Monitoreo">
+    <wsdl:port name="MonitoreoSoap" binding="tns:MonitoreoSoap">
+      <soap:address location="http://srvdesappall:8090/sip/SedeCentral/TransferenciaSIP/Monitoreo.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MonitoreoSoap12" binding="tns:MonitoreoSoap12">
+      <soap12:address location="http://srvdesappall:8090/sip/SedeCentral/TransferenciaSIP/Monitoreo.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

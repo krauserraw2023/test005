@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GrabarAnulacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDto" type="tns:DTO_PadinAnulacion_Sol" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_PadinAnulacion_Sol">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DTO_PadinRespuesta_Sol" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="DTO_PadinRespuesta_Sol">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDRowPadin" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDRegion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDPenal" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaRespuesta" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDEstado" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDUsuario" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioApeNom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ObsAnulacion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GrabarAnulacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GrabarAnulacionResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GrabarRecepcion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDto" type="tns:DTO_PadinRecepcion_Sol" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_PadinRecepcion_Sol">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDRowPadin" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDRegion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDPenal" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaRecepcion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDEstado" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GrabarRecepcionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GrabarRecepcionResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GrabarRespuesta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDto" type="tns:DTO_PadinRespuesta_Sol" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GrabarRespuestaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GrabarRespuestaResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Listar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDtoCol" type="tns:ArrayOfDTO_Padin_ListarSol" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfDTO_Padin_ListarSol">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DTO_Padin_ListarSol" nillable="true" type="tns:DTO_Padin_ListarSol" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTO_Padin_ListarSol">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDPadin" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDRowPadin" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDRegion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDPenal" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDEstado" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarResult" type="tns:ArrayOfDTO_Padin_ListarRpta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfDTO_Padin_ListarRpta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DTO_Padin_ListarRpta" nillable="true" type="tns:DTO_Padin_ListarRpta" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTO_Padin_ListarRpta">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDPadin" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDEstado" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDEstadoSol" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaRecepcion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaRespuesta" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDUsuario" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioApeNom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ObsAnulacion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GrabarAnulacionSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarAnulacion" />
+  </wsdl:message>
+  <wsdl:message name="GrabarAnulacionSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarAnulacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GrabarRecepcionSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarRecepcion" />
+  </wsdl:message>
+  <wsdl:message name="GrabarRecepcionSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarRecepcionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GrabarRespuestaSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarRespuesta" />
+  </wsdl:message>
+  <wsdl:message name="GrabarRespuestaSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarRespuestaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarSoapIn">
+    <wsdl:part name="parameters" element="tns:Listar" />
+  </wsdl:message>
+  <wsdl:message name="ListarSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PadinSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GrabarAnulacion">
+      <wsdl:input message="tns:GrabarAnulacionSoapIn" />
+      <wsdl:output message="tns:GrabarAnulacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GrabarRecepcion">
+      <wsdl:input message="tns:GrabarRecepcionSoapIn" />
+      <wsdl:output message="tns:GrabarRecepcionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GrabarRespuesta">
+      <wsdl:input message="tns:GrabarRespuestaSoapIn" />
+      <wsdl:output message="tns:GrabarRespuestaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Listar">
+      <wsdl:input message="tns:ListarSoapIn" />
+      <wsdl:output message="tns:ListarSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PadinSoap" type="tns:PadinSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarAnulacion">
+      <soap:operation soapAction="http://tempuri.org/GrabarAnulacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarRecepcion">
+      <soap:operation soapAction="http://tempuri.org/GrabarRecepcion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarRespuesta">
+      <soap:operation soapAction="http://tempuri.org/GrabarRespuesta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar">
+      <soap:operation soapAction="http://tempuri.org/Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PadinSoap12" type="tns:PadinSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarAnulacion">
+      <soap12:operation soapAction="http://tempuri.org/GrabarAnulacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarRecepcion">
+      <soap12:operation soapAction="http://tempuri.org/GrabarRecepcion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarRespuesta">
+      <soap12:operation soapAction="http://tempuri.org/GrabarRespuesta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar">
+      <soap12:operation soapAction="http://tempuri.org/Listar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Padin">
+    <wsdl:port name="PadinSoap" binding="tns:PadinSoap">
+      <soap:address location="http://localhost:52145/ws_pope_sede/Padin.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PadinSoap12" binding="tns:PadinSoap12">
+      <soap12:address location="http://localhost:52145/ws_pope_sede/Padin.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

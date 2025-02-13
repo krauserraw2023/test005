@@ -1,0 +1,48 @@
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\bin\Debug\APPCamaraWeb.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\bin\Debug\APPCamaraWeb.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\bin\Debug\APPCamaraWeb.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.AssemblyReference.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.Form1.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmFotov2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmFoto.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmFotov3.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmWebCam_avicap32.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.Resources.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.GenerateResource.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.CoreCompileInputs.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.CopyComplete
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\bin\Debug\APPCamaraWeb.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\bin\Debug\APPCamaraWeb.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\bin\Debug\APPCamaraWeb.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.AssemblyReference.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.Form1.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmFotov2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmFoto.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmFotov3.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmWebCam_avicap32.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.Resources.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.GenerateResource.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.CoreCompileInputs.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.CopyComplete
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\bin\Debug\APPCamaraWeb.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\bin\Debug\APPCamaraWeb.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\bin\Debug\APPCamaraWeb.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.AssemblyReference.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.Form1.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmFotov2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmFoto.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmFotov3.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.frmWebCam_avicap32.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.Resources.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.GenerateResource.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.CoreCompileInputs.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.vbproj.CopyComplete
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPCamaraWeb\obj\Debug\APPCamaraWeb.pdb

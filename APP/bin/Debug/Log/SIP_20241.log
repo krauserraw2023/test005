@@ -1,0 +1,48 @@
+[ERROR] -05/01/2024 13:15:23	ProcesarDataORL_ZXP: 
+System.ArgumentException: El argumento 'Expression' no se puede convertir en el tipo 'DBNull'.
+   en Microsoft.VisualBasic.Conversion.Val(Object Expression)
+   en Bussines.Transferencia.ProcesaZXP.ComprobarCampoEspecialTengaValor_XML(DataRow FilaXML, String NombreTabla, String& outSms) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 904
+   en Bussines.Transferencia.ProcesaZXP.CrearQuerySQLDatosInterno(DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 488
+   en Bussines.Transferencia.ProcesaZXP.CrearQueryDocumentoJudSQL(Carceleta& ws, DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_sed_inp_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 426 IdInterno = 5527
+[ERROR] -05/01/2024 13:17:12	ProcesarDataORL_ZXP: 
+System.ArgumentException: El argumento 'Expression' no se puede convertir en el tipo 'DBNull'.
+   en Microsoft.VisualBasic.Conversion.Val(Object Expression)
+   en Bussines.Transferencia.ProcesaZXP.ComprobarCampoEspecialTengaValor_XML(DataRow FilaXML, String NombreTabla, String& outSms) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 904
+   en Bussines.Transferencia.ProcesaZXP.CrearQuerySQLDatosInterno(DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 488
+   en Bussines.Transferencia.ProcesaZXP.CrearQueryDocumentoJudSQL(Carceleta& ws, DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_sed_inp_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 426 IdInterno = 5527
+[ERROR] -05/01/2024 13:20:31	ProcesarDataORL_ZXP: 
+System.ArgumentException: El argumento 'Expression' no se puede convertir en el tipo 'DBNull'.
+   en Microsoft.VisualBasic.Conversion.Val(Object Expression)
+   en Bussines.Transferencia.ProcesaZXP.ComprobarCampoEspecialTengaValor_XML(DataRow FilaXML, String NombreTabla, String& outSms) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 904
+   en Bussines.Transferencia.ProcesaZXP.CrearQuerySQLDatosInterno(DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 488
+   en Bussines.Transferencia.ProcesaZXP.CrearQueryDocumentoJudSQL(Carceleta& ws, DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_sed_inp_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 426 IdInterno = 5527
+[ERROR] -05/01/2024 13:43:41	ProcesarDataORL_ZXP: 
+System.ArgumentException: El argumento 'Expression' no se puede convertir en el tipo 'DBNull'.
+   en Microsoft.VisualBasic.Conversion.Val(Object Expression)
+   en Bussines.Transferencia.ProcesaZXP.ComprobarCampoEspecialTengaValor_XML(DataRow FilaXML, String NombreTabla, String& outSms) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 904
+   en Bussines.Transferencia.ProcesaZXP.CrearQuerySQLDatosInterno(DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 488
+   en Bussines.Transferencia.ProcesaZXP.CrearQueryDocumentoJudSQL(Carceleta& ws, DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_sed_inp_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 426 IdInterno = 5527
+[ERROR] -05/01/2024 13:53:11	ProcesarDataORL_ZXP: 
+System.ArgumentException: El argumento 'Expression' no se puede convertir en el tipo 'DBNull'.
+   en Microsoft.VisualBasic.Conversion.Val(Object Expression)
+   en Bussines.Transferencia.ProcesaZXP.ComprobarCampoEspecialTengaValor_XML(DataRow FilaXML, String NombreTabla, String& outSms) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 904
+   en Bussines.Transferencia.ProcesaZXP.CrearQuerySQLDatosInterno(DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 488
+   en Bussines.Transferencia.ProcesaZXP.CrearQueryDocumentoJudSQL(Carceleta& ws, DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_sed_inp_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 426 IdInterno = 5527
+[ERROR] -05/01/2024 14:07:55	ProcesarDataORL_ZXP: 
+System.ArgumentException: El argumento 'Expression' no se puede convertir en el tipo 'DBNull'.
+   en Microsoft.VisualBasic.Conversion.Val(Object Expression)
+   en Bussines.Transferencia.ProcesaZXP.ComprobarCampoEspecialTengaValor_XML(DataRow FilaXML, String NombreTabla, String& outSms) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 904
+   en Bussines.Transferencia.ProcesaZXP.CrearQuerySQLDatosInterno(DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 488
+   en Bussines.Transferencia.ProcesaZXP.CrearQueryDocumentoJudSQL(Carceleta& ws, DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_sed_inp_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 426 IdInterno = 5527
+[ERROR] -05/01/2024 14:18:30	ProcesarDataORL_ZXP: 
+System.ArgumentException: El argumento 'Expression' no se puede convertir en el tipo 'DBNull'.
+   en Microsoft.VisualBasic.Conversion.Val(Object Expression)
+   en Bussines.Transferencia.ProcesaZXP.ComprobarCampoEspecialTengaValor_XML(DataRow FilaXML, String NombreTabla, String& outSms) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 904
+   en Bussines.Transferencia.ProcesaZXP.CrearQuerySQLDatosInterno(DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 488
+   en Bussines.Transferencia.ProcesaZXP.CrearQueryDocumentoJudSQL(Carceleta& ws, DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_sed_inp_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 426 IdInterno = 5527
+[ERROR] -05/01/2024 14:34:28	ProcesarDataORL_ZXP: 
+System.ArgumentException: El argumento 'Expression' no se puede convertir en el tipo 'DBNull'.
+   en Microsoft.VisualBasic.Conversion.Val(Object Expression)
+   en Bussines.Transferencia.ProcesaZXP.ComprobarCampoEspecialTengaValor_XML(DataRow FilaXML, String NombreTabla, String& outSms) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 904
+   en Bussines.Transferencia.ProcesaZXP.CrearQuerySQLDatosInterno(DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 488
+   en Bussines.Transferencia.ProcesaZXP.CrearQueryDocumentoJudSQL(Carceleta& ws, DataTable& dtTablaXML, String NombreTabla, Int32 n_int_id, Int32 n_inp_ing_id, Int32 n_sed_inp_ing_id, String& outSMS) en D:\Desarrollo2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Bussines\Transferencia\ProcesaZXP.vb:línea 426 IdInterno = 5527

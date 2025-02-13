@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D17E2712-D4D5-4E9E-BB47-708090FFC0F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>APPReporte</RootNamespace>
+    <AssemblyName>APPReporte</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>APPReporte.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>APPReporte.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.CTLODONLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\AxInterop.CTLODONLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DataClass">
+      <HintPath>..\..\..\DLL\DataClass.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\DLL\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.APPUIComponents, Version=1.0.6655.29713, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\Legolas.APPUIComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.Components">
+      <HintPath>..\..\..\DLL\Legolas.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.Configuration">
+      <HintPath>..\..\..\DLL\Legolas.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LBusiness">
+      <HintPath>..\..\..\DLL\Legolas.LBusiness.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LEntity">
+      <HintPath>..\..\..\DLL\Legolas.LEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\Microsoft.ReportViewer_v10\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\Microsoft.ReportViewer_v10\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\Microsoft.ReportViewer_v10\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\Microsoft.ReportViewer_v10\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\frmReporte.Designer.vb">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\frmReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\ReporteCrystal.Designer.vb">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\ReporteCrystal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load\frmLoad.Designer.vb">
+      <DependentUpon>frmLoad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load\frmLoad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParteDiario\ReporteCrystal.Designer.vb">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ParteDiario\ReporteCrystal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmObsPopup.Designer.vb">
+      <DependentUpon>frmObsPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmObsPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmReporte.Designer.vb">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\ReporteCrystal.Designer.vb">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\ReporteCrystal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\frmPrintOdontograma.Designer.vb">
+      <DependentUpon>frmPrintOdontograma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\frmPrintOdontograma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\frmPrintOdontograma_v2.Designer.vb">
+      <DependentUpon>frmPrintOdontograma_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\frmPrintOdontograma_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Registro\Movimiento\ReporteCrystal.Designer.vb">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Movimiento\ReporteCrystal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reniec\ReporteCrystal.Designer.vb">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reniec\ReporteCrystal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ReporteCrystal.Designer.vb">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ReporteCrystal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ReporteCrystal_v2.Designer.vb">
+      <DependentUpon>ReporteCrystal_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ReporteCrystal_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Siscrico\frmReporte.Designer.vb">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Siscrico\frmReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Siscrico\frmReporteFichInterno.designer.vb">
+      <DependentUpon>frmReporteFichInterno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Siscrico\frmReporteFichInterno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Siscrico\uscContentReport.designer.vb">
+      <DependentUpon>uscContentReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Siscrico\uscContentReport.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Siscrico\uscReporteFichInt.designer.vb">
+      <DependentUpon>uscReporteFichInt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Siscrico\uscReporteFichInt.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\ReporteCrystal.Designer.vb">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\ReporteCrystal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visita\ReporteCrystal.Designer.vb">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Visita\ReporteCrystal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visita\frmReporte.Designer.vb">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Visita\frmReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Estadistica\frmReporte.resx">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Registro\ConstanciaReclusion\rpt_expedicion_cr_2022_04.rdlc" />
+    <None Include="Registro\ConstanciaReclusion\rpt_expedicion_cr_grupo_2022_04.rdlc" />
+    <None Include="Reporte\Estadistica\rptCuadro15.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Estadistica\rptFormato1.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Estadistica\rptLogo.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Registro\rptFichaIdentificacion.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Registro\rptHistorialAntecedentes.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Registro\rptCertificadoLibertad.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Registro\rptPapeletaExcarcelacion.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Estadistica\ReporteCrystal.resx">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load\frmLoad.resx">
+      <DependentUpon>frmLoad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParteDiario\ReporteCrystal.resx">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\frmObsPopup.resx">
+      <DependentUpon>frmObsPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\frmReporte.resx">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\ReporteCrystal.resx">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\frmPrintOdontograma.resx">
+      <DependentUpon>frmPrintOdontograma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\frmPrintOdontograma_v2.resx">
+      <DependentUpon>frmPrintOdontograma_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Reporte\Registro\rptCertificadoReclusion.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Registro\rptFicha.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Estadistica\rptCuadro14.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Registro\Movimiento\ReporteCrystal.resx">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reniec\ReporteCrystal.resx">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ReporteCrystal.resx">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ReporteCrystal_v2.resx">
+      <DependentUpon>ReporteCrystal_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Siscrico\frmReporte.resx">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Siscrico\frmReporteFichInterno.resx">
+      <DependentUpon>frmReporteFichInterno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Siscrico\uscContentReport.resx">
+      <DependentUpon>uscContentReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Siscrico\uscReporteFichInt.resx">
+      <DependentUpon>uscReporteFichInt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\ReporteCrystal.resx">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visita\ReporteCrystal.resx">
+      <DependentUpon>ReporteCrystal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visita\frmReporte.resx">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Reporte\Visita\rptHistorialInterno.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Visita\rptHistorialVisitante.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Visita\rptSancionInterno.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Visita\rptSancionVisita.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Reporte\Visita\rptVisita.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\Entity.Reporte.CertificadoLibertad.CertificadoCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.CertificadoLibertad.RestriccionCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.CertificadoReclusion.CertificadoCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.CertificadoReclusion.ExpedienteCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.DelitoCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.FichaIdentificacion.DelitosCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.FichaIdentificacion.FichaCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.FichaIdentificacion.RasgosCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.FichaIdentificacion.SenasParticularesCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.FichaIdentificacion.SituacionJuridicaCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.HistorialAntecedentes.HistorialCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.HistorialAntecedentes.SituacionJuridicaCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.PapeletaExcarcelacion.PapeletaCol.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APPControlHuellaVisita\APPControlHuellaVisita.vbproj">
+      <Project>{FAB74AE6-B2B3-487F-9BFB-CFDB4BD1AD8B}</Project>
+      <Name>APPControlHuellaVisita</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APPControls\APPControls.vbproj">
+      <Project>{0D52A260-7D3C-449A-B81C-28D93C9753C1}</Project>
+      <Name>APPControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APPWebService\APPWebService.vbproj">
+      <Project>{9CED347B-6371-4CCC-81F0-A756B5744B83}</Project>
+      <Name>APPWebService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bussines\Bussines.vbproj">
+      <Project>{911C818A-9997-44CF-ABEC-E83B8389FAA7}</Project>
+      <Name>Bussines</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data\Data.vbproj">
+      <Project>{A903A639-DB9E-4BBA-823E-7850DC6DD637}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.vbproj">
+      <Project>{210ED754-A914-44F3-BDF5-2C69B54D343C}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Type\Type.vbproj">
+      <Project>{657717A6-5EFF-45C7-B4A7-1B285EE58C53}</Project>
+      <Name>Type</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro001Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro002ACol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro002BCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro003Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro004Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro005Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro006Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro007Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro008Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro009Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro010Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro011Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro012Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.F1.Cuadro013Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Estadistica.Formato1Col.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Visita.SancionInternoCol.datasource" />
+    <None Include="My Project\DataSources\Entity.Reporte.Visita.SancionVisitaCol.datasource" />
+    <None Include="Resources\silueta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\system-log-out.png" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\warning_32x32.png" />
+    <None Include="Resources\fle_ant1.png" />
+    <None Include="Resources\fle_pri1.png" />
+    <None Include="Resources\fle_pri11.png" />
+    <None Include="Resources\fle_ult1.png" />
+    <None Include="Resources\accept-32_gris.png" />
+    <None Include="Resources\accept_32.png" />
+    <Content Include="Resources\fotografia_eliminada.png" />
+    <Content Include="Resources\fotografia_por_transferir.png" />
+    <None Include="Resources\huella_amputada.png" />
+    <None Include="Resources\huella_observada.png" />
+    <Content Include="Resources\nspm_fotografia.png" />
+    <None Include="Resources\Odontovacio.jpeg" />
+    <Content Include="Resources\sin_fotografia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reporte\Registro\Movimiento\" />
+    <Folder Include="Reporte\Registro\Reniec\" />
+    <Folder Include="Reporte\Registro\Siscrico\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

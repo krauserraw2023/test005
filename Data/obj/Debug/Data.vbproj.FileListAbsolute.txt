@@ -1,0 +1,76 @@
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Data.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Data.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Data.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Entity.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.Configuration.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.LEntity.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Type.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.Components.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.LBusiness.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.LData.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Entity.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Entity.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Type.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Type.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.dll.config
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.AssemblyReference.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.Resources.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.GenerateResource.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.CoreCompileInputs.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.CopyComplete
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Data.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Data.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Data.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Entity.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.Configuration.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.LEntity.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Type.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.Components.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.LBusiness.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.LData.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Entity.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Entity.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Type.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Type.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.dll.config
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.AssemblyReference.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.Resources.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.GenerateResource.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.CoreCompileInputs.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.CopyComplete
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Data.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Data.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Data.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Entity.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Type.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.Components.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.LBusiness.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Legolas.LData.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Entity.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Entity.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Type.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\Type.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\bin\Debug\APPWebService.dll.config
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.AssemblyReference.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.Resources.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.GenerateResource.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.CoreCompileInputs.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.vbproj.CopyComplete
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Debug\Data.pdb

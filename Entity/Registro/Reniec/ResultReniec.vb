@@ -1,0 +1,70 @@
+﻿Public Class ResultReniec
+    Public Property numeroDNI As String
+    Public Property digitoVerificacion As String
+    Public Property apellidoPaterno As String
+    Public Property apellidoMaterno As String
+    Public Property apellidoCasada As String
+    Public Property nombres As String
+    Public Property codigoUbigeoDepartamentoDomicilio As String
+    Public Property codigoUbigeoProvinciaDomicilio As String
+    Public Property codigoUbigeoDistritoDomicilio As String
+    Public Property departamentoDomicilio As String
+    Public Property provinciaDomicilio As String
+    Public Property distritoDomicilio As String
+    Public Property estadoCivil As String
+    Public Property codigoGradoInstruccion As String
+    Public Property estatura As String
+    Public Property sexo As String
+    Public Property documentoSustentatorioTipo As String
+    Public Property documentoSustentatorioNumero As String
+    Public Property codigoUbigeoDepartamentoNacimiento As String
+    Public Property codigoUbigeoProvinciaNacimiento As String
+    Public Property codigoUbigeoDistritoNacimiento As String
+    Public Property departamentoNacimiento As String
+    Public Property provinciaNacimiento As String
+    Public Property distritoNacimiento As String
+    Public Property fechaNacimiento As String
+    Public Property nombrePadre As String
+    Public Property nombreMadre As String
+    Public Property fechaInscripcion As String
+    Public Property fechaExpedicion As String
+    Public Property constanciaVotacion As String
+    Public Property restriccion As String
+    Public Property restriccionMensaje As String
+    Public Property prefijoDireccion As String
+    Public Property direccion As String
+    Public Property numeroDireccion As String
+    Public Property blockChalet As String
+    Public Property interior As String
+    Public Property urbanizacion As String
+    Public Property etapa As String
+    Public Property manzana As String
+    Public Property lote As String
+    Public Property prefijoBlockChalet As String
+    Public Property prefijoDepartamentoInterior As String
+    Public Property prefijoUrbanizacion As String
+    Public Property fotoByte As String
+    Public Property firmaByte As String
+    Public Property restriccionRegistroPenitenciario As Boolean
+    Public Property restriccionAntecedentesJudiciales As Boolean
+    Public Property restriccionTratamientoPenitenciario As Boolean
+    Public Property restriccionMedioLibre As Boolean
+    Public Property ubigeo As String
+    Public Property codigoError As String
+    Public Property mensajeError As String
+    Public Property coincidencia As List(Of Coincidencia)
+    Public Property numeroTotalCoincidencias As String
+    Public Property Datos As String
+End Class
+
+Public Class Coincidencia
+    Public Property numeroDNI As String
+    Public Property caracterVerificacion As String
+    Public Property tipoFichaRegistral As String
+    Public Property apellidoPaterno As String
+    Public Property apellidoMaterno As String
+    Public Property preNombres As String
+    Public Property datos As String
+    Public Property imagen As String
+    Public Property reservado As String
+End Class

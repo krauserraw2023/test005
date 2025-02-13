@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ws_biostar_2.Entity" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ws_biostar_2.Entity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ListaGrupoAcceso">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="records" nillable="true" type="tns:ArrayOfGrupoAcceso" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ListaGrupoAcceso" nillable="true" type="tns:ListaGrupoAcceso" />
+  <xs:complexType name="ArrayOfGrupoAcceso">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GrupoAcceso" nillable="true" type="tns:GrupoAcceso" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGrupoAcceso" nillable="true" type="tns:ArrayOfGrupoAcceso" />
+  <xs:complexType name="GrupoAcceso">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="included_by_user_group" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GrupoAcceso" nillable="true" type="tns:GrupoAcceso" />
+  <xs:complexType name="ListaUsuarioGrupo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="records" nillable="true" type="tns:ArrayOfUsuarioGrupo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ListaUsuarioGrupo" nillable="true" type="tns:ListaUsuarioGrupo" />
+  <xs:complexType name="ArrayOfUsuarioGrupo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsuarioGrupo" nillable="true" type="tns:UsuarioGrupo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUsuarioGrupo" nillable="true" type="tns:ArrayOfUsuarioGrupo" />
+  <xs:complexType name="UsuarioGrupo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="user_total" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioGrupo" nillable="true" type="tns:UsuarioGrupo" />
+  <xs:complexType name="ListaUsuarioAPI">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="records" nillable="true" type="tns:ArrayOfUsuarioAPI" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ListaUsuarioAPI" nillable="true" type="tns:ListaUsuarioAPI" />
+  <xs:complexType name="ArrayOfUsuarioAPI">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsuarioAPI" nillable="true" type="tns:UsuarioAPI" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUsuarioAPI" nillable="true" type="tns:ArrayOfUsuarioAPI" />
+  <xs:complexType name="UsuarioAPI">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="access_groups" nillable="true" type="tns:ArrayOfGrupoAcceso" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="expiry_datetime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="security_level" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="start_datetime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="user_group" nillable="true" type="tns:UsuarioGrupo" />
+      <xs:element minOccurs="0" name="user_id" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioAPI" nillable="true" type="tns:UsuarioAPI" />
+</xs:schema>

@@ -1,0 +1,1857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D52A260-7D3C-449A-B81C-28D93C9753C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>APPControls</RootNamespace>
+    <AssemblyName>APPControls</AssemblyName>
+    <MyType>Windows</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>APPControls.xml</DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>APPControls.xml</DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.CTLODONLib">
+      <HintPath>..\..\..\DLL\AxInterop.CTLODONLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DataClass">
+      <HintPath>..\..\..\DLL\DataClass.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CTLODONLib">
+      <HintPath>..\..\..\DLL\Interop.CTLODONLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\DLL\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.APPUIComponents">
+      <HintPath>..\..\..\DLL\Legolas.APPUIComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.Components">
+      <HintPath>..\..\..\DLL\Legolas.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.Configuration">
+      <HintPath>..\..\..\DLL\Legolas.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LBusiness">
+      <HintPath>..\..\..\DLL\Legolas.LBusiness.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LEntity">
+      <HintPath>..\..\..\DLL\Legolas.LEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LType">
+      <HintPath>..\..\..\DLL\Legolas.LType.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common">
+      <HintPath>..\..\..\DLL\Microsoft.ReportViewer_v10\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms">
+      <HintPath>..\..\..\DLL\Microsoft.ReportViewer_v10\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ScanAPIHelper, Version=1.1.6530.23318, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\ScanAPIHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="WebCAM">
+      <HintPath>..\..\..\DLL\WebCAM.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Busqueda\uscComboDistritoJudicial.Designer.vb">
+      <DependentUpon>uscComboDistritoJudicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda\uscComboDistritoJudicial.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Config.vb" />
+    <Compile Include="Fotografia.vb" />
+    <Compile Include="Foto\uscFotografia_2v.Designer.vb">
+      <DependentUpon>uscFotografia_2v.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foto\uscFotografia_2v.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Foto\frmCamaraWebPopup.Designer.vb">
+      <DependentUpon>frmCamaraWebPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foto\frmCamaraWebPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foto\frmFotoZoomPopup.Designer.vb">
+      <DependentUpon>frmFotoZoomPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foto\frmFotoZoomPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foto\uscFotografia.Designer.vb">
+      <DependentUpon>uscFotografia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foto\uscFotografia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="General\uscFrecuencia.Designer.vb">
+      <DependentUpon>uscFrecuencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="General\uscFrecuencia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="General\usrCheckSemanaDia.Designer.vb">
+      <DependentUpon>usrCheckSemanaDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="General\usrCheckSemanaDia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuracion.vb" />
+    <Compile Include="Busqueda\uscComboSala.Designer.vb">
+      <DependentUpon>uscComboSala.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda\uscComboSala.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Busqueda\usComboDelito.Designer.vb">
+      <DependentUpon>usComboDelito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda\usComboDelito.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JsonConvierte.vb" />
+    <Compile Include="Load\frmLoad02.Designer.vb">
+      <DependentUpon>frmLoad02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load\frmLoad02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load\frmLoad.Designer.vb">
+      <DependentUpon>frmLoad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load\frmLoad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Clasificacion\uscResultado.Designer.vb">
+      <DependentUpon>uscResultado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Clasificacion\uscResultado.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Clasificacion\uscResultadoDet.Designer.vb">
+      <DependentUpon>uscResultadoDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Clasificacion\uscResultadoDet.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.vb" />
+    <Compile Include="Registro\Captura\v4.5\frmFotoZoomPopup.Designer.vb">
+      <DependentUpon>frmFotoZoomPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Captura\v4.5\frmFotoZoomPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Captura\v5\uscFotografia3.Designer.vb">
+      <DependentUpon>uscFotografia3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Captura\v5\uscFotografia3.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Captura\uscFotografia_LM.Designer.vb">
+      <DependentUpon>uscFotografia_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Captura\uscFotografia_LM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmImpresion.Designer.vb">
+      <DependentUpon>frmImpresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmImpresion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\uscConsultaTramite.Designer.vb">
+      <DependentUpon>uscConsultaTramite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\uscConsultaTramite.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\uscInternoDetalle.Designer.vb">
+      <DependentUpon>uscInternoDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\uscInternoDetalle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\DocumentoDigital\DocDigitalizado_BE.vb" />
+    <Compile Include="Registro\DocumentoDigital\frmDetalleDocImg.Designer.vb">
+      <DependentUpon>frmDetalleDocImg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\DocumentoDigital\frmDetalleDocImg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\DocumentoDigital\uscVisorArchDigital.Designer.vb">
+      <DependentUpon>uscVisorArchDigital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\DocumentoDigital\uscVisorArchDigital.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\DocumentoDigital\uscVisorDocDigital.Designer.vb">
+      <DependentUpon>uscVisorDocDigital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\DocumentoDigital\uscVisorDocDigital.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Expediente\frmCargarProceso.designer.vb">
+      <DependentUpon>frmCargarProceso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Expediente\frmCargarProceso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Expediente\frmDatosInimputablesPopup.Designer.vb">
+      <DependentUpon>frmDatosInimputablesPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Expediente\frmDatosInimputablesPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscExpeDeResolucion.Designer.vb">
+      <DependentUpon>uscExpeDeResolucion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscExpeDeResolucion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscExpeDeResolucionIng.Designer.vb">
+      <DependentUpon>uscExpeDeResolucionIng.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscExpeDeResolucionIng.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscMandatoDetencion.Designer.vb">
+      <DependentUpon>uscMandatoDetencion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscMandatoDetencion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscMandatoDetencion_LM.Designer.vb">
+      <DependentUpon>uscMandatoDetencion_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscMandatoDetencion_LM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscQueda.designer.vb">
+      <DependentUpon>uscQueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Expediente\uscQueda.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Huellas\uscDatosInternoReniec.designer.vb">
+      <DependentUpon>uscDatosInternoReniec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Huellas\uscDatosInternoReniec.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Huellas\uscHuellaVerificaInterno.Designer.vb">
+      <DependentUpon>uscHuellaVerificaInterno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Huellas\uscHuellaVerificaInterno.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Huellas\uscVisorDetalleHuellas.designer.vb">
+      <DependentUpon>uscVisorDetalleHuellas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Huellas\uscVisorDetalleHuellas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Huellas\uscVisorHuellas.designer.vb">
+      <DependentUpon>uscVisorHuellas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Huellas\uscVisorHuellas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\frmDomicilioPopup.Designer.vb">
+      <DependentUpon>frmDomicilioPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\frmDomicilioPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\frmIdiomaInternoPopup.Designer.vb">
+      <DependentUpon>frmIdiomaInternoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\frmIdiomaInternoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\frmInternoGradoInsPopup.Designer.vb">
+      <DependentUpon>frmInternoGradoInsPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\frmInternoGradoInsPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscDomicilio.Designer.vb">
+      <DependentUpon>uscDomicilio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscDomicilio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscEtniaLenguaMaterna.Designer.vb">
+      <DependentUpon>uscEtniaLenguaMaterna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscEtniaLenguaMaterna.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscEtniaLenguaMaterna_v2.Designer.vb">
+      <DependentUpon>uscEtniaLenguaMaterna_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscEtniaLenguaMaterna_v2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscGradosAcademicos.Designer.vb">
+      <DependentUpon>uscGradosAcademicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscGradosAcademicos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscIdiomaInterno.Designer.vb">
+      <DependentUpon>uscIdiomaInterno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\uscIdiomaInterno.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\uscGrillaNombresAsociadosV2.Designer.vb">
+      <DependentUpon>uscGrillaNombresAsociadosV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\uscGrillaNombresAsociadosV2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\uscGrillaOrgCriminalV2.Designer.vb">
+      <DependentUpon>uscGrillaOrgCriminalV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\uscGrillaOrgCriminalV2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\uscGrillaOrgCriminal_LM.Designer.vb">
+      <DependentUpon>uscGrillaOrgCriminal_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\uscGrillaOrgCriminal_LM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UserAlias2.Designer.vb">
+      <DependentUpon>UserAlias2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UserAlias2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UserBandas2.Designer.vb">
+      <DependentUpon>UserBandas2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UserBandas2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UscFamilia.Designer.vb">
+      <DependentUpon>UscFamilia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UscFamilia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UserBandas_LM.Designer.vb">
+      <DependentUpon>UserBandas_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UserBandas_LM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UserGrilletes.Designer.vb">
+      <DependentUpon>UserGrilletes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Identificacion\v5\UserGrilletes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Integracion\uscBuscaRegIntegracion.Designer.vb">
+      <DependentUpon>uscBuscaRegIntegracion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Integracion\uscBuscaRegIntegracion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Odontograma\frmOdontogramaPopup.designer.vb">
+      <DependentUpon>frmOdontogramaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Odontograma\frmOdontogramaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Odontograma\OdontogramaVB\Bases\frmfind.Designer.vb">
+      <DependentUpon>frmfind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Odontograma\OdontogramaVB\Bases\frmfind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Odontograma\OdontogramaVB\Clases\PiezaDental.vb" />
+    <Compile Include="Registro\Odontograma\OdontogramaVB\Clases\Simbolos.vb" />
+    <Compile Include="Registro\Odontograma\OdontogramaVB\FrmFindOdontograma.designer.vb">
+      <DependentUpon>FrmFindOdontograma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Odontograma\OdontogramaVB\FrmFindOdontograma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Odontograma\OdontogramaVB\Frmingreso.Designer.vb">
+      <DependentUpon>Frmingreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Odontograma\OdontogramaVB\Frmingreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Odontograma\OdontogramaVB\frmodontograma.Designer.vb">
+      <DependentUpon>frmodontograma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Odontograma\OdontogramaVB\frmodontograma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Odontograma\uscOdontogramaBuscar.designer.vb">
+      <DependentUpon>uscOdontogramaBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Odontograma\uscOdontogramaBuscar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Odontograma\uscOdotoNew.Designer.vb">
+      <DependentUpon>uscOdotoNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Odontograma\uscOdotoNew.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\PenalLM\uscBusquedaMovimientosPLM.Designer.vb">
+      <DependentUpon>uscBusquedaMovimientosPLM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenalLM\uscBusquedaMovimientosPLM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\uscBusquedaCarceleta.Designer.vb">
+      <DependentUpon>uscBusquedaCarceleta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\uscBusquedaCarceleta.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Main\uscBusquedaMovimientos.Designer.vb">
+      <DependentUpon>uscBusquedaMovimientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Main\uscBusquedaMovimientos.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\uscEmisionAntecedentes.Designer.vb">
+      <DependentUpon>uscEmisionAntecedentes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\uscEmisionAntecedentes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\uscBusquedaMovimientos_LM.Designer.vb">
+      <DependentUpon>uscBusquedaMovimientos_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\uscBusquedaMovimientos_LM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Movimiento\Carceleta\uscMovExpedienteCarceleta.Designer.vb">
+      <DependentUpon>uscMovExpedienteCarceleta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Movimiento\Carceleta\uscMovExpedienteCarceleta.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscDelito.Designer.vb">
+      <DependentUpon>uscDelito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscDelito.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscDocumJudicial.Designer.vb">
+      <DependentUpon>uscDocumJudicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscDocumJudicial.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscMovExpediente.Designer.vb">
+      <DependentUpon>uscMovExpediente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscMovExpediente.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscMovimiento.Designer.vb">
+      <DependentUpon>uscMovimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscMovimiento.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscMovimientoDetalle.Designer.vb">
+      <DependentUpon>uscMovimientoDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscMovimientoDetalle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscMovimientoDetalle2.Designer.vb">
+      <DependentUpon>uscMovimientoDetalle2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Movimiento\v5\uscMovimientoDetalle2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Odontograma\uscOdontogramaMain_LM.designer.vb">
+      <DependentUpon>uscOdontogramaMain_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Odontograma\uscOdontogramaMain_LM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\PenalLM\uscMovDetalle.Designer.vb">
+      <DependentUpon>uscMovDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenalLM\uscMovDetalle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\uscDetallResolucionSentencia.Designer.vb">
+      <DependentUpon>uscDetallResolucionSentencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\uscDetallResolucionSentencia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\uscResolQueda.Designer.vb">
+      <DependentUpon>uscResolQueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\uscResolQueda.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\UscListaReniec2.Designer.vb">
+      <DependentUpon>UscListaReniec2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\UscListaReniec2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionDatosInternoV2.Designer.vb">
+      <DependentUpon>uscValidacionDatosInternoV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionDatosInternoV2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionDatosReniecV2.Designer.vb">
+      <DependentUpon>uscValidacionDatosReniecV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionDatosReniecV2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionDatosReniecV2_LM.Designer.vb">
+      <DependentUpon>uscValidacionDatosReniecV2_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionDatosReniecV2_LM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionReniecV2.Designer.vb">
+      <DependentUpon>uscValidacionReniecV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionReniecV2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionReniecV2_LM.Designer.vb">
+      <DependentUpon>uscValidacionReniecV2_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\uscValidacionReniecV2_LM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\usrInternoReniecLineaV2.Designer.vb">
+      <DependentUpon>usrInternoReniecLineaV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reniec\v5\usrInternoReniecLineaV2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\frmEstadoNoEjecutadoPopup.Designer.vb">
+      <DependentUpon>frmEstadoNoEjecutadoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\frmEstadoNoEjecutadoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v4.5\uscDocJudicial.Designer.vb">
+      <DependentUpon>uscDocJudicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v4.5\uscDocJudicial.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscDetallAcumulacionExp.Designer.vb">
+      <DependentUpon>uscDetallAcumulacionExp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscDetallAcumulacionExp.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscNotas.Designer.vb">
+      <DependentUpon>uscNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscNotas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscPeriodoDetencion.Designer.vb">
+      <DependentUpon>uscPeriodoDetencion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscPeriodoDetencion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolAclaratoriaExpe.Designer.vb">
+      <DependentUpon>uscResolAclaratoriaExpe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolAclaratoriaExpe.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolAclaratoriaNombresAsoc.Designer.vb">
+      <DependentUpon>uscResolAclaratoriaNombresAsoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolAclaratoriaNombresAsoc.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolDetencion.Designer.vb">
+      <DependentUpon>uscResolDetencion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolDetencion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolIngreso.Designer.vb">
+      <DependentUpon>uscResolIngreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolIngreso.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolTraslado.Designer.vb">
+      <DependentUpon>uscResolTraslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolTraslado.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\uscResolucionesDetalle.Designer.vb">
+      <DependentUpon>uscResolucionesDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\uscResolucionesDetalle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolucionesMain.Designer.vb">
+      <DependentUpon>uscResolucionesMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolucionesMain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolucionesMain_LM.Designer.vb">
+      <DependentUpon>uscResolucionesMain_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Resoluciones\v5\uscResolucionesMain_LM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDeclaraConsentida.designer.vb">
+      <DependentUpon>uscDeclaraConsentida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDeclaraConsentida.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallRegistroAnulacion.Designer.vb">
+      <DependentUpon>uscDetallRegistroAnulacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallRegistroAnulacion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallRegistroSentenciaGrilla.Designer.vb">
+      <DependentUpon>uscDetallRegistroSentenciaGrilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallRegistroSentenciaGrilla.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallRegistroSentencia_v2.Designer.vb">
+      <DependentUpon>uscDetallRegistroSentencia_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallRegistroSentencia_v2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallResolucionConmutacion.designer.vb">
+      <DependentUpon>uscDetallResolucionConmutacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallResolucionConmutacion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallResolucionIntegracionSent.Designer.vb">
+      <DependentUpon>uscDetallResolucionIntegracionSent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallResolucionIntegracionSent.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallResolucionSentencia.Designer.vb">
+      <DependentUpon>uscDetallResolucionSentencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscDetallResolucionSentencia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscPeriodoCondena.Designer.vb">
+      <DependentUpon>uscPeriodoCondena.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscPeriodoCondena.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscResolConmutacion.Designer.vb">
+      <DependentUpon>uscResolConmutacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\uscResolConmutacion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\usrResolAnulacion.Designer.vb">
+      <DependentUpon>usrResolAnulacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\usrResolAnulacion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\usrResolSentenciaDetalle.Designer.vb">
+      <DependentUpon>usrResolSentenciaDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\usrResolSentenciaDetalle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\usrResolSentenciaV2.Designer.vb">
+      <DependentUpon>usrResolSentenciaV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\usrResolSentenciaV2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Sentencia\usrResolSentencia.Designer.vb">
+      <DependentUpon>usrResolSentencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Sentencia\usrResolSentencia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registro\Siscrico\uscGrillaOrgCriminal.Designer.vb">
+      <DependentUpon>uscGrillaOrgCriminal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Siscrico\uscGrillaOrgCriminal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Paquetes\uscBusquedaPaquete.Designer.vb">
+      <DependentUpon>uscBusquedaPaquete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Paquetes\uscBusquedaPaquete.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Paquetes\uscRegistroDetalle.Designer.vb">
+      <DependentUpon>uscRegistroDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Paquetes\uscRegistroDetalle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmMigracionesPopup.Designer.vb">
+      <DependentUpon>frmMigracionesPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmMigracionesPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\uscAutenticacionDactilar.Designer.vb">
+      <DependentUpon>uscAutenticacionDactilar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\uscAutenticacionDactilar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmSelectTipoDedo.Designer.vb">
+      <DependentUpon>frmSelectTipoDedo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmSelectTipoDedo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\uscHuellaUsuarioVisor.Designer.vb">
+      <DependentUpon>uscHuellaUsuarioVisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\uscHuellaUsuarioVisor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolStripButton.Designer.vb">
+      <DependentUpon>ToolStripButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ToolStripButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Carceleta\uscClasificaciones_v2.designer.vb">
+      <DependentUpon>uscClasificaciones_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Carceleta\uscClasificaciones_v2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmAddClasifEtapaPopupLM.Designer.vb">
+      <DependentUpon>frmAddClasifEtapaPopupLM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmAddClasifEtapaPopupLM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmAddClasifEtapaPopupProv.Designer.vb">
+      <DependentUpon>frmAddClasifEtapaPopupProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmAddClasifEtapaPopupProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmClasifUbicacionRegresion.Designer.vb">
+      <DependentUpon>frmClasifUbicacionRegresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmClasifUbicacionRegresion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmGrillaPabellonPopup.Designer.vb">
+      <DependentUpon>frmGrillaPabellonPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmGrillaPabellonPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantFichClasifTrasladoPopup.Designer.vb">
+      <DependentUpon>frmMantFichClasifTrasladoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantFichClasifTrasladoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantFichPorRegresionPopup.Designer.vb">
+      <DependentUpon>frmMantFichPorRegresionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantFichPorRegresionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmSelectAleroPopup.Designer.vb">
+      <DependentUpon>frmSelectAleroPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmSelectAleroPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmUbi_ClasifEtapa.Designer.vb">
+      <DependentUpon>frmUbi_ClasifEtapa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmUbi_ClasifEtapa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasificacionEtapaLM.designer.vb">
+      <DependentUpon>uscFichaClasificacionEtapaLM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasificacionEtapaLM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasificacionEtapaProv_v2.designer.vb">
+      <DependentUpon>uscFichaClasificacionEtapaProv_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasificacionEtapaProv_v2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasificacionRegimen.designer.vb">
+      <DependentUpon>uscFichaClasificacionRegimen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasificacionRegimen.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasifTraslado.Designer.vb">
+      <DependentUpon>uscFichaClasifTraslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasifTraslado.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaPorRegresion.Designer.vb">
+      <DependentUpon>uscFichaPorRegresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaPorRegresion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscPabellon.Designer.vb">
+      <DependentUpon>uscPabellon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\uscPabellon.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uscAuditUser.Designer.vb">
+      <DependentUpon>uscAuditUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uscAuditUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uscComboPabellon.Designer.vb">
+      <DependentUpon>uscComboPabellon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uscComboPabellon.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uscComboParametrica.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uscComboParametrica.Designer.vb">
+      <DependentUpon>uscComboParametrica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="uscLabelBusqueda.Designer.vb">
+      <DependentUpon>uscLabelBusqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uscLabelBusqueda.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uscRegionPenalLabel.Designer.vb">
+      <DependentUpon>uscRegionPenalLabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uscRegionPenalLabel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrRegionPenal.Designer.vb">
+      <DependentUpon>usrRegionPenal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usrRegionPenal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Administrativa\uscRegistroAdminv2.Designer.vb">
+      <DependentUpon>uscRegistroAdminv2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Administrativa\uscRegistroAdminv2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\uscAutorizacionGrilla.Designer.vb">
+      <DependentUpon>uscAutorizacionGrilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\uscAutorizacionGrilla.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Calendario\usrCalendario.Designer.vb">
+      <DependentUpon>usrCalendario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Calendario\usrCalendario.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Calendario\usrCalendarioDia.designer.vb">
+      <DependentUpon>usrCalendarioDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Calendario\usrCalendarioDia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Huella\Visita\RealScanG1\frmIdentificarPopup.Designer.vb">
+      <DependentUpon>frmIdentificarPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huella\Visita\RealScanG1\frmIdentificarPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Penal\uscRegistrov2.Designer.vb">
+      <DependentUpon>uscRegistrov2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Penal\uscRegistrov2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\uscMovimientov2.Designer.vb">
+      <DependentUpon>uscMovimientov2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\uscMovimientov2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\uscInternoBuscar.Designer.vb">
+      <DependentUpon>uscInternoBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\uscInternoBuscar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Penal\frmPabellonPopup.Designer.vb">
+      <DependentUpon>frmPabellonPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Penal\frmPabellonPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\frmParentesco.Designer.vb">
+      <DependentUpon>frmParentesco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\frmParentesco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\uscSancion.Designer.vb">
+      <DependentUpon>uscSancion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\uscSancion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="General\frmFrecuenciaPopup.Designer.vb">
+      <DependentUpon>frmFrecuenciaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="General\frmFrecuenciaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\uscProgramacion2.Designer.vb">
+      <DependentUpon>uscProgramacion2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\uscProgramacion2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\uscProgramacionBusqueda.Designer.vb">
+      <DependentUpon>uscProgramacionBusqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\uscProgramacionBusqueda.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\uscProgramacionOrdinario.Designer.vb">
+      <DependentUpon>uscProgramacionOrdinario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\uscProgramacionOrdinario.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\uscAutorizacion.Designer.vb">
+      <DependentUpon>uscAutorizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\uscAutorizacion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\uscBusqueda.Designer.vb">
+      <DependentUpon>uscBusqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\uscBusqueda.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Penal\frmSancionDetallePopup.Designer.vb">
+      <DependentUpon>frmSancionDetallePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Penal\frmSancionDetallePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huella\Visita\frmCapturaPopup.Designer.vb">
+      <DependentUpon>frmCapturaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huella\Visita\frmCapturaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscSancionv2.Designer.vb">
+      <DependentUpon>uscSancionv2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscSancionv2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmReniecLinea.Designer.vb">
+      <DependentUpon>frmReniecLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmReniecLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscVisitanteRegistro.Designer.vb">
+      <DependentUpon>uscVisitanteRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscVisitanteRegistro.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\uscMovimientosVisitas.Designer.vb">
+      <DependentUpon>uscMovimientosVisitas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\uscMovimientosVisitas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\uscVisitaMovimientoDetalle.Designer.vb">
+      <DependentUpon>uscVisitaMovimientoDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\uscVisitaMovimientoDetalle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscSancion.Designer.vb">
+      <DependentUpon>uscSancion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscSancion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscVisitanteRestriccion.Designer.vb">
+      <DependentUpon>uscVisitanteRestriccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscVisitanteRestriccion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscVistaHuella.Designer.vb">
+      <DependentUpon>uscVistaHuella.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\uscVistaHuella.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Busqueda\uscComboDistritoJudicial.resx">
+      <DependentUpon>uscComboDistritoJudicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foto\uscFotografia_2v.resx">
+      <DependentUpon>uscFotografia_2v.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foto\frmCamaraWebPopup.resx">
+      <DependentUpon>frmCamaraWebPopup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foto\frmFotoZoomPopup.resx">
+      <DependentUpon>frmFotoZoomPopup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foto\uscFotografia.resx">
+      <DependentUpon>uscFotografia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\uscFrecuencia.resx">
+      <DependentUpon>uscFrecuencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\usrCheckSemanaDia.resx">
+      <DependentUpon>usrCheckSemanaDia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busqueda\uscComboSala.resx">
+      <DependentUpon>uscComboSala.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busqueda\usComboDelito.resx">
+      <DependentUpon>usComboDelito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load\frmLoad02.resx">
+      <DependentUpon>frmLoad02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load\frmLoad.resx">
+      <DependentUpon>frmLoad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Clasificacion\uscResultado.resx">
+      <DependentUpon>uscResultado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Clasificacion\uscResultadoDet.resx">
+      <DependentUpon>uscResultadoDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Captura\v4.5\frmFotoZoomPopup.resx">
+      <DependentUpon>frmFotoZoomPopup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Captura\v5\uscFotografia3.resx">
+      <DependentUpon>uscFotografia3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Captura\uscFotografia_LM.resx">
+      <DependentUpon>uscFotografia_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\frmImpresion.resx">
+      <DependentUpon>frmImpresion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\uscConsultaTramite.resx">
+      <DependentUpon>uscConsultaTramite.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\uscInternoDetalle.resx">
+      <DependentUpon>uscInternoDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\DocumentoDigital\frmDetalleDocImg.resx">
+      <DependentUpon>frmDetalleDocImg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\DocumentoDigital\uscVisorArchDigital.resx">
+      <DependentUpon>uscVisorArchDigital.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\DocumentoDigital\uscVisorDocDigital.resx">
+      <DependentUpon>uscVisorDocDigital.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Expediente\frmCargarProceso.resx">
+      <DependentUpon>frmCargarProceso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Expediente\frmDatosInimputablesPopup.resx">
+      <DependentUpon>frmDatosInimputablesPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Expediente\uscExpeDeResolucion.resx">
+      <DependentUpon>uscExpeDeResolucion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Expediente\uscExpeDeResolucionIng.resx">
+      <DependentUpon>uscExpeDeResolucionIng.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Expediente\uscMandatoDetencion.resx">
+      <DependentUpon>uscMandatoDetencion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Expediente\uscMandatoDetencion_LM.resx">
+      <DependentUpon>uscMandatoDetencion_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Expediente\uscQueda.resx">
+      <DependentUpon>uscQueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Huellas\uscDatosInternoReniec.resx">
+      <DependentUpon>uscDatosInternoReniec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Huellas\uscHuellaVerificaInterno.resx">
+      <DependentUpon>uscHuellaVerificaInterno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Huellas\uscVisorDetalleHuellas.resx">
+      <DependentUpon>uscVisorDetalleHuellas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Huellas\uscVisorHuellas.resx">
+      <DependentUpon>uscVisorHuellas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\frmDomicilioPopup.resx">
+      <DependentUpon>frmDomicilioPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\frmIdiomaInternoPopup.resx">
+      <DependentUpon>frmIdiomaInternoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\frmInternoGradoInsPopup.resx">
+      <DependentUpon>frmInternoGradoInsPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\uscDomicilio.resx">
+      <DependentUpon>uscDomicilio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\uscEtniaLenguaMaterna.resx">
+      <DependentUpon>uscEtniaLenguaMaterna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\uscEtniaLenguaMaterna_v2.resx">
+      <DependentUpon>uscEtniaLenguaMaterna_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\uscGradosAcademicos.resx">
+      <DependentUpon>uscGradosAcademicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\uscIdiomaInterno.resx">
+      <DependentUpon>uscIdiomaInterno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\v5\uscGrillaNombresAsociadosV2.resx">
+      <DependentUpon>uscGrillaNombresAsociadosV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\v5\uscGrillaOrgCriminalV2.resx">
+      <DependentUpon>uscGrillaOrgCriminalV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\v5\uscGrillaOrgCriminal_LM.resx">
+      <DependentUpon>uscGrillaOrgCriminal_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\v5\UserAlias2.resx">
+      <DependentUpon>UserAlias2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\v5\UserBandas2.resx">
+      <DependentUpon>UserBandas2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\v5\UscFamilia.resx">
+      <DependentUpon>UscFamilia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\v5\UserBandas_LM.resx">
+      <DependentUpon>UserBandas_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Identificacion\v5\UserGrilletes.resx">
+      <DependentUpon>UserGrilletes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Integracion\uscBuscaRegIntegracion.resx">
+      <DependentUpon>uscBuscaRegIntegracion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Odontograma\frmOdontogramaPopup.resx">
+      <DependentUpon>frmOdontogramaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Odontograma\OdontogramaVB\Bases\frmfind.resx">
+      <DependentUpon>frmfind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Odontograma\OdontogramaVB\FrmFindOdontograma.resx">
+      <DependentUpon>FrmFindOdontograma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Odontograma\OdontogramaVB\Frmingreso.resx">
+      <DependentUpon>Frmingreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Odontograma\OdontogramaVB\frmodontograma.resx">
+      <DependentUpon>frmodontograma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Odontograma\uscOdontogramaBuscar.resx">
+      <DependentUpon>uscOdontogramaBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Odontograma\uscOdotoNew.resx">
+      <DependentUpon>uscOdotoNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenalLM\uscBusquedaMovimientosPLM.resx">
+      <DependentUpon>uscBusquedaMovimientosPLM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\uscBusquedaCarceleta.resx">
+      <DependentUpon>uscBusquedaCarceleta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Main\uscBusquedaMovimientos.resx">
+      <DependentUpon>uscBusquedaMovimientos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\uscEmisionAntecedentes.resx">
+      <DependentUpon>uscEmisionAntecedentes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\uscBusquedaMovimientos_LM.resx">
+      <DependentUpon>uscBusquedaMovimientos_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Movimiento\Carceleta\uscMovExpedienteCarceleta.resx">
+      <DependentUpon>uscMovExpedienteCarceleta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Movimiento\v5\uscDelito.resx">
+      <DependentUpon>uscDelito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Movimiento\v5\uscDocumJudicial.resx">
+      <DependentUpon>uscDocumJudicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Movimiento\v5\uscMovExpediente.resx">
+      <DependentUpon>uscMovExpediente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Movimiento\v5\uscMovimiento.resx">
+      <DependentUpon>uscMovimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Movimiento\v5\uscMovimientoDetalle.resx">
+      <DependentUpon>uscMovimientoDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Movimiento\v5\uscMovimientoDetalle2.resx">
+      <DependentUpon>uscMovimientoDetalle2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Odontograma\uscOdontogramaMain_LM.resx">
+      <DependentUpon>uscOdontogramaMain_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenalLM\uscMovDetalle.resx">
+      <DependentUpon>uscMovDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\uscDetallResolucionSentencia.resx">
+      <DependentUpon>uscDetallResolucionSentencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\uscResolQueda.resx">
+      <DependentUpon>uscResolQueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reniec\v5\UscListaReniec2.resx">
+      <DependentUpon>UscListaReniec2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reniec\v5\uscValidacionDatosInternoV2.resx">
+      <DependentUpon>uscValidacionDatosInternoV2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reniec\v5\uscValidacionDatosReniecV2.resx">
+      <DependentUpon>uscValidacionDatosReniecV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reniec\v5\uscValidacionDatosReniecV2_LM.resx">
+      <DependentUpon>uscValidacionDatosReniecV2_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reniec\v5\uscValidacionReniecV2.resx">
+      <DependentUpon>uscValidacionReniecV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reniec\v5\uscValidacionReniecV2_LM.resx">
+      <DependentUpon>uscValidacionReniecV2_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reniec\v5\usrInternoReniecLineaV2.resx">
+      <DependentUpon>usrInternoReniecLineaV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\frmEstadoNoEjecutadoPopup.resx">
+      <DependentUpon>frmEstadoNoEjecutadoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v4.5\uscDocJudicial.resx">
+      <DependentUpon>uscDocJudicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscDetallAcumulacionExp.resx">
+      <DependentUpon>uscDetallAcumulacionExp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscNotas.resx">
+      <DependentUpon>uscNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscPeriodoDetencion.resx">
+      <DependentUpon>uscPeriodoDetencion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscResolAclaratoriaExpe.resx">
+      <DependentUpon>uscResolAclaratoriaExpe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscResolAclaratoriaNombresAsoc.resx">
+      <DependentUpon>uscResolAclaratoriaNombresAsoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscResolDetencion.resx">
+      <DependentUpon>uscResolDetencion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscResolIngreso.resx">
+      <DependentUpon>uscResolIngreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscResolTraslado.resx">
+      <DependentUpon>uscResolTraslado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\uscResolucionesDetalle.resx">
+      <DependentUpon>uscResolucionesDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscResolucionesMain.resx">
+      <DependentUpon>uscResolucionesMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Resoluciones\v5\uscResolucionesMain_LM.resx">
+      <DependentUpon>uscResolucionesMain_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\uscDeclaraConsentida.resx">
+      <DependentUpon>uscDeclaraConsentida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\uscDetallRegistroAnulacion.resx">
+      <DependentUpon>uscDetallRegistroAnulacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\uscDetallRegistroSentenciaGrilla.resx">
+      <DependentUpon>uscDetallRegistroSentenciaGrilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\uscDetallRegistroSentencia_v2.resx">
+      <DependentUpon>uscDetallRegistroSentencia_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\uscDetallResolucionConmutacion.resx">
+      <DependentUpon>uscDetallResolucionConmutacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\uscDetallResolucionIntegracionSent.resx">
+      <DependentUpon>uscDetallResolucionIntegracionSent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\uscDetallResolucionSentencia.resx">
+      <DependentUpon>uscDetallResolucionSentencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\uscPeriodoCondena.resx">
+      <DependentUpon>uscPeriodoCondena.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\uscResolConmutacion.resx">
+      <DependentUpon>uscResolConmutacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\usrResolAnulacion.resx">
+      <DependentUpon>usrResolAnulacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\usrResolSentenciaDetalle.resx">
+      <DependentUpon>usrResolSentenciaDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\usrResolSentenciaV2.resx">
+      <DependentUpon>usrResolSentenciaV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Sentencia\usrResolSentencia.resx">
+      <DependentUpon>usrResolSentencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Siscrico\uscGrillaOrgCriminal.resx">
+      <DependentUpon>uscGrillaOrgCriminal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Paquetes\uscBusquedaPaquete.resx">
+      <DependentUpon>uscBusquedaPaquete.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Paquetes\uscRegistroDetalle.resx">
+      <DependentUpon>uscRegistroDetalle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmMigracionesPopup.resx">
+      <DependentUpon>frmMigracionesPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\uscAutenticacionDactilar.resx">
+      <DependentUpon>uscAutenticacionDactilar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmSelectTipoDedo.resx">
+      <DependentUpon>frmSelectTipoDedo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\uscHuellaUsuarioVisor.resx">
+      <DependentUpon>uscHuellaUsuarioVisor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripButton.resx">
+      <DependentUpon>ToolStripButton.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Carceleta\uscClasificaciones_v2.resx">
+      <DependentUpon>uscClasificaciones_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\frmAddClasifEtapaPopupLM.resx">
+      <DependentUpon>frmAddClasifEtapaPopupLM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\frmAddClasifEtapaPopupProv.resx">
+      <DependentUpon>frmAddClasifEtapaPopupProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\frmClasifUbicacionRegresion.resx">
+      <DependentUpon>frmClasifUbicacionRegresion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantFichClasifTrasladoPopup.resx">
+      <DependentUpon>frmMantFichClasifTrasladoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantFichPorRegresionPopup.resx">
+      <DependentUpon>frmMantFichPorRegresionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\frmSelectAleroPopup.resx">
+      <DependentUpon>frmSelectAleroPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\frmUbi_ClasifEtapa.resx">
+      <DependentUpon>frmUbi_ClasifEtapa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasificacionEtapaLM.resx">
+      <DependentUpon>uscFichaClasificacionEtapaLM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasificacionEtapaProv_v2.resx">
+      <DependentUpon>uscFichaClasificacionEtapaProv_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasificacionRegimen.resx">
+      <DependentUpon>uscFichaClasificacionRegimen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaClasifTraslado.resx">
+      <DependentUpon>uscFichaClasifTraslado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\uscFichaPorRegresion.resx">
+      <DependentUpon>uscFichaPorRegresion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\uscPabellon.resx">
+      <DependentUpon>uscPabellon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uscAuditUser.resx">
+      <DependentUpon>uscAuditUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uscComboPabellon.resx">
+      <DependentUpon>uscComboPabellon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uscComboParametrica.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uscComboParametrica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uscLabelBusqueda.resx">
+      <DependentUpon>uscLabelBusqueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uscRegionPenalLabel.resx">
+      <DependentUpon>uscRegionPenalLabel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrRegionPenal.resx">
+      <DependentUpon>usrRegionPenal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Administrativa\uscRegistroAdminv2.resx">
+      <DependentUpon>uscRegistroAdminv2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Autorizacion\uscAutorizacionGrilla.resx">
+      <DependentUpon>uscAutorizacionGrilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Calendario\usrCalendario.resx">
+      <DependentUpon>usrCalendario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Calendario\usrCalendarioDia.resx">
+      <DependentUpon>usrCalendarioDia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huella\Visita\RealScanG1\frmIdentificarPopup.resx">
+      <DependentUpon>frmIdentificarPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Penal\uscRegistrov2.resx">
+      <DependentUpon>uscRegistrov2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\uscMovimientov2.resx">
+      <DependentUpon>uscMovimientov2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Interno\uscInternoBuscar.resx">
+      <DependentUpon>uscInternoBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Penal\frmPabellonPopup.resx">
+      <DependentUpon>frmPabellonPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\frmParentesco.resx">
+      <DependentUpon>frmParentesco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Interno\uscSancion.resx">
+      <DependentUpon>uscSancion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\frmFrecuenciaPopup.resx">
+      <DependentUpon>frmFrecuenciaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\uscProgramacion2.resx">
+      <DependentUpon>uscProgramacion2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\uscProgramacionBusqueda.resx">
+      <DependentUpon>uscProgramacionBusqueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\uscProgramacionOrdinario.resx">
+      <DependentUpon>uscProgramacionOrdinario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Autorizacion\uscAutorizacion.resx">
+      <DependentUpon>uscAutorizacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\uscBusqueda.resx">
+      <DependentUpon>uscBusqueda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Penal\frmSancionDetallePopup.resx">
+      <DependentUpon>frmSancionDetallePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huella\Visita\frmCapturaPopup.resx">
+      <DependentUpon>frmCapturaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\uscSancionv2.resx">
+      <DependentUpon>uscSancionv2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmReniecLinea.resx">
+      <DependentUpon>frmReniecLinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\uscVisitanteRegistro.resx">
+      <DependentUpon>uscVisitanteRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\uscMovimientosVisitas.resx">
+      <DependentUpon>uscMovimientosVisitas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\uscVisitaMovimientoDetalle.resx">
+      <DependentUpon>uscVisitaMovimientoDetalle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\uscSancion.resx">
+      <DependentUpon>uscSancion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\uscVisitanteRestriccion.resx">
+      <DependentUpon>uscVisitanteRestriccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\uscVistaHuella.resx">
+      <DependentUpon>uscVistaHuella.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APPCamaraWeb\APPCamaraWeb.vbproj">
+      <Project>{818BD653-A107-4935-BC67-9B0F234D1F87}</Project>
+      <Name>APPCamaraWeb</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APPControlHuellaVisita\APPControlHuellaVisita.vbproj">
+      <Project>{FAB74AE6-B2B3-487F-9BFB-CFDB4BD1AD8B}</Project>
+      <Name>APPControlHuellaVisita</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APPWebService\APPWebService.vbproj">
+      <Project>{9CED347B-6371-4CCC-81F0-A756B5744B83}</Project>
+      <Name>APPWebService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bussines\Bussines.vbproj">
+      <Project>{911c818a-9997-44cf-abec-e83b8389faa7}</Project>
+      <Name>Bussines</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.vbproj">
+      <Project>{210ED754-A914-44F3-BDF5-2C69B54D343C}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Type\Type.vbproj">
+      <Project>{657717A6-5EFF-45C7-B4A7-1B285EE58C53}</Project>
+      <Name>Type</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NikonD40-Folder-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NikonD40-Folder-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sin_foto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargandov3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drive - USB_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-32%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\replace2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sin_fotografia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotografia_por_transferir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nspm_fotografia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anular2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotografia_eliminada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1337706653_webcam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camembert-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1345240399_search_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flechacombo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Odontovacio.jpeg" />
+    <None Include="Resources\pas.jpg" />
+    <None Include="Resources\ptp.jpeg" />
+    <None Include="Resources\pdf_18x24.png" />
+    <None Include="Resources\new_huella_32x32.png" />
+    <None Include="Resources\verificar_biometria_32x32.png" />
+    <None Include="Resources\recapturar.png" />
+    <None Include="Resources\reniec03.jpg" />
+    <None Include="Resources\Bloquear.png" />
+    <None Include="Resources\Cerrado.png" />
+    <None Include="Resources\Desbloquear.png" />
+    <None Include="Resources\boton_anterior.png" />
+    <None Include="Resources\boton_cancelar.png" />
+    <None Include="Resources\boton_siguiente.png" />
+    <None Include="Resources\huella_lupa.png" />
+    <None Include="Resources\huella_x.png" />
+    <None Include="Resources\mano_derecha.png" />
+    <None Include="Resources\mano_izquierda.png" />
+    <None Include="Resources\capturar.png" />
+    <None Include="Resources\estado_verde.png" />
+    <None Include="Resources\estado_azul.png" />
+    <None Include="Resources\estado_amarillo.png" />
+    <None Include="Resources\mano_derecha02.png" />
+    <None Include="Resources\mano_izquierda02.png" />
+    <None Include="Resources\huella_digital.png" />
+    <None Include="Resources\logo_pj.jpg" />
+    <None Include="Resources\logo_pj02.png" />
+    <None Include="Resources\accept-32_gris.png" />
+    <None Include="Resources\anular2_gris.png" />
+    <None Include="Resources\Circle_Green16x16.png" />
+    <None Include="Resources\Circle_Red16x16.png" />
+    <None Include="Resources\Circle_Yellow16x16.png" />
+    <None Include="Resources\Diskette-32x32.png" />
+    <None Include="Resources\Diskette-32x32_gris.png" />
+    <None Include="Resources\logo_migraciones.png" />
+    <None Include="Resources\dni.jpeg" />
+    <None Include="Resources\ce.jpeg" />
+    <None Include="Resources\candado.png" />
+    <None Include="Resources\centro_salud.png" />
+    <None Include="Resources\cpp.jpg" />
+    <Content Include="Resources\d_down.png" />
+    <Content Include="Resources\d_up.png" />
+    <Content Include="Resources\hospital.png" />
+    <Content Include="Resources\mano_derecha03.png" />
+    <Content Include="Resources\mano_izquierda03.png" />
+    <Content Include="Resources\minus_16x16.png" />
+    <None Include="Resources\silueta.jpg" />
+    <None Include="Resources\planilla1.png" />
+    <None Include="Resources\ws_config.png" />
+    <None Include="Resources\1277961326_folder_edit.png" />
+    <Content Include="Resources\detalle_32x32.png" />
+    <Content Include="Resources\fle_ant1.png" />
+    <Content Include="Resources\fle_pri1.png" />
+    <Content Include="Resources\fle_pri11.png" />
+    <Content Include="Resources\fle_ult1.png" />
+    <None Include="Resources\printer3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Huella\Visita\FS10\" />
+    <Folder Include="Seguridad\Visita\Huella\" />
+    <Folder Include="Tratamiento\Asistencia\Clasificacion\PenalLM\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

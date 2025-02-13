@@ -1,0 +1,1273 @@
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptCuadro15.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptFormato1.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptLogo.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptFichaIdentificacion.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptHistorialAntecedentes.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptCertificadoLibertad.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptPapeletaExcarcelacion.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptCertificadoReclusion.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptFicha.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptCuadro14.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptHistorialInterno.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptHistorialVisitante.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptSancionInterno.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptSancionVisita.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptVisita.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.exe.config
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.exe.manifest
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.application
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.exe
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPCamaraWeb.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControlHuellaVisita.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControls.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPReporte.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\AxInterop.CTLODONLib.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Bussines.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\DataClass.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Entity.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Ionic.Zip.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.APPUIComponents.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.Components.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.Configuration.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.LBusiness.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.LEntity.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.LType.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Type.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\WebCAM.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\AForge.Video.DirectShow.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\AForge.Video.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Suprema.UFMatcher.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ScanAPIHelper.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ScanAPIHelperFS60.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Wsq2Bmp.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\MathAPIHelperFS60.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Newtonsoft.Json.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\MySql.Data.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Data.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.LData.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\stdole.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPCamaraWeb.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPCamaraWeb.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControlHuellaVisita.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControlHuellaVisita.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControls.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControls.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPReporte.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPReporte.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.dll.config
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Bussines.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Bussines.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Entity.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Entity.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Type.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Type.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Newtonsoft.Json.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Data.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Data.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.AssemblyReference.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.plm.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmPadinDetalleV2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmInicioSesion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmReportePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmExportDetPadin.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmPadinDetalleMensajePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmPadinDetalleFamilia.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v45.frmPadinDetalle.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmPadinDetalle.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmPadinPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmAboutBox.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmMenu.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Huella.Registro.frmValidarDNI.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Huella.Registro.frmValidarHuella.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoadEnviandoSede.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoad02.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoadMensaje.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmProcesando.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmMovimientoMotivoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmDistritoJudicialPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Delito.frmBuscar_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.frmBuscarPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Delito.frmMant_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.GrupoEgreso.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.GrupoEgreso.frmMantDetPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Tratamiento.Clasificacion.frmMantResultadoPopupDet.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Tratamiento.Clasificacion.frmMantResultadoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmCategorizacionPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmMantFicha.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmFichaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmManValoresPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmMantVariablePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.frmActualizarWeb_v3.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.frmTablasMaestrasPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmMantPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.frmCuadro2Popup_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Sala.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Sala.frmSalaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.MDIParent1.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmDelitoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.AlertaSentencias.frmAlertaSentenciaDetalle.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.AlertaSentencias.frmAlertasSentenciasCabecera.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.AlertaSentencias.frmReporteAlerta.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Busqueda.frmBusquedaPorHuella.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmDetalleFicha_V2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmDetIndicador.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmEditorTextPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Identificacion.frmIngresoPopup_V2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Movimientos.frmMovimientoConduccionClasificacion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmAnular.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmObsPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmReporte.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmTramite.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmListaDelitosHistoricos.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmBuscar_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmListaDocumentosDescargados.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmMant_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmUpdateIngresoInpePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmVinculacionPLMPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenaLM.Clasificacion.frmDetalleFicha.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Identificacion.frmIngresoPopup_V2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Movimientos.frmMovimientoConducciones.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Antecedentes.frmMantPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmBuscar_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Busqueda.frmInternoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Captura.frmDocDigitalizadoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Captura.frmOdontogramaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmPanel.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.frmIngresoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Movimientos.frmMovimientoLibertadPLM.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmMant.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmMant_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.v5.frmBuscaIntSedeCentralPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Identificacion.v5.frmNombreAsociadoPopup_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoTrasladoHospitalmental.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Documento.frmDocJudicial.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmNotaPeriodo.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmOrdenTrasladoHospital.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmProyeccionVencimientoCondena.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolDetencionReferenciado.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Sentencias.frmListarResolucion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencia.frmPeriodoCondena.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaConmutacion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmBuscaInternoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmBuscarAntecedentesPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmCertAntecedenteMant.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmDetalleAJPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmTipoCertAntecedente.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Busqueda.frmBuscar_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Busqueda.frmMant_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.RegionLM.frmIngresoPopup_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Identificacion.frmNombreAsociadoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Identificacion.frmSelectInternoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmBuscaInternoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmBuscaReniecPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmSalaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.Documento.frmBuscarDocClasificacion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.Documento.frmDetGlosaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.Documento.frmMantDocClasificacion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmDetalleFicha.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmListaDocumentosPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmExpedientePopup3.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmListaExpedientePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmListarlibertad.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmAliasPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmFamiliarPopupV2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmIngresoPopup3.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.Bandas.frmInternoBandaPopupV2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmInternoBandaV2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmNombreAsociadoDetalle.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmNombreAsociadoPopup2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmRasgosPartiPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmSeleccionarIngresoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmSeñasPartiPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmMantenimiento.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmTipoNacionalidad.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmBuscaIntSedeCentralPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmMantenimiento.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Region.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Region.frmMantenimiento.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.Carceleta.frmInternamiento.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.Carceleta.frmMovimientoTrasladoCarceleta.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmListadoDocJudicialPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoConducciones.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoFuga.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoInternamientoCarceleta.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoInternamientoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoLibertad.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoLibertadPoput.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoTipoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoTraslado.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmReniecLineaV2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Captura.frmFotoPerfiles.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmAgraviadoPopup3.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmDelitoPopup4.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmDetalleNombresAsociadosPoput.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmDetalleValidacionPoput.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmTipoValidacionV2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmListarLibros.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmQueda.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmQuedaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmResolRevocatoria.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmResolIngreso.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmResolSentenciaMultiple.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReporteDocPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReporteRestriccionPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReporteSiscrico.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmPrintOdontograma.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReportePopupv2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmNota.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmQueda.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAclaratoriaExpe.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAcumExpedientes.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAmpliaAutoapert.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAvocamiento.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolDetencion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolIngreso.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolIngresoTraslado.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolLibertad.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolPrisionPreventiva.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolProlongDetencion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolRevocatoriaLibertad.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolTraslado.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolucionTipoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmVerExpePorResolPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Banda.frmBuscarBanda.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmPeriodoCondenaSentencia.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolAnulacion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolIntegracionSent.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentencia.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaMultiple.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.frmBuscaIntegBand.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.frmBusquedaBanda.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmPenalPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoad.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Resources.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.frmInternoBandaPopup2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Banda.frmMantBandaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmNominalPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReportePopup_LM.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.V6.frmReporteAntecedentePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.V6.frmReporteDetalleImpresiones.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.v6.frmReporteDocPopup_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.SedeCentral.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Paquetes.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmSalidaHuelllaPopupv2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmMotivo.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmPermisoDetalle.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmVerificarSesion.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmBloquearSistema.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmCambiarClave.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmUsuarioPopupv4.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmEnviarCorreo.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.Huella.frmRegistrarHuellaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmArchivoInfo2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmArchivoInfoPopup2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Licencia.frmPenal.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Modulo.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Modulo.frmMantPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.frmBuscarPC.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.frmPCMantPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.frmPCDatosPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.PC.frmPCPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Penal.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Penal.frmUsuarioPenalPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.frmDetallePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.frmMant.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmLectorXML.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmShowSqlPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Fotografia.frmControl.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionAddPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionAnularPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionMant.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmParentescoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmReportePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Config.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Config.frmMantPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Etapa.frmAddPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Etapa.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmReporteHistorialPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmReportePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmInternoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmMant.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmMantInternoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmInternoHistoricoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmInternoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmMant.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmSancionDetallePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmSancionPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmMovSalidaObs.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmLeyendaMovimientoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmReportePopup_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmServicioHuella.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmVerificacionIngreso.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmBuscar2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmDetalle.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmMonitoreo.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmSalidaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmVisitaSalidaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmVisitaSinSalidaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmDetalleExtraordinarioPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Calendario.frmCalendario.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmDetallePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmMantenimiento.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmReportePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmTipoVisitaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmTransferirSancionPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmAnulacionPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmExtraordinarioMenoresPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmBuscarPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmMantenimiento.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmMantPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmVisitanteReniec.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmRestriccionPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmSancionAnuladoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmSancionPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmVisitanteMenorPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.AfiliacionSIS.frmBuscarSIS.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.AfiliacionSIS.frmReniec.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.Pabellon.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.Pabellon.frmMantPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmRegularizarAsistencia.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmPlanillaDetalle.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Control.frmRegistrarFaltas.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmRetiroTaller.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Buscar.frmBuscarTallerPopud.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmCalendario.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmControlAsistencia.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmMant.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmInscripcionTaller.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmInternoPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmPlanillaBuscar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmPlanillaPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmRegistromonto.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmRegularizar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Horario.frmRegularizar.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Reporte.frmReportePopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.GenerateResource.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.CoreCompileInputs.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.TrustInfo.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.exe.manifest
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.application
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.CopyComplete
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.exe
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.AssemblyReference.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.SuggestedBindingRedirects.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.plm.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmPadinDetalleV2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmInicioSesion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmReportePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmExportDetPadin.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmPadinDetalleMensajePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmPadinDetalleFamilia.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v45.frmPadinDetalle.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmPadinDetalle.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmPadinPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmAboutBox.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmInicioSesion_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmMenu.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmPopupAviso.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Huella.Registro.frmValidarDNI.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Huella.Registro.frmValidarHuella.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoadEnviandoSede.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoad02.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoadMensaje.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmProcesando.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmMovimientoMotivoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmDistritoJudicialPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmAmbientePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmMantAleroPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmMantPisoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Delito.frmBuscar_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.frmBuscarPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Delito.frmMant_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.GrupoEgreso.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.GrupoEgreso.frmMantDetPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Tratamiento.Clasificacion.frmMantResultadoPopupDet.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Tratamiento.Clasificacion.frmMantResultadoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmCategorizacionPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmMantFicha.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmFichaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmManValoresPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmMantVariablePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.frmActualizarWeb_v3.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.frmTablasMaestrasPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmMantPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.frmCuadro2Popup_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Sala.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Sala.frmSalaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.MDIParent1.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmDelitoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.AlertaSentencias.frmAlertaSentenciaDetalle.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.AlertaSentencias.frmAlertasSentenciasCabecera.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.AlertaSentencias.frmReporteAlerta.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Busqueda.frmBusquedaPorHuella.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmDetalleFicha_V2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmDetIndicador.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmEditorTextPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Identificacion.frmIngresoPopup_V2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Movimientos.frmMovimientoConduccionClasificacion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmAnular.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmObsPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmReporte.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmTramite.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmListaDelitosHistoricos.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmBuscar_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmListaDocumentosDescargados.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmMant_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmUpdateIngresoInpePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmVinculacionPLMPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenaLM.Clasificacion.frmDetalleFicha.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Identificacion.frmIngresoPopup_V2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Movimientos.frmMovimientoConducciones.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Antecedentes.frmMantPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmBuscar_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Busqueda.frmInternoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Captura.frmDocDigitalizadoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Captura.frmOdontogramaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmPanel.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.frmIngresoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Movimientos.frmMovimientoLibertadPLM.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmMant.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmMant_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.v5.frmBuscaIntSedeCentralPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Identificacion.v5.frmNombreAsociadoPopup_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoTrasladoHospitalmental.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Documento.frmDocJudicial.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmNotaPeriodo.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmOrdenTrasladoHospital.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmOrdenTrasladoHospital_Nota.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmOtrosprocesos.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmProyeccionVencimientoCondena.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolDetencionReferenciado.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolLibertad_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Sentencias.frmListarResolucion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencia.frmPeriodoCondena.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaNueva.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaConmutacion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaV2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmBuscaInternoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmBuscarAntecedentesPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmCertAntecedenteMant.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmDetalleAJPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmTipoCertAntecedente.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Busqueda.frmBuscar_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Busqueda.frmMant_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.RegionLM.frmIngresoPopup_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Identificacion.frmNombreAsociadoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Identificacion.frmSelectInternoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmBuscaInternoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmBuscaReniecPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmSalaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.Documento.frmBuscarDocClasificacion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.Documento.frmDetGlosaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.Documento.frmMantDocClasificacion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmDetalleFicha.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmListaDocumentosPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmExpedientePopup3.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmListaExpedientePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmListarlibertad.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmAliasPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmFamiliarPopupV2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmIngresoPopup3.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.Bandas.frmInternoBandaPopupV2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmInternoBandaV2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmNombreAsociadoDetalle.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmNombreAsociadoPopup2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmRasgosPartiPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmSeleccionarIngresoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmSeñasPartiPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmMantenimiento.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmTipoNacionalidad.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmBuscaIntSedeCentralPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmMantenimiento.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Region.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Region.frmMantenimiento.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.Carceleta.frmInternamiento.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.Carceleta.frmMovimientoTrasladoCarceleta.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmListadoDocJudicialPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoConducciones.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoFuga.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoInternamientoCarceleta.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoInternamientoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoLibertad.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoLibertadPoput.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoTipoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoTraslado.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmReniecLineaV2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Captura.frmFotoPerfiles.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmAgraviadoPopup3.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmDelitoPopup4.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmDetalleNombresAsociadosPoput.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmDetalleValidacionPoput.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmTipoValidacionV2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmListarLibros.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmQueda.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmQuedaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmResolRevocatoria.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmResolIngreso.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmResolSentenciaMultiple.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReporteDocPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReporteRestriccionPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReporteSiscrico.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmPrintOdontograma.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReportePopupv2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmNota.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmQueda.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAclaratoriaExpe.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAcumExpedientes.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAmpliaAutoapert.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAvocamiento.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolDetencion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolIngreso.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolIngresoTraslado.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolLibertad.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolPrisionPreventiva.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolProlongDetencion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolRevocatoriaLibertad.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolTraslado.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolucionTipoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmVerExpePorResolPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Banda.frmBuscarBanda.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmPeriodoCondenaSentencia.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolAnulacion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolIntegracionSent.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentencia.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaMultiple.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.frmBuscaIntegBand.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.frmBusquedaBanda.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmPenalPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoad.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Resources.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.frmInternoBandaPopup2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Banda.frmMantBandaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmNominalPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReportePopup_LM.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.V6.frmReporteAntecedentePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.V6.frmReporteDetalleImpresiones.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.v6.frmReporteDocPopup_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.SedeCentral.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Paquetes.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmSalidaHuelllaPopupv2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmBuscarUsuarioSegPen.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmMotivo.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmPermisoDetalle.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmUsuarioPopupBasico.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmUsuarioPopup_v5.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmVerificarSesion.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmBloquearSistema.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmCambiarClave.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmUsuarioPopupv4.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmEnviarCorreo.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.Huella.frmRegistrarHuellaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmArchivoInfo2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmArchivoInfoPopup2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Licencia.frmPenal.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Modulo.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Modulo.frmMantPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.frmBuscarPC.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.frmPCMantPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.frmPCDatosPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.PC.frmPCPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Penal.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Penal.frmUsuarioPenalPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.frmDetallePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.frmMant.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmLectorXML.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmShowSqlPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Fotografia.frmControl.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionAddPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionAnularPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionMant.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmParentescoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmReportePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Config.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Config.frmMantPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Etapa.frmAddPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Etapa.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmReporteHistorialPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmReportePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmInternoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmMant.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmMantInternoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmInternoHistoricoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmInternoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmMant.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmSancionDetallePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmSancionPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmMovSalidaObs.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmLeyendaMovimientoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmReportePopup_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmServicioHuella.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmVerificacionIngreso.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmBuscar2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmDetalle.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmMonitoreo.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmSalidaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmVisitaSalidaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmVisitaSinSalidaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmDetalleExtraordinarioPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Calendario.frmCalendario.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmDetallePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmMantenimiento.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmReportePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmTipoVisitaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmTransferirSancionPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmAnulacionPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmExtraordinarioMenoresPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmBuscarPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmMantenimiento.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmMantPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmVisitanteReniec.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmRestriccionPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmSancionAnuladoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmSancionPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmVisitanteMenorPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.AfiliacionSIS.frmBuscarSIS.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.AfiliacionSIS.frmReniec.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.frmMantClasifPenalLM.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.frmMantClasifPenalProv_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.Pabellon.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.Pabellon.frmMantPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.frmBuscarInterno.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmRegularizarAsistencia.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmPlanillaDetalle.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Control.frmRegistrarFaltas.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmRetiroTaller.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Buscar.frmBuscarTallerPopud.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmCalendario.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmControlAsistencia.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmMant.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmInscripcionTaller.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmInternoPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmPlanillaBuscar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmPlanillaPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmRegistromonto.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmRegularizar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Horario.frmRegularizar.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Reporte.frmReportePopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.GenerateResource.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.CoreCompileInputs.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptCuadro15.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptFormato1.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptLogo.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptFichaIdentificacion.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptHistorialAntecedentes.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptCertificadoLibertad.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptPapeletaExcarcelacion.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptCertificadoReclusion.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptFicha.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptCuadro14.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptHistorialInterno.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptHistorialVisitante.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptSancionInterno.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptSancionVisita.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptVisita.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.exe.config
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.exe.manifest
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.application
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.exe
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPCamaraWeb.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControlHuellaVisita.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControls.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPReporte.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\AxInterop.CTLODONLib.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Bussines.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\DataClass.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Entity.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Ionic.Zip.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.APPUIComponents.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.Components.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.Configuration.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.LBusiness.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.LEntity.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.LType.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Type.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\WebCAM.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\AForge.Video.DirectShow.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\AForge.Video.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Suprema.UFMatcher.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ScanAPIHelper.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ScanAPIHelperFS60.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Wsq2Bmp.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\MathAPIHelperFS60.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Newtonsoft.Json.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\MySql.Data.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Data.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.LData.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\EnvDTE.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\stdole.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.MSXML.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPCamaraWeb.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPCamaraWeb.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControlHuellaVisita.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControlHuellaVisita.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControls.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControls.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPReporte.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPReporte.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.dll.config
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Bussines.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Bussines.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Entity.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Entity.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Type.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Type.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Data.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Data.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.TrustInfo.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.exe.manifest
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.application
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.CopyComplete
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.exe
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptCuadro15.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptFormato1.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptLogo.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptFichaIdentificacion.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptHistorialAntecedentes.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptCertificadoLibertad.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptPapeletaExcarcelacion.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptCertificadoReclusion.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Registro\rptFicha.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Estadistica\rptCuadro14.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptHistorialInterno.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptHistorialVisitante.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptSancionInterno.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptSancionVisita.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Reporte\Visita\rptVisita.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.exe.config
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.exe.manifest
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.application
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.exe
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\SIPPOPE.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPCamaraWeb.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControlHuellaVisita.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControls.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPReporte.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Bussines.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Entity.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Type.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\WebCAM.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\AForge.Video.DirectShow.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\AForge.Video.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Suprema.UFMatcher.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ScanAPIHelper.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ScanAPIHelperFS60.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Wsq2Bmp.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\MathAPIHelperFS60.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Newtonsoft.Json.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\MySql.Data.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Data.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Legolas.LData.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\stdole.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPCamaraWeb.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPCamaraWeb.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControlHuellaVisita.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControlHuellaVisita.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControls.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPControls.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPReporte.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPReporte.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\APPWebService.dll.config
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Bussines.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Bussines.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Entity.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Entity.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Type.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Type.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Data.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\Data.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.AssemblyReference.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.SuggestedBindingRedirects.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.exe.config
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.plm.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmPadinDetalleV2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmInicioSesion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmReportePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmExportDetPadin.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmPadinDetalleMensajePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmPadinDetalleFamilia.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v45.frmPadinDetalle.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmPadinDetalle.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.v5.frmPadinPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmAboutBox.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmInicioSesion_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmMenu.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmPopupAviso.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Huella.Registro.frmValidarDNI.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Huella.Registro.frmValidarHuella.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoadEnviandoSede.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoad02.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoadMensaje.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmProcesando.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmMovimientoMotivoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmDistritoJudicialPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmAmbientePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmMantAleroPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmMantPisoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Delito.frmBuscar_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.frmBuscarPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Delito.frmMant_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.GrupoEgreso.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.GrupoEgreso.frmMantDetPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Tratamiento.Clasificacion.frmMantResultadoPopupDet.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Tratamiento.Clasificacion.frmMantResultadoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmCategorizacionPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmMantFicha.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmFichaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmManValoresPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Clasificacion.frmMantVariablePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.frmActualizarWeb_v3.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.frmTablasMaestrasPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Pabellon.frmMantPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Reporte.frmCuadro2Popup_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Sala.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Sala.frmSalaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.MDIParent1.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmDelitoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.AlertaSentencias.frmAlertaSentenciaDetalle.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.AlertaSentencias.frmAlertasSentenciasCabecera.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.AlertaSentencias.frmReporteAlerta.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Busqueda.frmBusquedaPorHuella.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmDetalleFicha_V2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmDetIndicador.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmEditorTextPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Identificacion.frmIngresoPopup_V2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Movimientos.frmMovimientoConduccionClasificacion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmAnular.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmObsPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmReporte.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.ConstanciaReclusion.frmTramite.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmListaDelitosHistoricos.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmBuscar_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmListaDocumentosDescargados.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmMant_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmUpdateIngresoInpePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmVinculacionPLMPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenaLM.Clasificacion.frmDetalleFicha.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Identificacion.frmIngresoPopup_V2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Movimientos.frmMovimientoConducciones.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Antecedentes.frmMantPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmBuscar_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Busqueda.frmInternoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Captura.frmDocDigitalizadoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Captura.frmOdontogramaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmPanel.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.frmIngresoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Movimientos.frmMovimientoLibertadPLM.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmMant.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.frmMant_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Busqueda.v5.frmBuscaIntSedeCentralPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Identificacion.v5.frmNombreAsociadoPopup_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoTrasladoHospitalmental.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Documento.frmDocJudicial.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmNotaPeriodo.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmOrdenTrasladoHospital.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmOrdenTrasladoHospital_Nota.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmOtrosprocesos.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmProyeccionVencimientoCondena.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolDetencionReferenciado.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolLibertad_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Penal.Sentencias.frmListarResolucion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencia.frmPeriodoCondena.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaNueva.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaConmutacion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaV2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmBuscaInternoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmBuscarAntecedentesPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmCertAntecedenteMant.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmDetalleAJPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Antecedentes.frmTipoCertAntecedente.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Busqueda.frmBuscar_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Busqueda.frmMant_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.RegionLM.frmIngresoPopup_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Identificacion.frmNombreAsociadoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Identificacion.frmSelectInternoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmBuscaInternoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmBuscaReniecPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Busqueda.frmSalaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.Documento.frmBuscarDocClasificacion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.Documento.frmDetGlosaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.Documento.frmMantDocClasificacion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Carceleta.Clasificacion.frmDetalleFicha.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmListaDocumentosPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmExpedientePopup3.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmListaExpedientePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmListarlibertad.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmAliasPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmFamiliarPopupV2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmIngresoPopup3.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.Bandas.frmInternoBandaPopupV2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmInternoBandaV2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.frmNombreAsociadoDetalle.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmNombreAsociadoPopup2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmRasgosPartiPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.v5.frmSeleccionarIngresoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Identificacion.frmSeñasPartiPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmMantenimiento.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Carceleta.frmTipoNacionalidad.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmBuscaIntSedeCentralPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.PenalLM.Busqueda.frmMantenimiento.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Region.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Main.Region.frmMantenimiento.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.Carceleta.frmInternamiento.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.Carceleta.frmMovimientoTrasladoCarceleta.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmListadoDocJudicialPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoConducciones.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoFuga.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoInternamientoCarceleta.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoInternamientoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoLibertad.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoLibertadPoput.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoTipoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Movimientos.frmMovimientoTraslado.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmReniecLineaV2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Captura.frmFotoPerfiles.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmAgraviadoPopup3.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Expediente.v5.frmDelitoPopup4.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmDetalleNombresAsociadosPoput.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmDetalleValidacionPoput.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reniec.frmTipoValidacionV2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmListarLibros.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmQueda.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmQuedaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmResolRevocatoria.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmResolIngreso.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.RegionLima.Resoluciones.frmResolSentenciaMultiple.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReporteDocPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReporteRestriccionPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReporteSiscrico.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmPrintOdontograma.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReportePopupv2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmNota.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmQueda.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAclaratoriaExpe.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAcumExpedientes.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAmpliaAutoapert.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolAvocamiento.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolDetencion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolIngreso.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolIngresoTraslado.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolLibertad.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolPrisionPreventiva.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolProlongDetencion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolRevocatoriaLibertad.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolTraslado.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmResolucionTipoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Resoluciones.frmVerExpePorResolPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Registro.Banda.frmBuscarBanda.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmPeriodoCondenaSentencia.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolAnulacion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolIntegracionSent.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentencia.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Sentencias.frmResolSentenciaMultiple.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.frmBuscaIntegBand.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.frmBusquedaBanda.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.frmPenalPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Load.frmLoad.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Resources.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Siscrico.frmInternoBandaPopup2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Mantenimiento.Banda.frmMantBandaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Estadistica.frmNominalPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.frmReportePopup_LM.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.V6.frmReporteAntecedentePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.V6.frmReporteDetalleImpresiones.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.Reporte.v6.frmReporteDocPopup_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Registro.SedeCentral.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Paquetes.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmSalidaHuelllaPopupv2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmBuscarUsuarioSegPen.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmMotivo.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmPermisoDetalle.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmUsuarioPopupBasico.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmUsuarioPopup_v5.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmVerificarSesion.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmBloquearSistema.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmCambiarClave.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmUsuarioPopupv4.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.frmEnviarCorreo.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Usuario.Huella.frmRegistrarHuellaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmArchivoInfo2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmArchivoInfoPopup2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.Seguridad.Licencia.frmPenal.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Modulo.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Modulo.frmMantPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.frmBuscarPC.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.frmPCMantPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.frmPCDatosPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.PC.frmPCPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Penal.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Seguridad.Penal.frmUsuarioPenalPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.frmDetallePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Sistema.frmMant.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmLectorXML.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Control.frmShowSqlPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Transferencia.Fotografia.frmControl.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionAddPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionAnularPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionMant.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmAutorizacionPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmParentescoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Autorizacion.frmReportePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Config.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Config.frmMantPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Etapa.frmAddPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Etapa.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmReporteHistorialPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmReportePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmInternoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmMant.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.InternoPJ.frmMantInternoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmInternoHistoricoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmInternoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmMant.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmSancionDetallePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Interno.frmSancionPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmMovSalidaObs.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmLeyendaMovimientoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmReportePopup_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmServicioHuella.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmVerificacionIngreso.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmBuscar2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmDetalle.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmMonitoreo.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmSalidaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmVisitaSalidaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.frmVisitaSinSalidaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmDetalleExtraordinarioPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Calendario.frmCalendario.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmDetallePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmMantenimiento.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmReportePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Programacion.frmTipoVisitaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmTransferirSancionPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmAnulacionPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmExtraordinarioMenoresPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmBuscarPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmMantenimiento.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmMantPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Movimiento.frmVisitanteReniec.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmRestriccionPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmSancionAnuladoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmSancionPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Visita.Visitante.frmVisitanteMenorPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.AfiliacionSIS.frmBuscarSIS.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.AfiliacionSIS.frmReniec.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.frmMantClasifPenalLM.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.frmMantClasifPenalProv_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.Pabellon.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.Asistencia.Clasificacion.Penal.Pabellon.frmMantPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.frmBuscarInterno.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmRegularizarAsistencia.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmPlanillaDetalle.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Control.frmRegistrarFaltas.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmRetiroTaller.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Buscar.frmBuscarTallerPopud.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmCalendario.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmControlAsistencia.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmMant.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmInscripcionTaller.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmInternoPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmPlanillaBuscar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmPlanillaPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Planilla.frmRegistromonto.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.frmRegularizar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Horario.frmRegularizar.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.Tratamiento.TallerAsistencia.Reporte.frmReportePopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.GenerateResource.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.CoreCompileInputs.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.TrustInfo.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.exe.manifest
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.application
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\APP.vbproj.CopyComplete
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.exe
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APP\obj\Debug\SIPPOPE.pdb

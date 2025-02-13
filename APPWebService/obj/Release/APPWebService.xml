@@ -1,0 +1,4217 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+APPWebService
+</name>
+</assembly>
+<members>
+<member name="T:APPWebService.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:APPWebService.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:APPWebService.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="T:APPWebService.ws_foto.PopeLocal">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.FechaHoyCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.VersionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.TestCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.EnviarCorreoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.UploadImageJpgCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.FileExisteCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.LeerImageJpgCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.SubirArchivoByteCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.SubirArchivoByte_NativoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.LeerArchivoByteCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.LeerArchivoByte_NativoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.SubirArchivoByte_v2Completed">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.SubirArchivoDigitalCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.ListarArchivoDigital_NativoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalByte_NativoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalByteCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.SubirArchivoByteArbolDirectorioCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.Reniec_Registro_FotoByteCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.Reniec_Registro_ListarCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.Reniec_Registro_ListarNombresCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.Reniec_ConsultarCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.Reniec_ListarDNICompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_foto.PopeLocal.Reniec_ListarNombresCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.FechaHoy">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.FechaHoyAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.FechaHoyAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Version">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.VersionAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.VersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Test">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.TestAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.TestAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.EnviarCorreo(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.EnviarCorreoAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.EnviarCorreoAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.UploadImageJpg(System.Byte[],System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.UploadImageJpgAsync(System.Byte[],System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.UploadImageJpgAsync(System.Byte[],System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.FileExiste(System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.FileExisteAsync(System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.FileExisteAsync(System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.LeerImageJpg(System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.LeerImageJpgAsync(System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.LeerImageJpgAsync(System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByte(System.Int16,System.Int16,System.Int16,System.String,System.Byte[],System.String,APPWebService.ws_foto.enmTipoImagen)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByteAsync(System.Int16,System.Int16,System.Int16,System.String,System.Byte[],System.String,APPWebService.ws_foto.enmTipoImagen)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByteAsync(System.Int16,System.Int16,System.Int16,System.String,System.Byte[],System.String,APPWebService.ws_foto.enmTipoImagen,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByte_Nativo(System.Int16,System.Int16,System.Int16,System.String,System.Byte[],System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByte_NativoAsync(System.Int16,System.Int16,System.Int16,System.String,System.Byte[],System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByte_NativoAsync(System.Int16,System.Int16,System.Int16,System.String,System.Byte[],System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.LeerArchivoByte(APPWebService.ws_foto.enmTipoImagen,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.LeerArchivoByteAsync(APPWebService.ws_foto.enmTipoImagen,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.LeerArchivoByteAsync(APPWebService.ws_foto.enmTipoImagen,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.LeerArchivoByte_Nativo(System.Int32,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.LeerArchivoByte_NativoAsync(System.Int32,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.LeerArchivoByte_NativoAsync(System.Int32,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByte_v2(System.Int16,System.Int16,System.Int16,System.String,System.Byte[],System.String,APPWebService.ws_foto.enmTipoImagen)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByte_v2Async(System.Int16,System.Int16,System.Int16,System.String,System.Byte[],System.String,APPWebService.ws_foto.enmTipoImagen)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByte_v2Async(System.Int16,System.Int16,System.Int16,System.String,System.Byte[],System.String,APPWebService.ws_foto.enmTipoImagen,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoDigital(APPWebService.ws_foto.Dto_ArchivoDigital)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoDigitalAsync(APPWebService.ws_foto.Dto_ArchivoDigital)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoDigitalAsync(APPWebService.ws_foto.Dto_ArchivoDigital,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigital(System.Int32,APPWebService.ws_foto.enmTipoImagen)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalAsync(System.Int32,APPWebService.ws_foto.enmTipoImagen)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalAsync(System.Int32,APPWebService.ws_foto.enmTipoImagen,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigital_Nativo(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigital_NativoAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigital_NativoAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalByte_Nativo(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalByte_NativoAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalByte_NativoAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalByte(System.Int32,APPWebService.ws_foto.enmTipoImagen)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalByteAsync(System.Int32,APPWebService.ws_foto.enmTipoImagen)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.ListarArchivoDigitalByteAsync(System.Int32,APPWebService.ws_foto.enmTipoImagen,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByteArbolDirectorio(System.Byte[],System.String,System.String,System.String,APPWebService.ws_foto.enmTipoImagen,System.String@)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByteArbolDirectorioAsync(System.Byte[],System.String,System.String,System.String,APPWebService.ws_foto.enmTipoImagen,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.SubirArchivoByteArbolDirectorioAsync(System.Byte[],System.String,System.String,System.String,APPWebService.ws_foto.enmTipoImagen,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Registro_FotoByte(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Registro_FotoByteAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Registro_FotoByteAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Registro_Listar(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Registro_ListarAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Registro_ListarAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Registro_ListarNombres(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Registro_ListarNombresAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Registro_ListarNombresAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_Consultar(APPWebService.ws_foto.EscribirCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_ConsultarAsync(APPWebService.ws_foto.EscribirCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_ConsultarAsync(APPWebService.ws_foto.EscribirCola,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_ListarDNI(APPWebService.ws_foto.LeerCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_ListarDNIAsync(APPWebService.ws_foto.LeerCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_ListarDNIAsync(APPWebService.ws_foto.LeerCola,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_ListarNombres(APPWebService.ws_foto.LeerCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_ListarNombresAsync(APPWebService.ws_foto.LeerCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.Reniec_ListarNombresAsync(APPWebService.ws_foto.LeerCola,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_foto.PopeLocal.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.enmTipoImagen">
+<remarks/>
+</member>
+<member name="F:APPWebService.ws_foto.enmTipoImagen.Ninguno">
+<remarks/>
+</member>
+<member name="F:APPWebService.ws_foto.enmTipoImagen.Interno">
+<remarks/>
+</member>
+<member name="F:APPWebService.ws_foto.enmTipoImagen.Personal">
+<remarks/>
+</member>
+<member name="F:APPWebService.ws_foto.enmTipoImagen.Visitante">
+<remarks/>
+</member>
+<member name="F:APPWebService.ws_foto.enmTipoImagen.Reniec">
+<remarks/>
+</member>
+<member name="F:APPWebService.ws_foto.enmTipoImagen.Reniec_Sybase">
+<remarks/>
+</member>
+<member name="F:APPWebService.ws_foto.enmTipoImagen.Odontograma">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Dto_ArchivoDigital">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Codigo">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Descripcion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.VigenciaIni">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.VigenciaFin">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.PC">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.IP">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Directorio">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.NombreFisico">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Extension">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Peso">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.FechaCreacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.FechaModificacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.FechaImportacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Anio">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Mes">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.ArchivoByte">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.MesCorrelativo">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.MAC">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.RutaServidor">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.CodigoExt_id">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Region">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Penal">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.Tipo">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.ImagenUploadWeb">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.UsuarioId">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.TipoDocIdentidad">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Dto_ArchivoDigital.NumDocIdentidad">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ApellidosyNombresCoincidencia">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombresCoincidencia.NumeroDNI">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombresCoincidencia.CaracterVerificacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombresCoincidencia.TipoFichaRegistral">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombresCoincidencia.ApellidoPaterno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombresCoincidencia.ApellidoMaterno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombresCoincidencia.PreNombres">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombresCoincidencia.Datos">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombresCoincidencia.Imagen">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombresCoincidencia.Reservado">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ApellidosyNombres">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombres.CodigoError">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombres.CodigoErrorMensaje">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombres.NumeroTotalCoincidencias">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombres.Reservado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombres.Coincidencia">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombres.CodigoErrorClase">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ApellidosyNombres.MensajeError">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.DTO_ResultOfApellidosyNombres">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfApellidosyNombres.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfApellidosyNombres.Error_Cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfApellidosyNombres.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.NumeroDocumento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.NumeroDNI">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.DigitoVerificacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.ApellidoPaterno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.ApellidoMaterno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.ApellidoCasada">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Nombres">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.CodigoUbigeoDepartamentoDomicilio">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.CodigoUbigeoProvinciaDomicilio">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.CodigoUbigeoDistritoDomicilio">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.DepartamentoDomicilio">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.ProvinciaDomicilio">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.DistritoDomicilio">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.EstadoCivil">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.CodigoGradoInstruccion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Estatura">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Sexo">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.DocumentoSustentatorioTipo">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.DocumentoSustentatorioNumero">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.CodigoUbigeoDepartamentoNacimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.CodigoUbigeoProvinciaNacimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.CodigoUbigeoDistritoNacimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.DepartamentoNacimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.ProvinciaNacimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.DistritoNacimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.FechaNacimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.NombrePadre">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.NombreMadre">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.FechaInscripcion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.FechaExpedicion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.ConstanciaVotacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Restriccion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.RestriccionMensaje">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.PrefijoDireccion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Direccion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.NumeroDireccion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.BlockChalet">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Interior">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Urbanizacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Etapa">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Manzana">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.Lote">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.PrefijoBlockChalet">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.PrefijoDepartamentoInterior">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.PrefijoUrbanizacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.FotoByte">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.FirmaByte">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.RestriccionRegistroPenitenciario">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.RestriccionAntecedentesJudiciales">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.RestriccionTratamientoPenitenciario">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.NumeroDocumento.RestriccionMedioLibre">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.DTO_ResultOfNumeroDocumento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfNumeroDocumento.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfNumeroDocumento.Error_Cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfNumeroDocumento.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.LeerCola">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.LeerCola.IDSolicitud">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.LeerCola.IDCola">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.LeerCola.Login">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.LeerCola.MAC">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.LeerCola.IP">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.LeerCola.IDModulo">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Respuesta">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Respuesta.IDSolicitud">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Respuesta.IDCola">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.DTO_ResultOfRespuesta">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfRespuesta.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfRespuesta.Error_Cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfRespuesta.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.EscribirCola">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EscribirCola.TipoConsulta">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EscribirCola.ConsultaNumeroDNI">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EscribirCola.ConsultaPrimerApellido">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EscribirCola.ConsultaSegundoApellido">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EscribirCola.ConsultaPreNombres">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EscribirCola.Login">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EscribirCola.MAC">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EscribirCola.IP">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EscribirCola.IDModulo">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.DTO_ResultOfArrayOfByte">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfArrayOfByte.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfArrayOfByte.Error_cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfArrayOfByte.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.DTO_ResultOfDto_ArchivoDigital">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfDto_ArchivoDigital.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfDto_ArchivoDigital.Error_cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfDto_ArchivoDigital.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.DTO_ResultOfInt32">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfInt32.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfInt32.Error_cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.DTO_ResultOfInt32.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.FechaHoyCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.FechaHoyCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.FechaHoyCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.VersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.VersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.VersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.TestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.TestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.TestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.EnviarCorreoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.EnviarCorreoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.EnviarCorreoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.UploadImageJpgCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.UploadImageJpgCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.UploadImageJpgCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.FileExisteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.FileExisteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.FileExisteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.LeerImageJpgCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.LeerImageJpgCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.LeerImageJpgCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoByteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoByteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.SubirArchivoByteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoByte_NativoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoByte_NativoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.SubirArchivoByte_NativoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.LeerArchivoByteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.LeerArchivoByteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.LeerArchivoByteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.LeerArchivoByte_NativoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.LeerArchivoByte_NativoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.LeerArchivoByte_NativoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoByte_v2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoByte_v2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.SubirArchivoByte_v2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoDigitalCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoDigitalCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.SubirArchivoDigitalCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ListarArchivoDigitalCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ListarArchivoDigitalCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ListarArchivoDigitalCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ListarArchivoDigital_NativoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ListarArchivoDigital_NativoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ListarArchivoDigital_NativoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ListarArchivoDigitalByte_NativoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ListarArchivoDigitalByte_NativoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ListarArchivoDigitalByte_NativoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ListarArchivoDigitalByteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.ListarArchivoDigitalByteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.ListarArchivoDigitalByteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoByteArbolDirectorioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.SubirArchivoByteArbolDirectorioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.SubirArchivoByteArbolDirectorioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.SubirArchivoByteArbolDirectorioCompletedEventArgs.outSms">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_Registro_FotoByteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_Registro_FotoByteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Reniec_Registro_FotoByteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_Registro_ListarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_Registro_ListarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Reniec_Registro_ListarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_Registro_ListarNombresCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_Registro_ListarNombresCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Reniec_Registro_ListarNombresCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_ConsultarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_ConsultarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Reniec_ConsultarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_ListarDNICompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_ListarDNICompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Reniec_ListarDNICompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_ListarNombresCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_foto.Reniec_ListarNombresCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_foto.Reniec_ListarNombresCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_migraciones_consulta.Service1">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_migraciones_consulta.Service1.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_migraciones_consulta.Service1.Consultar_extranjeroCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_migraciones_consulta.Service1.Consultar_extranjero(System.Int32,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_migraciones_consulta.Service1.Consultar_extranjeroAsync(System.Int32,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_migraciones_consulta.Service1.Consultar_extranjeroAsync(System.Int32,System.Boolean,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_migraciones_consulta.Service1.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_migraciones_consulta.ResultEOfMigracionesE44rCQrf7">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.ResultEOfMigracionesE44rCQrf7.Error_Mensaje">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.ResultEOfMigracionesE44rCQrf7.Error_cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.ResultEOfMigracionesE44rCQrf7.Error_codSpecified">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.ResultEOfMigracionesE44rCQrf7.Resultado">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_migraciones_consulta.MigracionesE">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.ApeMaterno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.ApePaterno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.CalidadMigratorias">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.DomicilioActual">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.Fecha_Nacimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.Genero">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.Nombres">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.NumeroCE">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.Numero_PTP">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.PaisNacionalidad">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.UbicacionActual">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.celular">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.MigracionesE.foto">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_migraciones_consulta.Consultar_extranjeroCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_migraciones_consulta.Consultar_extranjeroCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_migraciones_consulta.Consultar_extranjeroCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.Monitoreo">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_monitoreo.Monitoreo.FechaActualCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_monitoreo.Monitoreo.VersionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaPendiente_RegionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaPendiente_DetalleCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaArchivoTransferenciaCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_monitoreo.Monitoreo.EliminarArchivoTransferCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_monitoreo.Monitoreo.DescargarZipArchivoTransferCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.FechaActual">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.FechaActualAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.FechaActualAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.Version">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.VersionAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.VersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaPendiente_Region(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaPendiente_RegionAsync(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaPendiente_RegionAsync(System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaPendiente_Detalle(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaPendiente_DetalleAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaPendiente_DetalleAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaArchivoTransferencia(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaArchivoTransferenciaAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.ListaArchivoTransferenciaAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.EliminarArchivoTransfer(System.Int32,System.String,System.Int16)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.EliminarArchivoTransferAsync(System.Int32,System.String,System.Int16)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.EliminarArchivoTransferAsync(System.Int32,System.String,System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.DescargarZipArchivoTransfer(System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.DescargarZipArchivoTransferAsync(System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.DescargarZipArchivoTransferAsync(System.Int32,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_monitoreo.Monitoreo.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.FechaActualCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.FechaActualCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_monitoreo.FechaActualCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.VersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.VersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_monitoreo.VersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.ListaPendiente_RegionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.ListaPendiente_RegionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_monitoreo.ListaPendiente_RegionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.ListaPendiente_DetalleCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.ListaPendiente_DetalleCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_monitoreo.ListaPendiente_DetalleCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.ListaArchivoTransferenciaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.ListaArchivoTransferenciaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_monitoreo.ListaArchivoTransferenciaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.EliminarArchivoTransferCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.EliminarArchivoTransferCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_monitoreo.EliminarArchivoTransferCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.DescargarZipArchivoTransferCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_monitoreo.DescargarZipArchivoTransferCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_monitoreo.DescargarZipArchivoTransferCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.Padin">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_padin.Padin.HelloWorldCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_padin.Padin.GrabarAnulacionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_padin.Padin.GrabarRecepcionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_padin.Padin.GrabarRespuestaCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_padin.Padin.ListarCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.HelloWorld">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.HelloWorldAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.HelloWorldAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.GrabarAnulacion(APPWebService.ws_pope_sede_padin.DTO_PadinAnulacion_Sol)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.GrabarAnulacionAsync(APPWebService.ws_pope_sede_padin.DTO_PadinAnulacion_Sol)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.GrabarAnulacionAsync(APPWebService.ws_pope_sede_padin.DTO_PadinAnulacion_Sol,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.GrabarRecepcion(APPWebService.ws_pope_sede_padin.DTO_PadinRecepcion_Sol)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.GrabarRecepcionAsync(APPWebService.ws_pope_sede_padin.DTO_PadinRecepcion_Sol)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.GrabarRecepcionAsync(APPWebService.ws_pope_sede_padin.DTO_PadinRecepcion_Sol,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.GrabarRespuesta(APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.GrabarRespuestaAsync(APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.GrabarRespuestaAsync(APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.Listar(APPWebService.ws_pope_sede_padin.DTO_Padin_ListarSol[])">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.ListarAsync(APPWebService.ws_pope_sede_padin.DTO_Padin_ListarSol[])">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.ListarAsync(APPWebService.ws_pope_sede_padin.DTO_Padin_ListarSol[],System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_padin.Padin.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.DTO_PadinAnulacion_Sol">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol.IDRowPadin">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol.IDRegion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol.IDPenal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol.FechaRespuesta">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol.IDEstado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol.IDUsuario">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol.UsuarioApeNom">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRespuesta_Sol.ObsAnulacion">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarRpta">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarRpta.IDPadin">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarRpta.IDEstado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarRpta.IDEstadoSol">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarRpta.FechaRecepcion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarRpta.FechaRespuesta">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarRpta.IDUsuario">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarRpta.UsuarioApeNom">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarRpta.ObsAnulacion">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarSol">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarSol.IDPadin">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarSol.IDRowPadin">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarSol.IDRegion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarSol.IDPenal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_Padin_ListarSol.IDEstado">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.DTO_PadinRecepcion_Sol">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRecepcion_Sol.IDRowPadin">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRecepcion_Sol.IDRegion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRecepcion_Sol.IDPenal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRecepcion_Sol.FechaRecepcion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.DTO_PadinRecepcion_Sol.IDEstado">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.HelloWorldCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.HelloWorldCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.HelloWorldCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.GrabarAnulacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.GrabarAnulacionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.GrabarAnulacionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.GrabarRecepcionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.GrabarRecepcionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.GrabarRecepcionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.GrabarRespuestaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.GrabarRespuestaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.GrabarRespuestaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.ListarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_padin.ListarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_padin.ListarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.Carceleta">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDataZXPCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDocumentosZXPCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarDescargaDataZXPCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarDescargaDocumentosZXPCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDatIntOtrosZXPCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListaPendRecepTrasladoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDetPaqueteEPLimMetCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarRecepTrasladoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDetPaqIntEPProvCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDatBasicoInternoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarInterno_Para_LimaProvinciasCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta._testCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.getVersionCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDataZXP(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDataZXPAsync(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDataZXPAsync(System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDocumentosZXP(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDocumentosZXPAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDocumentosZXPAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarDescargaDataZXP(System.Data.DataSet)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarDescargaDataZXPAsync(System.Data.DataSet)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarDescargaDataZXPAsync(System.Data.DataSet,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarDescargaDocumentosZXP(System.Data.DataSet)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarDescargaDocumentosZXPAsync(System.Data.DataSet)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarDescargaDocumentosZXPAsync(System.Data.DataSet,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDatIntOtrosZXP(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDatIntOtrosZXPAsync(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDatIntOtrosZXPAsync(System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListaPendRecepTraslado(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListaPendRecepTrasladoAsync(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListaPendRecepTrasladoAsync(System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDetPaqueteEPLimMet(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDetPaqueteEPLimMetAsync(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDetPaqueteEPLimMetAsync(System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarRecepTraslado(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarRecepTrasladoAsync(System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ConfirmarRecepTrasladoAsync(System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDetPaqIntEPProv(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDetPaqIntEPProvAsync(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDetPaqIntEPProvAsync(System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDatBasicoInterno(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDatBasicoInternoAsync(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarDatBasicoInternoAsync(System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarInterno_Para_LimaProvincias(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarInterno_Para_LimaProvinciasAsync(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.ListarInterno_Para_LimaProvinciasAsync(System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta._test">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta._testAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta._testAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.getVersion">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.getVersionAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.getVersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_carceleta.Carceleta.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.DTO_ResultOfBoolean">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.DTO_ResultOfBoolean.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.DTO_ResultOfBoolean.Error_cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.DTO_ResultOfBoolean.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDataZXPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDataZXPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ListarDataZXPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDocumentosZXPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDocumentosZXPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ListarDocumentosZXPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ConfirmarDescargaDataZXPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ConfirmarDescargaDataZXPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ConfirmarDescargaDataZXPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ConfirmarDescargaDocumentosZXPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ConfirmarDescargaDocumentosZXPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ConfirmarDescargaDocumentosZXPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDatIntOtrosZXPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDatIntOtrosZXPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ListarDatIntOtrosZXPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListaPendRecepTrasladoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListaPendRecepTrasladoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ListaPendRecepTrasladoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDetPaqueteEPLimMetCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDetPaqueteEPLimMetCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ListarDetPaqueteEPLimMetCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ConfirmarRecepTrasladoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ConfirmarRecepTrasladoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ConfirmarRecepTrasladoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDetPaqIntEPProvCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDetPaqIntEPProvCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ListarDetPaqIntEPProvCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDatBasicoInternoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarDatBasicoInternoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ListarDatBasicoInternoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarInterno_Para_LimaProvinciasCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.ListarInterno_Para_LimaProvinciasCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.ListarInterno_Para_LimaProvinciasCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta._testCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta._testCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta._testCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.getVersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_carceleta.getVersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_carceleta.getVersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.InternoSede">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_Interno.InternoSede.getFechaCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_Interno.InternoSede.getVersionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_Interno.InternoSede.ListarMovIntSedeCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_MatchCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_SelectRowIDCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_GrabarDatosBasicosCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_plm_Interno.InternoSede.ValidarSihayDatosInternoPLMCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.getFecha">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.getFechaAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.getFechaAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.getVersion">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.getVersionAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.getVersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.ListarMovIntSede(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.ListarMovIntSedeAsync(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.ListarMovIntSedeAsync(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_Match(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_MatchAsync(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_MatchAsync(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_SelectRowID(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_SelectRowIDAsync(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_SelectRowIDAsync(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_GrabarDatosBasicos(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_GrabarDatosBasicosAsync(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.InternoPLM_GrabarDatosBasicosAsync(APPWebService.ws_pope_sede_plm_Interno.DTO_Interno,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.ValidarSihayDatosInternoPLM(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.ValidarSihayDatosInternoPLMAsync(System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.ValidarSihayDatosInternoPLMAsync(System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_plm_Interno.InternoSede.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.IDInternoSede">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.CodigoRP">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.TipoDocumentoID">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.NumeroDocumento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.ApellidoPaterno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.ApellidoMaterno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.Nombres">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.EstadoInterno">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.FechaNacimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.IDNacionalidad">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.IDPenal">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.IDRegion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.IDRow">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_Interno.IngresoDto">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.IDInternoSede">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.IDIngresoLocal">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.IDTipoMovimiento">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.IDMovimientoMotivo">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.FechaISP">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.FechaIngreso">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.NumeroIngreso">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.Observacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.IDUsuarioCreacion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTOInternoIngreso.IDUsuarioModificacion">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfBoolean">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfBoolean.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfBoolean.Error_cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfBoolean.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfInt64">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfInt64.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfInt64.Error_cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfInt64.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfDataSet">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfDataSet.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfDataSet.Error_cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfDataSet.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfDataTable">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfDataTable.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfDataTable.Error_cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.DTO_ResultOfDataTable.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.getFechaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.getFechaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.getFechaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.getVersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.getVersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.getVersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.ListarMovIntSedeCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.ListarMovIntSedeCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.ListarMovIntSedeCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.InternoPLM_MatchCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.InternoPLM_MatchCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.InternoPLM_MatchCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.InternoPLM_SelectRowIDCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.InternoPLM_SelectRowIDCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.InternoPLM_SelectRowIDCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.InternoPLM_GrabarDatosBasicosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.InternoPLM_GrabarDatosBasicosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.InternoPLM_GrabarDatosBasicosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.ValidarSihayDatosInternoPLMCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_plm_Interno.ValidarSihayDatosInternoPLMCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_plm_Interno.ValidarSihayDatosInternoPLMCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.WSSanciones">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_sanciones.WSSanciones.VersionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionEstadoEnviadoSedeCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_sanciones.WSSanciones.ListarSancionesPenalDestinoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionDestinoPenalCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_sanciones.WSSanciones.ListarPenalInicioCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.Version">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.VersionAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.VersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancion(APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancion)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionAsync(APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancion)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionAsync(APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancion,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionEstadoEnviadoSede(APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancionEstado)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionEstadoEnviadoSedeAsync(APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancionEstado)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionEstadoEnviadoSedeAsync(APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancionEstado,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.ListarSancionesPenalDestino(APPWebService.ws_pope_sede_sanciones.DTOSolicitud)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.ListarSancionesPenalDestinoAsync(APPWebService.ws_pope_sede_sanciones.DTOSolicitud)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.ListarSancionesPenalDestinoAsync(APPWebService.ws_pope_sede_sanciones.DTOSolicitud,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionDestinoPenal(APPWebService.ws_pope_sede_sanciones.DTOSancionDestinoPenal)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionDestinoPenalAsync(APPWebService.ws_pope_sede_sanciones.DTOSancionDestinoPenal)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.GrabarSancionDestinoPenalAsync(APPWebService.ws_pope_sede_sanciones.DTOSancionDestinoPenal,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.ListarPenalInicio(APPWebService.ws_pope_sede_sanciones.DTOSolicitud)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.ListarPenalInicioAsync(APPWebService.ws_pope_sede_sanciones.DTOSolicitud)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.ListarPenalInicioAsync(APPWebService.ws_pope_sede_sanciones.DTOSolicitud,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_sanciones.WSSanciones.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancion.Visitante">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancion.Sancion">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOVisitante">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.Visitante">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.IDVisitanteSede">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.IDRegionOrigen">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.IDPenalOrigen">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.IDVisitanteLocal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.FechaSede">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.PrimerApellido">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.SegundoApellido">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.Nombres">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.Sexo">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.IDTipoDocumento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.NumeroDocumento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.FechaNacimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.IDNacionalidad">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.Observacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.FotoByte">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.FotoNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.IDUsuarioCapturaFoto">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.ValidadoReniec">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.IDUsuarioValidaReniec">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Visitante.FechaValidaReniec">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.Auditoria">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Auditoria.IDUsuarioCreacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Auditoria.FechaCreacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Auditoria.IDUsuarioModificacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Auditoria.FechaModificacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Auditoria.IDUsuarioEliminacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Auditoria.FechaEliminacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Auditoria.Eliminado">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOResultPenalInicio">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultPenalInicio.CodigoError">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultPenalInicio.MensajeOut">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultPenalInicio.FechaInicio">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.SancionDestinoPenal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.SancionDestinoPenal.IDSancionDestinoPenal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.SancionDestinoPenal.IDSolicitud">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.SancionDestinoPenal.IDSancionSede">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.SancionDestinoPenal.IDVisistanteSede">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.SancionDestinoPenal.FechaRecepcion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.SancionDestinoPenal.Estado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.SancionDestinoPenal.IDRegionDestino">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.SancionDestinoPenal.IDPenalDestino">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOSancionDestinoPenalDetalle">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOSancionDestinoPenal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOSancionDestinoPenal.IDRegion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOSancionDestinoPenal.IDPenal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOSancionDestinoPenal.SancionDestinoPenalLista">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOResultSolicitud">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultSolicitud.CodigoError">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultSolicitud.MensajeError">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultSolicitud.SancionLista">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultSolicitud.VisitanteLista">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOSancionDetalle">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOSancionDetalle.IDSolicitudDetalle">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOSancionDetalle.IDSolicitud">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOSancion">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.Sancion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.IDSancionSede">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.IDVisitanteSede">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.IDRegionOrigen">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.IDPenalOrigen">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.IDSancionLocal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.IDVisitanteLocal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.FechaSedeSubida">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.ApellidosyNombres">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.Documento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.FechaDoc">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.FechaInicio">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.FechaFin">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.Indeterminado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.IDTipoSancion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.Estado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.Obs">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.DocumentoAnulacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.MotivoAnulacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.FechaAnulacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.ObsAnulacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.IDUsuarioAnulacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.Sancion.EstadoTransferencia">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOVisitanteFoto">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOSolicitud">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOSolicitud.IDRegion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOSolicitud.IDPenal">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancionEstado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOVisitanteSancionEstado.IDSancion">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.DTOResultVisitanteSancion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultVisitanteSancion.CodigoError">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultVisitanteSancion.MensajeError">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultVisitanteSancion.IDSancion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultVisitanteSancion.IDVisitante">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.DTOResultVisitanteSancion.FechaSede">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.VersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.VersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.VersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.GrabarSancionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.GrabarSancionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.GrabarSancionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.GrabarSancionEstadoEnviadoSedeCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.GrabarSancionEstadoEnviadoSedeCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.GrabarSancionEstadoEnviadoSedeCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.ListarSancionesPenalDestinoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.ListarSancionesPenalDestinoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.ListarSancionesPenalDestinoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.GrabarSancionDestinoPenalCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.GrabarSancionDestinoPenalCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.GrabarSancionDestinoPenalCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.ListarPenalInicioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_sanciones.ListarPenalInicioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_sanciones.ListarPenalInicioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.TablaMaestras">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp.TablaMaestras.HelloWorldCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp.TablaMaestras.FechaHoyCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp.TablaMaestras.Listar_IDMaxCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp.TablaMaestras.ListarCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp.TablaMaestras.Listar_TestCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.HelloWorld">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.HelloWorldAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.HelloWorldAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.FechaHoy">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.FechaHoyAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.FechaHoyAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.Listar_IDMax(System.Int32,System.String@)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.Listar_IDMaxAsync(System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.Listar_IDMaxAsync(System.Int32,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.Listar(System.Int32,System.Int32,System.Int64,System.String@)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.ListarAsync(System.Int32,System.Int32,System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.ListarAsync(System.Int32,System.Int32,System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.Listar_Test(System.Int32,APPWebService.ws_pope_sede_tp.TipoTabla,System.Int64)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.Listar_TestAsync(System.Int32,APPWebService.ws_pope_sede_tp.TipoTabla,System.Int64)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.Listar_TestAsync(System.Int32,APPWebService.ws_pope_sede_tp.TipoTabla,System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp.TablaMaestras.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.TipoTabla">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.Ninguno">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.SIS_Tabla">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.CLA_ClasificacionTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.CLA_Ficha">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.CLA_Resultado">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.CLA_Valores">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.CLA_Variable">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_Biometrico">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_Dependencia">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_Discapacidad">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_DocumentoTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_EstadoCivil">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_FamiliaTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_GradoInstruccion">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_Idioma">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_Ocupacion">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_OcupacionGrupo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_OcupacionTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_Profesion">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_Rasgo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_RasgoTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_Region">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GEN_Sexo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.GLO_Parentesco">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_AutoridadJudicial">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_AutoridadJudicialTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_Banda">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_BandaMiembroTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_BandaTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_DelitoCapitulo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_DelitoSeccion">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_DelitosEspecifico">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_DelitosGenerico">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_DelitoTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_Estado">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_LibertadTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_MotivoIngreso">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_MovimientoGrupo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_MovimientoMotivo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_MovimientoTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_Penal">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_SenaParticular">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_SenaParticularTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_SentenciaTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_SituacionJuridica">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_Traslado">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.INT_TrasladoTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.REG_DOC_Tipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.RPT_Cuadro002">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.RPT_Cuadro003">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.RPT_Cuadro007">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.RPT_Cuadro008">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.RPT_Cuadro010">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.RPT_Cuadro012">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.RPT_Cuadro013">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.RPT_Reporte">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.UBG_Departamento">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.UBG_Distrito">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.UBG_Pais">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.UBG_Provincia">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.VIS_Etapa">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.VIS_Regimen">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.VIS_RestriccionTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.VIS_SancionTipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.VIS_Tipo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp.TipoTabla.REG_DOC_subtipo">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.HelloWorldCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.HelloWorldCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp.HelloWorldCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.FechaHoyCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.FechaHoyCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp.FechaHoyCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.Listar_IDMaxCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.Listar_IDMaxCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp.Listar_IDMaxCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp.Listar_IDMaxCompletedEventArgs.MensajeError">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.ListarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.ListarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp.ListarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp.ListarCompletedEventArgs.MensajeError">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.Listar_TestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp.Listar_TestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp.Listar_TestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Cantidad_TestCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Listar_TestCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarxLicencia_TestCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.CantidadCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarxLicenciaCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Cantidad_Test(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Cantidad_TestAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Cantidad_TestAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Listar_Test(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Listar_TestAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Listar_TestAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarxLicencia_Test(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarxLicencia_TestAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarxLicencia_TestAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Cantidad(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.String@)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.CantidadAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.CantidadAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.Listar(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.String@)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarxLicencia(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.String@)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarxLicenciaAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.ListarxLicenciaAsync(System.Int32,APPWebService.ws_pope_sede_tp_config.TipoTabla_Config,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_tp_config.TablaMaestras_Config.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.TipoTabla_Config">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp_config.TipoTabla_Config.Ninguno">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp_config.TipoTabla_Config.Licencia">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp_config.TipoTabla_Config.LicenciaDetalle">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp_config.TipoTabla_Config.Modulo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp_config.TipoTabla_Config.Usuario">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp_config.TipoTabla_Config.UsuarioModulo">
+<comentarios/>
+</member>
+<member name="F:APPWebService.ws_pope_sede_tp_config.TipoTabla_Config.UsuarioRegion">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.Cantidad_TestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.Cantidad_TestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp_config.Cantidad_TestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.Listar_TestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.Listar_TestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp_config.Listar_TestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.ListarxLicencia_TestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.ListarxLicencia_TestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp_config.ListarxLicencia_TestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.CantidadCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.CantidadCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp_config.CantidadCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp_config.CantidadCompletedEventArgs.MensajeError">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.ListarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.ListarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp_config.ListarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp_config.ListarCompletedEventArgs.MensajeError">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.ListarxLicenciaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_tp_config.ListarxLicenciaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp_config.ListarxLicenciaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_tp_config.ListarxLicenciaCompletedEventArgs.MensajeError">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.Usuario">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_usuario.Usuario.HelloWorldCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_usuario.Usuario.CantidadCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_usuario.Usuario.ListaCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_usuario.Usuario.ListarxLicenciaCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_usuario.Usuario.ListarxLicenciav2Completed">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_usuario.Usuario.CambiarClaveCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_usuario.Usuario.CambiarClaveCifradoCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_pope_sede_usuario.Usuario.CrearUsuarioCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.HelloWorld">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.HelloWorldAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.HelloWorldAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.Cantidad">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CantidadAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CantidadAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.Lista">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.ListaAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.ListaAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.ListarxLicencia(System.Int16)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.ListarxLicenciaAsync(System.Int16)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.ListarxLicenciaAsync(System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.ListarxLicenciav2(System.Int16,System.Int64,System.String@)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.ListarxLicenciav2Async(System.Int16,System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.ListarxLicenciav2Async(System.Int16,System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CambiarClave(System.Int32,System.Byte[],System.Byte[])">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CambiarClaveAsync(System.Int32,System.Byte[],System.Byte[])">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CambiarClaveAsync(System.Int32,System.Byte[],System.Byte[],System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CambiarClaveCifrado(System.Int32,System.Byte[])">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CambiarClaveCifradoAsync(System.Int32,System.Byte[])">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CambiarClaveCifradoAsync(System.Int32,System.Byte[],System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CrearUsuario(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Byte[],System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CrearUsuarioAsync(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Byte[],System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CrearUsuarioAsync(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Byte[],System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.Boolean,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_pope_sede_usuario.Usuario.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.HelloWorldCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.HelloWorldCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_usuario.HelloWorldCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.CantidadCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.CantidadCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_usuario.CantidadCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.ListaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.ListaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_usuario.ListaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.ListarxLicenciaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.ListarxLicenciaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_usuario.ListarxLicenciaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.ListarxLicenciav2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.ListarxLicenciav2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_usuario.ListarxLicenciav2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_usuario.ListarxLicenciav2CompletedEventArgs.MensajeError">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.CambiarClaveCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.CambiarClaveCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_usuario.CambiarClaveCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.CambiarClaveCifradoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.CambiarClaveCifradoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_usuario.CambiarClaveCifradoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.CrearUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_pope_sede_usuario.CrearUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_pope_sede_usuario.CrearUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.VerificacionBiometrica">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VersionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_biometria.VerificacionBiometrica.ConsultarCalidadHuellaCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VerificarHuellaWSQCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VerificarHuellaANSICompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_biometria.VerificacionBiometrica.GrabarHuellaUsuarioCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.Version">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VersionAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.ConsultarCalidadHuella(APPWebService.ws_reniec_biometria.DTO_CalidadHuella)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.ConsultarCalidadHuellaAsync(APPWebService.ws_reniec_biometria.DTO_CalidadHuella)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.ConsultarCalidadHuellaAsync(APPWebService.ws_reniec_biometria.DTO_CalidadHuella,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VerificarHuellaWSQ(APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VerificarHuellaWSQAsync(APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VerificarHuellaWSQAsync(APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VerificarHuellaANSI(APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VerificarHuellaANSIAsync(APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.VerificarHuellaANSIAsync(APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.GrabarHuellaUsuario(APPWebService.ws_reniec_biometria.DTO_HuellaUsuario)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.GrabarHuellaUsuarioAsync(APPWebService.ws_reniec_biometria.DTO_HuellaUsuario)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.GrabarHuellaUsuarioAsync(APPWebService.ws_reniec_biometria.DTO_HuellaUsuario,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_biometria.VerificacionBiometrica.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_CalidadHuella">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_CalidadHuella.NumeroDNI_Usuario">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_CalidadHuella.NumeroDNI_Ciudadano">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_CalidadHuella.IP_Cliente">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_CalidadHuella.Mac_Cliente">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_ResultOfInt32">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfInt32.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfInt32.Error_Cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfInt32.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.NumeroDNI">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.PrimerApellido">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.SegundoApellido">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.Nombres">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.HuellaDerechoWSQ">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.HuellaIzquierdoWSQ">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.HuellaDerechoANSI">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.HuellaIzquierdoANSI">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.TipoDedoIzquierdo">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.TipoDedoDerecho">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.IDUsuario">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_HuellaUsuario.UsuarioLogin">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_ResultVerificarHuellaAnsi">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_ResultVerificarHuellaAnsi.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_ResultVerificarHuellaAnsi.Error_Cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_ResultVerificarHuellaAnsi.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaAnsi">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaWSQ">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaWSQ.CodigoResultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaWSQ.Corresponde">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaWSQ.NumeroDNI_Ciudadano">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaWSQ.PrimerApellido">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaWSQ.SegundoApellido">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaWSQ.Nombres">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaWSQ.FechaCaducidadDNI">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultVerificarHuellaWSQ.Restriccion">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi.NumeroDNI_Usuario">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi.NumeroDNI_Ciudadano">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi.HuellaANSIDerechaByte">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi.HuellaANSIIzquierdaByte">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi.IP_Cliente">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaAnsi.Mac_Cliente">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_ResultVerificarHuellaWSQ">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_ResultVerificarHuellaWSQ.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_ResultVerificarHuellaWSQ.Error_Cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_ResultVerificarHuellaWSQ.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ.NumeroDNI_Usuario">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ.NumeroDNI_Ciudadano">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ.HuellaWSQDerecha">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ.HuellaWSQIzquierda">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ.IP_Cliente">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_VerificarHuellaWSQ.Mac_Cliente">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_Result_CalidadHuella">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_Result_CalidadHuella.Respuesta">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_Result_CalidadHuella.Descripcion">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_Result_CalidadHuella.CodigoHuellaDerecha">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_Result_CalidadHuella.DescripcionHuellaDerecha">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_Result_CalidadHuella.CodigoHuellaIzquierda">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_Result_CalidadHuella.DescripcionHuellaIzquierda">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_Result_CalidadHuella">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_Result_CalidadHuella.Resultado">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_Result_CalidadHuella.Error_Cod">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.DTO_ResultOfDTO_Result_CalidadHuella.Error_Mensaje">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.VersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.VersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.VersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.ConsultarCalidadHuellaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.ConsultarCalidadHuellaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.ConsultarCalidadHuellaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.VerificarHuellaWSQCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.VerificarHuellaWSQCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.VerificarHuellaWSQCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.VerificarHuellaANSICompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.VerificarHuellaANSICompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.VerificarHuellaANSICompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.GrabarHuellaUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_biometria.GrabarHuellaUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_biometria.GrabarHuellaUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.Identificacion">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_sede.Identificacion.VersionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_sede.Identificacion.FechaLongCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_sede.Identificacion.SolicitudCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_sede.Identificacion.Solicitud_LeerDNICompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_reniec_sede.Identificacion.Solicitud_LeerApellidosyNombresCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.Version">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.VersionAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.VersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.FechaLong">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.FechaLongAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.FechaLongAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.Solicitud(APPWebService.ws_reniec_sede.EscribirCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.SolicitudAsync(APPWebService.ws_reniec_sede.EscribirCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.SolicitudAsync(APPWebService.ws_reniec_sede.EscribirCola,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.Solicitud_LeerDNI(APPWebService.ws_reniec_sede.LeerCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.Solicitud_LeerDNIAsync(APPWebService.ws_reniec_sede.LeerCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.Solicitud_LeerDNIAsync(APPWebService.ws_reniec_sede.LeerCola,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.Solicitud_LeerApellidosyNombres(APPWebService.ws_reniec_sede.LeerCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.Solicitud_LeerApellidosyNombresAsync(APPWebService.ws_reniec_sede.LeerCola)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.Solicitud_LeerApellidosyNombresAsync(APPWebService.ws_reniec_sede.LeerCola,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_reniec_sede.Identificacion.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.EscribirCola">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.EscribirCola.TipoConsulta">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.EscribirCola.ConsultaNumeroDNI">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.EscribirCola.ConsultaPrimerApellido">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.EscribirCola.ConsultaSegundoApellido">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.EscribirCola.ConsultaPreNombres">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.EscribirCola.Login">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.EscribirCola.MAC">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.EscribirCola.IP">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.EscribirCola.IDModulo">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia.NumeroDNI">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia.CaracterVerificacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia.TipoFichaRegistral">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia.ApellidoPaterno">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia.ApellidoMaterno">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia.PreNombres">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia.Datos">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia.Imagen">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombresCoincidencia.Reservado">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.ApellidosyNombres">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombres.CodigoError">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombres.CodigoErrorMensaje">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombres.NumeroTotalCoincidencias">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombres.Reservado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombres.Coincidencia">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombres.CodigoErrorClase">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.ApellidosyNombres.MensajeError">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.DTO_ResultOfApellidosyNombres">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.DTO_ResultOfApellidosyNombres.Resultado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.DTO_ResultOfApellidosyNombres.Error_Cod">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.DTO_ResultOfApellidosyNombres.Error_Mensaje">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.NumeroDocumento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.NumeroDNI">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.DigitoVerificacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.ApellidoPaterno">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.ApellidoMaterno">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.ApellidoCasada">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Nombres">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.CodigoUbigeoDepartamentoDomicilio">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.CodigoUbigeoProvinciaDomicilio">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.CodigoUbigeoDistritoDomicilio">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.DepartamentoDomicilio">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.ProvinciaDomicilio">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.DistritoDomicilio">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.EstadoCivil">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.CodigoGradoInstruccion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Estatura">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Sexo">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.DocumentoSustentatorioTipo">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.DocumentoSustentatorioNumero">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.CodigoUbigeoDepartamentoNacimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.CodigoUbigeoProvinciaNacimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.CodigoUbigeoDistritoNacimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.DepartamentoNacimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.ProvinciaNacimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.DistritoNacimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.FechaNacimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.NombrePadre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.NombreMadre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.FechaInscripcion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.FechaExpedicion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.ConstanciaVotacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Restriccion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.RestriccionMensaje">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.PrefijoDireccion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Direccion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.NumeroDireccion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.BlockChalet">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Interior">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Urbanizacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Etapa">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Manzana">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.Lote">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.PrefijoBlockChalet">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.PrefijoDepartamentoInterior">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.PrefijoUrbanizacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.FotoByte">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.FirmaByte">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.RestriccionRegistroPenitenciario">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.RestriccionAntecedentesJudiciales">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.RestriccionTratamientoPenitenciario">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.NumeroDocumento.RestriccionMedioLibre">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.DTO_ResultOfNumeroDocumento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.DTO_ResultOfNumeroDocumento.Resultado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.DTO_ResultOfNumeroDocumento.Error_Cod">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.DTO_ResultOfNumeroDocumento.Error_Mensaje">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.LeerCola">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.LeerCola.IDSolicitud">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.LeerCola.IDCola">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.LeerCola.Login">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.LeerCola.MAC">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.LeerCola.IP">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.LeerCola.IDModulo">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.Respuesta">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.Respuesta.IDSolicitud">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.Respuesta.IDCola">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.DTO_ResultOfRespuesta">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.DTO_ResultOfRespuesta.Resultado">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.DTO_ResultOfRespuesta.Error_Cod">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.DTO_ResultOfRespuesta.Error_Mensaje">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.VersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.VersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.VersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.FechaLongCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.FechaLongCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.FechaLongCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.SolicitudCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.SolicitudCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.SolicitudCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.Solicitud_LeerDNICompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.Solicitud_LeerDNICompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.Solicitud_LeerDNICompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.Solicitud_LeerApellidosyNombresCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_reniec_sede.Solicitud_LeerApellidosyNombresCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_reniec_sede.Solicitud_LeerApellidosyNombresCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.Trabajador">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_trabajador.Trabajador.VersionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_trabajador.Trabajador.FechaCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_trabajador.Trabajador.ListarCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_trabajador.Trabajador.Listar_v2Completed">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.Version">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.VersionAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.VersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.Fecha">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.FechaAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.FechaAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.Listar(System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.ListarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.ListarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.Listar_v2(System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.Listar_v2Async(System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.Listar_v2Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_trabajador.Trabajador.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.Trabajador1">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.IDTrabajador">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.NacimientoUbigeoID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.InstitucionID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.InstitucionNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.UnidadEjecutoraID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.UnidadEjecutora">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.OficinaID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.Oficina">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.CodigoSIP">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.OcupacionID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.Ocupacion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.CondicionGeneralID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.CondicionGeneralNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.CondicionID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.CondicionNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.CargoID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.CargoNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.CargoEstructuralID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.CargoEstructuralNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.FechaNacimientoDia">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.FechaNacimientoMes">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.FechaNacimientoAnio">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1._ErrorCodigo">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1._ErrorMensaje">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Trabajador1.SexoBolean">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.Persona">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.ApellidoPaterno">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.ApellidoMaterno">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.Nombres">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.Extranjero">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.NacionalidadID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.NacionalidadNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.TipoDocumentoID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.TipoDocumentoNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.NumeroDocumento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.FechaNacimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.NacimientoPaisID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.NacimientoPaisNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.NacimientoDepartamentoNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.NacimientoProvinciaNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.NacimientoDistritoNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.SexoID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.FechaFallecimiento">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.EstadoCivilID">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.EstadoCivilNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.DomicilioPaisNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.DomicilioDepartamentoNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.DomicilioProvinciaNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.DomicilioDistritoNombre">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.DomicilioDireccion">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.CorreoPersonal">
+<comentarios/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Persona.CorreoInstitucional">
+<comentarios/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.VersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.VersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.VersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.FechaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.FechaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.FechaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.ListarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.ListarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.ListarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.Listar_v2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_trabajador.Listar_v2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_trabajador.Listar_v2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.Usuario">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.#ctor">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_usuario.Usuario.VersionCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_usuario.Usuario.IniciarSesionVisitaCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_usuario.Usuario.CambiarClaveCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_usuario.Usuario.CrearUsuarioCompleted">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_usuario.Usuario.CrearUsuariov2Completed">
+<remarks/>
+</member>
+<member name="E:APPWebService.ws_sipga_sede_usuario.Usuario.ListarUsuarioCompleted">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.Version">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.VersionAsync">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.VersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.IniciarSesionVisita(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.IniciarSesionVisitaAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.IniciarSesionVisitaAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CambiarClave(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CambiarClaveAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CambiarClaveAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CrearUsuario(System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CrearUsuarioAsync(System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CrearUsuarioAsync(System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CrearUsuariov2(System.Int32,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CrearUsuariov2Async(System.Int32,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CrearUsuariov2Async(System.Int32,System.String,System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.ListarUsuario(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.ListarUsuarioAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.ListarUsuarioAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:APPWebService.ws_sipga_sede_usuario.Usuario.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.VersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.VersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_usuario.VersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.IniciarSesionVisitaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.IniciarSesionVisitaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_usuario.IniciarSesionVisitaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.CambiarClaveCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.CambiarClaveCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_usuario.CambiarClaveCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.CrearUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.CrearUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_usuario.CrearUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.CrearUsuariov2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.CrearUsuariov2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_usuario.CrearUsuariov2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.ListarUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:APPWebService.ws_sipga_sede_usuario.ListarUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:APPWebService.ws_sipga_sede_usuario.ListarUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

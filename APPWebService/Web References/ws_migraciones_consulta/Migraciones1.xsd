@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://websvc.inpe.gob.pe/WSMigraciones/Migraciones.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WSMigraciones.Entity" />
+  <xs:element name="Consultar_extranjero">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tipo_doc" type="xs:int" />
+        <xs:element minOccurs="0" name="NumDoc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Consultar_extranjeroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WSMigraciones.Entity" minOccurs="0" name="Consultar_extranjeroResult" nillable="true" type="q1:ResultEOfMigracionesE44rCQrf7" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

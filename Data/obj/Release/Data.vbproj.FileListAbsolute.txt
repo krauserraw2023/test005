@@ -1,0 +1,4 @@
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Release\Data.vbproj.AssemblyReference.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Release\Data.Resources.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Release\Data.vbproj.GenerateResource.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Data\obj\Release\Data.vbproj.CoreCompileInputs.cache

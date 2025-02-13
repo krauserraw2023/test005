@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="FechaHoy">
+        <s:complexType />
+      </s:element>
+      <s:element name="FechaHoyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FechaHoyResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Version">
+        <s:complexType />
+      </s:element>
+      <s:element name="VersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Test">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EnviarCorreo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Asunto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EnviarCorreoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EnviarCorreoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadImageJpg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImagenByte" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadImageJpgResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadImageJpgResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FileExiste">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FileExisteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileExisteResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LeerImageJpg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LeerImageJpgResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LeerImageJpgResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoByte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:short" />
+            <s:element minOccurs="1" maxOccurs="1" name="PenalID" type="s:short" />
+            <s:element minOccurs="1" maxOccurs="1" name="Anio" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="MesCorrelativo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileByte" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="tns:enmTipoImagen" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="enmTipoImagen">
+        <s:restriction base="s:string">
+          <s:enumeration value="Ninguno" />
+          <s:enumeration value="Interno" />
+          <s:enumeration value="Personal" />
+          <s:enumeration value="Visitante" />
+          <s:enumeration value="Reniec" />
+          <s:enumeration value="Reniec_Sybase" />
+          <s:enumeration value="Odontograma" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="SubirArchivoByteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubirArchivoByteResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoByte_Nativo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:short" />
+            <s:element minOccurs="1" maxOccurs="1" name="PenalID" type="s:short" />
+            <s:element minOccurs="1" maxOccurs="1" name="Anio" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="MesCorrelativo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileByte" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoByte_NativoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubirArchivoByte_NativoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LeerArchivoByte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="tns:enmTipoImagen" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PathWeb" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LeerArchivoByteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LeerArchivoByteResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LeerArchivoByte_Nativo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PathWeb" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LeerArchivoByte_NativoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LeerArchivoByte_NativoResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoByte_v2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:short" />
+            <s:element minOccurs="1" maxOccurs="1" name="PenalID" type="s:short" />
+            <s:element minOccurs="1" maxOccurs="1" name="Anio" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DirCorrelativo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileByte" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="tns:enmTipoImagen" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoByte_v2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubirArchivoByte_v2Result" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoDigital">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dto" type="tns:Dto_ArchivoDigital" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Dto_ArchivoDigital">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Codigo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="VigenciaIni" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="VigenciaFin" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="PC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IP" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Directorio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreFisico" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Extension" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Peso" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaCreacion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaModificacion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaImportacion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="Anio" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Mes" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ArchivoByte" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="MesCorrelativo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MAC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RutaServidor" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoExt_id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Region" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Penal" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Tipo" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ImagenUploadWeb" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="UsuarioId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoDocIdentidad" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumDocIdentidad" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SubirArchivoDigitalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubirArchivoDigitalResult" type="tns:DTO_ResultOfInt32" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfInt32">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Resultado" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListarArchivoDigital">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ArchivoDigitalId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoArchivo" type="tns:enmTipoImagen" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarArchivoDigitalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarArchivoDigitalResult" type="tns:DTO_ResultOfDto_ArchivoDigital" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfDto_ArchivoDigital">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado" type="tns:Dto_ArchivoDigital" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListarArchivoDigital_Nativo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ArchivoDigitalId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoArchivo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarArchivoDigital_NativoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarArchivoDigital_NativoResult" type="tns:DTO_ResultOfDto_ArchivoDigital" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarArchivoDigitalByte_Nativo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ArchivoDigitalId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoArchivo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarArchivoDigitalByte_NativoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarArchivoDigitalByte_NativoResult" type="tns:DTO_ResultOfArrayOfByte" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfArrayOfByte">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado" type="s:base64Binary" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListarArchivoDigitalByte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ArchivoDigitalId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoArchivo" type="tns:enmTipoImagen" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarArchivoDigitalByteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarArchivoDigitalByteResult" type="tns:DTO_ResultOfArrayOfByte" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoByteArbolDirectorio">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileByte" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFileSinExtension" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="extensionFile" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="arbolDirDestino" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorioImg" type="tns:enmTipoImagen" />
+            <s:element minOccurs="0" maxOccurs="1" name="outSms" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoByteArbolDirectorioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubirArchivoByteArbolDirectorioResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="outSms" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reniec_Registro_FotoByte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NumeroDNIConsulta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reniec_Registro_FotoByteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reniec_Registro_FotoByteResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reniec_Registro_Listar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NumeroDNIConsulta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reniec_Registro_ListarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reniec_Registro_ListarResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Reniec_Registro_ListarNombres">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PrimerApellido" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SegundoApellido" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PreNombres" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reniec_Registro_ListarNombresResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reniec_Registro_ListarNombresResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reniec_Consultar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objEntCola" type="tns:EscribirCola" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="EscribirCola">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TipoConsulta" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConsultaNumeroDNI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConsultaPrimerApellido" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConsultaSegundoApellido" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConsultaPreNombres" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MAC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IP" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDModulo" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Reniec_ConsultarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reniec_ConsultarResult" type="tns:DTO_ResultOfRespuesta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfRespuesta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado" type="tns:Respuesta" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_Cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Respuesta">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDSolicitud" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDCola" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Reniec_ListarDNI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objEntCola" type="tns:LeerCola" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="LeerCola">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDSolicitud" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDCola" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MAC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IP" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDModulo" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Reniec_ListarDNIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reniec_ListarDNIResult" type="tns:DTO_ResultOfNumeroDocumento" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfNumeroDocumento">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado" type="tns:NumeroDocumento" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_Cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="NumeroDocumento">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DigitoVerificacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoCasada" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombres" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoUbigeoDepartamentoDomicilio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoUbigeoProvinciaDomicilio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoUbigeoDistritoDomicilio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DepartamentoDomicilio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProvinciaDomicilio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DistritoDomicilio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EstadoCivil" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoGradoInstruccion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estatura" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sexo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocumentoSustentatorioTipo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocumentoSustentatorioNumero" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoUbigeoDepartamentoNacimiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoUbigeoProvinciaNacimiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoUbigeoDistritoNacimiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DepartamentoNacimiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProvinciaNacimiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DistritoNacimiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaNacimiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombrePadre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreMadre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaInscripcion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaExpedicion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConstanciaVotacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Restriccion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RestriccionMensaje" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrefijoDireccion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Direccion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDireccion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BlockChalet" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Interior" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Urbanizacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Etapa" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Manzana" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Lote" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrefijoBlockChalet" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrefijoDepartamentoInterior" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrefijoUrbanizacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FotoByte" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirmaByte" type="s:base64Binary" />
+          <s:element minOccurs="1" maxOccurs="1" name="RestriccionRegistroPenitenciario" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="RestriccionAntecedentesJudiciales" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="RestriccionTratamientoPenitenciario" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="RestriccionMedioLibre" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Reniec_ListarNombres">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objEntCola" type="tns:LeerCola" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reniec_ListarNombresResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Reniec_ListarNombresResult" type="tns:DTO_ResultOfApellidosyNombres" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfApellidosyNombres">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado" type="tns:ApellidosyNombres" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_Cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ApellidosyNombres">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoErrorMensaje" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroTotalCoincidencias" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reservado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Coincidencia" type="tns:ArrayOfApellidosyNombresCoincidencia" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoErrorClase" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfApellidosyNombresCoincidencia">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ApellidosyNombresCoincidencia" nillable="true" type="tns:ApellidosyNombresCoincidencia" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ApellidosyNombresCoincidencia">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CaracterVerificacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoFichaRegistral" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PreNombres" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Datos" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Imagen" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reservado" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="FechaHoySoapIn">
+    <wsdl:part name="parameters" element="tns:FechaHoy" />
+  </wsdl:message>
+  <wsdl:message name="FechaHoySoapOut">
+    <wsdl:part name="parameters" element="tns:FechaHoyResponse" />
+  </wsdl:message>
+  <wsdl:message name="VersionSoapIn">
+    <wsdl:part name="parameters" element="tns:Version" />
+  </wsdl:message>
+  <wsdl:message name="VersionSoapOut">
+    <wsdl:part name="parameters" element="tns:VersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapOut">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="EnviarCorreoSoapIn">
+    <wsdl:part name="parameters" element="tns:EnviarCorreo" />
+  </wsdl:message>
+  <wsdl:message name="EnviarCorreoSoapOut">
+    <wsdl:part name="parameters" element="tns:EnviarCorreoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadImageJpgSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadImageJpg" />
+  </wsdl:message>
+  <wsdl:message name="UploadImageJpgSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadImageJpgResponse" />
+  </wsdl:message>
+  <wsdl:message name="FileExisteSoapIn">
+    <wsdl:part name="parameters" element="tns:FileExiste" />
+  </wsdl:message>
+  <wsdl:message name="FileExisteSoapOut">
+    <wsdl:part name="parameters" element="tns:FileExisteResponse" />
+  </wsdl:message>
+  <wsdl:message name="LeerImageJpgSoapIn">
+    <wsdl:part name="parameters" element="tns:LeerImageJpg" />
+  </wsdl:message>
+  <wsdl:message name="LeerImageJpgSoapOut">
+    <wsdl:part name="parameters" element="tns:LeerImageJpgResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByteSoapIn">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByte" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByteSoapOut">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByteResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByte_NativoSoapIn">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByte_Nativo" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByte_NativoSoapOut">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByte_NativoResponse" />
+  </wsdl:message>
+  <wsdl:message name="LeerArchivoByteSoapIn">
+    <wsdl:part name="parameters" element="tns:LeerArchivoByte" />
+  </wsdl:message>
+  <wsdl:message name="LeerArchivoByteSoapOut">
+    <wsdl:part name="parameters" element="tns:LeerArchivoByteResponse" />
+  </wsdl:message>
+  <wsdl:message name="LeerArchivoByte_NativoSoapIn">
+    <wsdl:part name="parameters" element="tns:LeerArchivoByte_Nativo" />
+  </wsdl:message>
+  <wsdl:message name="LeerArchivoByte_NativoSoapOut">
+    <wsdl:part name="parameters" element="tns:LeerArchivoByte_NativoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByte_v2SoapIn">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByte_v2" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByte_v2SoapOut">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByte_v2Response" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoDigitalSoapIn">
+    <wsdl:part name="parameters" element="tns:SubirArchivoDigital" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoDigitalSoapOut">
+    <wsdl:part name="parameters" element="tns:SubirArchivoDigitalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivoDigitalSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarArchivoDigital" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivoDigitalSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarArchivoDigitalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivoDigital_NativoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarArchivoDigital_Nativo" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivoDigital_NativoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarArchivoDigital_NativoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivoDigitalByte_NativoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarArchivoDigitalByte_Nativo" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivoDigitalByte_NativoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarArchivoDigitalByte_NativoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivoDigitalByteSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarArchivoDigitalByte" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivoDigitalByteSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarArchivoDigitalByteResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByteArbolDirectorioSoapIn">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByteArbolDirectorio" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByteArbolDirectorioSoapOut">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByteArbolDirectorioResponse" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_Registro_FotoByteSoapIn">
+    <wsdl:part name="parameters" element="tns:Reniec_Registro_FotoByte" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_Registro_FotoByteSoapOut">
+    <wsdl:part name="parameters" element="tns:Reniec_Registro_FotoByteResponse" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_Registro_ListarSoapIn">
+    <wsdl:part name="parameters" element="tns:Reniec_Registro_Listar" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_Registro_ListarSoapOut">
+    <wsdl:part name="parameters" element="tns:Reniec_Registro_ListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_Registro_ListarNombresSoapIn">
+    <wsdl:part name="parameters" element="tns:Reniec_Registro_ListarNombres" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_Registro_ListarNombresSoapOut">
+    <wsdl:part name="parameters" element="tns:Reniec_Registro_ListarNombresResponse" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_ConsultarSoapIn">
+    <wsdl:part name="parameters" element="tns:Reniec_Consultar" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_ConsultarSoapOut">
+    <wsdl:part name="parameters" element="tns:Reniec_ConsultarResponse" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_ListarDNISoapIn">
+    <wsdl:part name="parameters" element="tns:Reniec_ListarDNI" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_ListarDNISoapOut">
+    <wsdl:part name="parameters" element="tns:Reniec_ListarDNIResponse" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_ListarNombresSoapIn">
+    <wsdl:part name="parameters" element="tns:Reniec_ListarNombres" />
+  </wsdl:message>
+  <wsdl:message name="Reniec_ListarNombresSoapOut">
+    <wsdl:part name="parameters" element="tns:Reniec_ListarNombresResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PopeLocalSoap">
+    <wsdl:operation name="FechaHoy">
+      <wsdl:input message="tns:FechaHoySoapIn" />
+      <wsdl:output message="tns:FechaHoySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Version">
+      <wsdl:input message="tns:VersionSoapIn" />
+      <wsdl:output message="tns:VersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:input message="tns:TestSoapIn" />
+      <wsdl:output message="tns:TestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarCorreo">
+      <wsdl:input message="tns:EnviarCorreoSoapIn" />
+      <wsdl:output message="tns:EnviarCorreoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadImageJpg">
+      <wsdl:input message="tns:UploadImageJpgSoapIn" />
+      <wsdl:output message="tns:UploadImageJpgSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FileExiste">
+      <wsdl:input message="tns:FileExisteSoapIn" />
+      <wsdl:output message="tns:FileExisteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LeerImageJpg">
+      <wsdl:input message="tns:LeerImageJpgSoapIn" />
+      <wsdl:output message="tns:LeerImageJpgSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte">
+      <wsdl:input message="tns:SubirArchivoByteSoapIn" />
+      <wsdl:output message="tns:SubirArchivoByteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte_Nativo">
+      <wsdl:input message="tns:SubirArchivoByte_NativoSoapIn" />
+      <wsdl:output message="tns:SubirArchivoByte_NativoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LeerArchivoByte">
+      <wsdl:input message="tns:LeerArchivoByteSoapIn" />
+      <wsdl:output message="tns:LeerArchivoByteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LeerArchivoByte_Nativo">
+      <wsdl:input message="tns:LeerArchivoByte_NativoSoapIn" />
+      <wsdl:output message="tns:LeerArchivoByte_NativoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte_v2">
+      <wsdl:input message="tns:SubirArchivoByte_v2SoapIn" />
+      <wsdl:output message="tns:SubirArchivoByte_v2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoDigital">
+      <wsdl:input message="tns:SubirArchivoDigitalSoapIn" />
+      <wsdl:output message="tns:SubirArchivoDigitalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigital">
+      <wsdl:input message="tns:ListarArchivoDigitalSoapIn" />
+      <wsdl:output message="tns:ListarArchivoDigitalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigital_Nativo">
+      <wsdl:input message="tns:ListarArchivoDigital_NativoSoapIn" />
+      <wsdl:output message="tns:ListarArchivoDigital_NativoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigitalByte_Nativo">
+      <wsdl:input message="tns:ListarArchivoDigitalByte_NativoSoapIn" />
+      <wsdl:output message="tns:ListarArchivoDigitalByte_NativoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigitalByte">
+      <wsdl:input message="tns:ListarArchivoDigitalByteSoapIn" />
+      <wsdl:output message="tns:ListarArchivoDigitalByteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByteArbolDirectorio">
+      <wsdl:input message="tns:SubirArchivoByteArbolDirectorioSoapIn" />
+      <wsdl:output message="tns:SubirArchivoByteArbolDirectorioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Registro_FotoByte">
+      <wsdl:input message="tns:Reniec_Registro_FotoByteSoapIn" />
+      <wsdl:output message="tns:Reniec_Registro_FotoByteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Registro_Listar">
+      <wsdl:input message="tns:Reniec_Registro_ListarSoapIn" />
+      <wsdl:output message="tns:Reniec_Registro_ListarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Registro_ListarNombres">
+      <wsdl:input message="tns:Reniec_Registro_ListarNombresSoapIn" />
+      <wsdl:output message="tns:Reniec_Registro_ListarNombresSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Consultar">
+      <wsdl:input message="tns:Reniec_ConsultarSoapIn" />
+      <wsdl:output message="tns:Reniec_ConsultarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_ListarDNI">
+      <wsdl:input message="tns:Reniec_ListarDNISoapIn" />
+      <wsdl:output message="tns:Reniec_ListarDNISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_ListarNombres">
+      <wsdl:input message="tns:Reniec_ListarNombresSoapIn" />
+      <wsdl:output message="tns:Reniec_ListarNombresSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PopeLocalSoap" type="tns:PopeLocalSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FechaHoy">
+      <soap:operation soapAction="http://tempuri.org/FechaHoy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Version">
+      <soap:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarCorreo">
+      <soap:operation soapAction="http://tempuri.org/EnviarCorreo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadImageJpg">
+      <soap:operation soapAction="http://tempuri.org/UploadImageJpg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileExiste">
+      <soap:operation soapAction="http://tempuri.org/FileExiste" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LeerImageJpg">
+      <soap:operation soapAction="http://tempuri.org/LeerImageJpg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte">
+      <soap:operation soapAction="http://tempuri.org/SubirArchivoByte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte_Nativo">
+      <soap:operation soapAction="http://tempuri.org/SubirArchivoByte_Nativo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LeerArchivoByte">
+      <soap:operation soapAction="http://tempuri.org/LeerArchivoByte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LeerArchivoByte_Nativo">
+      <soap:operation soapAction="http://tempuri.org/LeerArchivoByte_Nativo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte_v2">
+      <soap:operation soapAction="http://tempuri.org/SubirArchivoByte_v2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoDigital">
+      <soap:operation soapAction="http://tempuri.org/SubirArchivoDigital" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigital">
+      <soap:operation soapAction="http://tempuri.org/ListarArchivoDigital" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigital_Nativo">
+      <soap:operation soapAction="http://tempuri.org/ListarArchivoDigital_Nativo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigitalByte_Nativo">
+      <soap:operation soapAction="http://tempuri.org/ListarArchivoDigitalByte_Nativo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigitalByte">
+      <soap:operation soapAction="http://tempuri.org/ListarArchivoDigitalByte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByteArbolDirectorio">
+      <soap:operation soapAction="http://tempuri.org/SubirArchivoByteArbolDirectorio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Registro_FotoByte">
+      <soap:operation soapAction="http://tempuri.org/Reniec_Registro_FotoByte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Registro_Listar">
+      <soap:operation soapAction="http://tempuri.org/Reniec_Registro_Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Registro_ListarNombres">
+      <soap:operation soapAction="http://tempuri.org/Reniec_Registro_ListarNombres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Consultar">
+      <soap:operation soapAction="http://tempuri.org/Reniec_Consultar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_ListarDNI">
+      <soap:operation soapAction="http://tempuri.org/Reniec_ListarDNI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_ListarNombres">
+      <soap:operation soapAction="http://tempuri.org/Reniec_ListarNombres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PopeLocalSoap12" type="tns:PopeLocalSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FechaHoy">
+      <soap12:operation soapAction="http://tempuri.org/FechaHoy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Version">
+      <soap12:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarCorreo">
+      <soap12:operation soapAction="http://tempuri.org/EnviarCorreo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadImageJpg">
+      <soap12:operation soapAction="http://tempuri.org/UploadImageJpg" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileExiste">
+      <soap12:operation soapAction="http://tempuri.org/FileExiste" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LeerImageJpg">
+      <soap12:operation soapAction="http://tempuri.org/LeerImageJpg" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte">
+      <soap12:operation soapAction="http://tempuri.org/SubirArchivoByte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte_Nativo">
+      <soap12:operation soapAction="http://tempuri.org/SubirArchivoByte_Nativo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LeerArchivoByte">
+      <soap12:operation soapAction="http://tempuri.org/LeerArchivoByte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LeerArchivoByte_Nativo">
+      <soap12:operation soapAction="http://tempuri.org/LeerArchivoByte_Nativo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte_v2">
+      <soap12:operation soapAction="http://tempuri.org/SubirArchivoByte_v2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoDigital">
+      <soap12:operation soapAction="http://tempuri.org/SubirArchivoDigital" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigital">
+      <soap12:operation soapAction="http://tempuri.org/ListarArchivoDigital" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigital_Nativo">
+      <soap12:operation soapAction="http://tempuri.org/ListarArchivoDigital_Nativo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigitalByte_Nativo">
+      <soap12:operation soapAction="http://tempuri.org/ListarArchivoDigitalByte_Nativo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivoDigitalByte">
+      <soap12:operation soapAction="http://tempuri.org/ListarArchivoDigitalByte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByteArbolDirectorio">
+      <soap12:operation soapAction="http://tempuri.org/SubirArchivoByteArbolDirectorio" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Registro_FotoByte">
+      <soap12:operation soapAction="http://tempuri.org/Reniec_Registro_FotoByte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Registro_Listar">
+      <soap12:operation soapAction="http://tempuri.org/Reniec_Registro_Listar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Registro_ListarNombres">
+      <soap12:operation soapAction="http://tempuri.org/Reniec_Registro_ListarNombres" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_Consultar">
+      <soap12:operation soapAction="http://tempuri.org/Reniec_Consultar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_ListarDNI">
+      <soap12:operation soapAction="http://tempuri.org/Reniec_ListarDNI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reniec_ListarNombres">
+      <soap12:operation soapAction="http://tempuri.org/Reniec_ListarNombres" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PopeLocal">
+    <wsdl:port name="PopeLocalSoap" binding="tns:PopeLocalSoap">
+      <soap:address location="http://localhost/sip/multimedia_local_lurigancho/PopeLocal.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PopeLocalSoap12" binding="tns:PopeLocalSoap12">
+      <soap12:address location="http://localhost/sip/multimedia_local_lurigancho/PopeLocal.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

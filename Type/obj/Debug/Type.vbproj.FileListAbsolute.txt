@@ -1,0 +1,30 @@
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\bin\Debug\Type.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\bin\Debug\Type.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\bin\Debug\Type.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.vbproj.AssemblyReference.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.Resources.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.vbproj.GenerateResource.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.vbproj.CoreCompileInputs.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\bin\Debug\Type.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\bin\Debug\Type.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\bin\Debug\Type.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.vbproj.AssemblyReference.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.Resources.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.vbproj.GenerateResource.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.vbproj.CoreCompileInputs.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\bin\Debug\Type.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\bin\Debug\Type.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\bin\Debug\Type.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.vbproj.AssemblyReference.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.Resources.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.vbproj.GenerateResource.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.vbproj.CoreCompileInputs.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\Type\obj\Debug\Type.pdb

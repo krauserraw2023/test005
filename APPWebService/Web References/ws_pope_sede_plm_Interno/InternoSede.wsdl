@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getFecha">
+        <s:complexType />
+      </s:element>
+      <s:element name="getFechaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getFechaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="getVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarMovIntSede">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtoInt" type="tns:DTO_Interno" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_Interno">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDInternoSede" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoRP" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoDocumentoID" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDocumento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombres" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EstadoInterno" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaNacimiento" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDNacionalidad" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDPenal" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDRegion" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDRow" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="IngresoDto" type="tns:DTOInternoIngreso" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTOInternoIngreso">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDInternoSede" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDIngresoLocal" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDTipoMovimiento" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDMovimientoMotivo" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaISP" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaIngreso" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumeroIngreso" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="Observacion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDUsuarioCreacion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDUsuarioModificacion" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListarMovIntSedeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarMovIntSedeResult" type="tns:DTO_ResultOfDataTable" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfDataTable">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado">
+            <s:complexType>
+              <s:sequence>
+                <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+          <s:element minOccurs="1" maxOccurs="1" name="Error_cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InternoPLM_Match">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDto" type="tns:DTO_Interno" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InternoPLM_MatchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InternoPLM_MatchResult" type="tns:DTO_ResultOfDataSet" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfDataSet">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+          <s:element minOccurs="1" maxOccurs="1" name="Error_cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InternoPLM_SelectRowID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDto" type="tns:DTO_Interno" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InternoPLM_SelectRowIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InternoPLM_SelectRowIDResult" type="tns:DTO_ResultOfDataTable" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InternoPLM_GrabarDatosBasicos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDto" type="tns:DTO_Interno" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InternoPLM_GrabarDatosBasicosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InternoPLM_GrabarDatosBasicosResult" type="tns:DTO_ResultOfInt64" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfInt64">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Resultado" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ValidarSihayDatosInternoPLM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDInternoSede" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarSihayDatosInternoPLMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidarSihayDatosInternoPLMResult" type="tns:DTO_ResultOfBoolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfBoolean">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Resultado" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getFechaSoapIn">
+    <wsdl:part name="parameters" element="tns:getFecha" />
+  </wsdl:message>
+  <wsdl:message name="getFechaSoapOut">
+    <wsdl:part name="parameters" element="tns:getFechaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:getVersion" />
+  </wsdl:message>
+  <wsdl:message name="getVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:getVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarMovIntSedeSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarMovIntSede" />
+  </wsdl:message>
+  <wsdl:message name="ListarMovIntSedeSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarMovIntSedeResponse" />
+  </wsdl:message>
+  <wsdl:message name="InternoPLM_MatchSoapIn">
+    <wsdl:part name="parameters" element="tns:InternoPLM_Match" />
+  </wsdl:message>
+  <wsdl:message name="InternoPLM_MatchSoapOut">
+    <wsdl:part name="parameters" element="tns:InternoPLM_MatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="InternoPLM_SelectRowIDSoapIn">
+    <wsdl:part name="parameters" element="tns:InternoPLM_SelectRowID" />
+  </wsdl:message>
+  <wsdl:message name="InternoPLM_SelectRowIDSoapOut">
+    <wsdl:part name="parameters" element="tns:InternoPLM_SelectRowIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="InternoPLM_GrabarDatosBasicosSoapIn">
+    <wsdl:part name="parameters" element="tns:InternoPLM_GrabarDatosBasicos" />
+  </wsdl:message>
+  <wsdl:message name="InternoPLM_GrabarDatosBasicosSoapOut">
+    <wsdl:part name="parameters" element="tns:InternoPLM_GrabarDatosBasicosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidarSihayDatosInternoPLMSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidarSihayDatosInternoPLM" />
+  </wsdl:message>
+  <wsdl:message name="ValidarSihayDatosInternoPLMSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidarSihayDatosInternoPLMResponse" />
+  </wsdl:message>
+  <wsdl:portType name="InternoSedeSoap">
+    <wsdl:operation name="getFecha">
+      <wsdl:input message="tns:getFechaSoapIn" />
+      <wsdl:output message="tns:getFechaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <wsdl:input message="tns:getVersionSoapIn" />
+      <wsdl:output message="tns:getVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarMovIntSede">
+      <wsdl:input message="tns:ListarMovIntSedeSoapIn" />
+      <wsdl:output message="tns:ListarMovIntSedeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InternoPLM_Match">
+      <wsdl:input message="tns:InternoPLM_MatchSoapIn" />
+      <wsdl:output message="tns:InternoPLM_MatchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InternoPLM_SelectRowID">
+      <wsdl:input message="tns:InternoPLM_SelectRowIDSoapIn" />
+      <wsdl:output message="tns:InternoPLM_SelectRowIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InternoPLM_GrabarDatosBasicos">
+      <wsdl:input message="tns:InternoPLM_GrabarDatosBasicosSoapIn" />
+      <wsdl:output message="tns:InternoPLM_GrabarDatosBasicosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarSihayDatosInternoPLM">
+      <wsdl:input message="tns:ValidarSihayDatosInternoPLMSoapIn" />
+      <wsdl:output message="tns:ValidarSihayDatosInternoPLMSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="InternoSedeSoap" type="tns:InternoSedeSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getFecha">
+      <soap:operation soapAction="http://tempuri.org/getFecha" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <soap:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarMovIntSede">
+      <soap:operation soapAction="http://tempuri.org/ListarMovIntSede" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InternoPLM_Match">
+      <soap:operation soapAction="http://tempuri.org/InternoPLM_Match" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InternoPLM_SelectRowID">
+      <soap:operation soapAction="http://tempuri.org/InternoPLM_SelectRowID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InternoPLM_GrabarDatosBasicos">
+      <soap:operation soapAction="http://tempuri.org/InternoPLM_GrabarDatosBasicos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarSihayDatosInternoPLM">
+      <soap:operation soapAction="http://tempuri.org/ValidarSihayDatosInternoPLM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="InternoSedeSoap12" type="tns:InternoSedeSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getFecha">
+      <soap12:operation soapAction="http://tempuri.org/getFecha" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <soap12:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarMovIntSede">
+      <soap12:operation soapAction="http://tempuri.org/ListarMovIntSede" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InternoPLM_Match">
+      <soap12:operation soapAction="http://tempuri.org/InternoPLM_Match" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InternoPLM_SelectRowID">
+      <soap12:operation soapAction="http://tempuri.org/InternoPLM_SelectRowID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InternoPLM_GrabarDatosBasicos">
+      <soap12:operation soapAction="http://tempuri.org/InternoPLM_GrabarDatosBasicos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarSihayDatosInternoPLM">
+      <soap12:operation soapAction="http://tempuri.org/ValidarSihayDatosInternoPLM" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="InternoSede">
+    <wsdl:port name="InternoSedeSoap" binding="tns:InternoSedeSoap">
+      <soap:address location="http://ws.inpe.gob.pe/SIP/SedePLM/InternoSede.asmx" />
+    </wsdl:port>
+    <wsdl:port name="InternoSedeSoap12" binding="tns:InternoSedeSoap12">
+      <soap12:address location="http://ws.inpe.gob.pe/SIP/SedePLM/InternoSede.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

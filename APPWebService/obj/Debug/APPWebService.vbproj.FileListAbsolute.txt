@@ -1,0 +1,58 @@
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.dll.config
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.Components.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.LBusiness.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Type.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.LEntity.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.Configuration.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.LData.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Type.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Type.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.AssemblyReference.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.Resources.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.GenerateResource.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.CoreCompileInputs.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.CopyComplete
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.dll.config
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.Components.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.LBusiness.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Type.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.LEntity.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.Configuration.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.LData.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Type.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Type.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.AssemblyReference.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.Resources.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.GenerateResource.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.CoreCompileInputs.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.CopyComplete
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.dll.config
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\APPWebService.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Type.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.LEntity.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.Configuration.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Legolas.LData.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Type.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\bin\Debug\Type.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.AssemblyReference.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.Resources.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.GenerateResource.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.CoreCompileInputs.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.vbproj.CopyComplete
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPWebService\obj\Debug\APPWebService.pdb

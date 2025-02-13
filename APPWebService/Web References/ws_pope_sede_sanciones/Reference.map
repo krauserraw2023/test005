@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://wsdev.inpe.gob.pe/Pope/sedesanciones/Sanciones.asmx?disco" filename="Sanciones.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://wsdev.inpe.gob.pe/Pope/sedesanciones/Sanciones.asmx?wsdl" filename="Sanciones.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

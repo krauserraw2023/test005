@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Version">
+        <s:complexType />
+      </s:element>
+      <s:element name="VersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarCalidadHuella">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="obj" type="tns:DTO_CalidadHuella" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_CalidadHuella">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI_Usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI_Ciudadano" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IP_Cliente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mac_Cliente" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ConsultarCalidadHuellaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultarCalidadHuellaResult" type="tns:DTO_ResultOfDTO_Result_CalidadHuella" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfDTO_Result_CalidadHuella">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado" type="tns:DTO_Result_CalidadHuella" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_Cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTO_Result_CalidadHuella">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Respuesta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoHuellaDerecha" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescripcionHuellaDerecha" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoHuellaIzquierda" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescripcionHuellaIzquierda" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="VerificarHuellaWSQ">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="obj" type="tns:DTO_VerificarHuellaWSQ" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_VerificarHuellaWSQ">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI_Usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI_Ciudadano" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HuellaWSQDerecha" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="HuellaWSQIzquierda" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="IP_Cliente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mac_Cliente" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="VerificarHuellaWSQResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VerificarHuellaWSQResult" type="tns:DTO_ResultOfDTO_ResultVerificarHuellaWSQ" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfDTO_ResultVerificarHuellaWSQ">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado" type="tns:DTO_ResultVerificarHuellaWSQ" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_Cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTO_ResultVerificarHuellaWSQ">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoResultado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Corresponde" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI_Ciudadano" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrimerApellido" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SegundoApellido" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombres" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaCaducidadDNI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Restriccion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="VerificarHuellaANSI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="obj" type="tns:DTO_VerificarHuellaAnsi" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_VerificarHuellaAnsi">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI_Usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI_Ciudadano" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HuellaANSIDerechaByte" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="HuellaANSIIzquierdaByte" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="IP_Cliente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mac_Cliente" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="VerificarHuellaANSIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VerificarHuellaANSIResult" type="tns:DTO_ResultOfDTO_ResultVerificarHuellaAnsi" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfDTO_ResultVerificarHuellaAnsi">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado" type="tns:DTO_ResultVerificarHuellaAnsi" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_Cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTO_ResultVerificarHuellaAnsi">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DTO_ResultVerificarHuellaWSQ" />
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GrabarHuellaUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="obj" type="tns:DTO_HuellaUsuario" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_HuellaUsuario">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDNI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrimerApellido" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SegundoApellido" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombres" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HuellaDerechoWSQ" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="HuellaIzquierdoWSQ" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="HuellaDerechoANSI" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="HuellaIzquierdoANSI" type="s:base64Binary" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoDedoIzquierdo" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoDedoDerecho" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDUsuario" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioLogin" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GrabarHuellaUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GrabarHuellaUsuarioResult" type="tns:DTO_ResultOfInt32" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfInt32">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Resultado" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_Cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="VersionSoapIn">
+    <wsdl:part name="parameters" element="tns:Version" />
+  </wsdl:message>
+  <wsdl:message name="VersionSoapOut">
+    <wsdl:part name="parameters" element="tns:VersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarCalidadHuellaSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultarCalidadHuella" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarCalidadHuellaSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultarCalidadHuellaResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerificarHuellaWSQSoapIn">
+    <wsdl:part name="parameters" element="tns:VerificarHuellaWSQ" />
+  </wsdl:message>
+  <wsdl:message name="VerificarHuellaWSQSoapOut">
+    <wsdl:part name="parameters" element="tns:VerificarHuellaWSQResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerificarHuellaANSISoapIn">
+    <wsdl:part name="parameters" element="tns:VerificarHuellaANSI" />
+  </wsdl:message>
+  <wsdl:message name="VerificarHuellaANSISoapOut">
+    <wsdl:part name="parameters" element="tns:VerificarHuellaANSIResponse" />
+  </wsdl:message>
+  <wsdl:message name="GrabarHuellaUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarHuellaUsuario" />
+  </wsdl:message>
+  <wsdl:message name="GrabarHuellaUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarHuellaUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="VerificacionBiometricaSoap">
+    <wsdl:operation name="Version">
+      <wsdl:input message="tns:VersionSoapIn" />
+      <wsdl:output message="tns:VersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarCalidadHuella">
+      <wsdl:input message="tns:ConsultarCalidadHuellaSoapIn" />
+      <wsdl:output message="tns:ConsultarCalidadHuellaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificarHuellaWSQ">
+      <wsdl:input message="tns:VerificarHuellaWSQSoapIn" />
+      <wsdl:output message="tns:VerificarHuellaWSQSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificarHuellaANSI">
+      <wsdl:input message="tns:VerificarHuellaANSISoapIn" />
+      <wsdl:output message="tns:VerificarHuellaANSISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GrabarHuellaUsuario">
+      <wsdl:input message="tns:GrabarHuellaUsuarioSoapIn" />
+      <wsdl:output message="tns:GrabarHuellaUsuarioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="VerificacionBiometricaSoap" type="tns:VerificacionBiometricaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Version">
+      <soap:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarCalidadHuella">
+      <soap:operation soapAction="http://tempuri.org/ConsultarCalidadHuella" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarHuellaWSQ">
+      <soap:operation soapAction="http://tempuri.org/VerificarHuellaWSQ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarHuellaANSI">
+      <soap:operation soapAction="http://tempuri.org/VerificarHuellaANSI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarHuellaUsuario">
+      <soap:operation soapAction="http://tempuri.org/GrabarHuellaUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VerificacionBiometricaSoap12" type="tns:VerificacionBiometricaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Version">
+      <soap12:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarCalidadHuella">
+      <soap12:operation soapAction="http://tempuri.org/ConsultarCalidadHuella" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarHuellaWSQ">
+      <soap12:operation soapAction="http://tempuri.org/VerificarHuellaWSQ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarHuellaANSI">
+      <soap12:operation soapAction="http://tempuri.org/VerificarHuellaANSI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarHuellaUsuario">
+      <soap12:operation soapAction="http://tempuri.org/GrabarHuellaUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="VerificacionBiometrica">
+    <wsdl:port name="VerificacionBiometricaSoap" binding="tns:VerificacionBiometricaSoap">
+      <soap:address location="http://srvdesappall:8080/SedeCentral/SedeBiometria/VerificacionBiometrica.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VerificacionBiometricaSoap12" binding="tns:VerificacionBiometricaSoap12">
+      <soap12:address location="http://srvdesappall:8080/SedeCentral/SedeBiometria/VerificacionBiometrica.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

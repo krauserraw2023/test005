@@ -1,0 +1,3218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E74633A7-1DB5-4320-B372-11F16D9747B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>SIPPOPE</RootNamespace>
+    <AssemblyName>SIPPOPE</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <ManifestCertificateThumbprint>19AB3C1E613542DA804BBF37A2B925A34C57F42D</ManifestCertificateThumbprint>
+    <ManifestKeyFile>APP_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ApplicationIcon>inpe_ico.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>http://localhost/SIPRPLITE/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SIPPOPE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SIPPOPE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>SIPPOPE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>SIPPOPE.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.CTLODONLib">
+      <HintPath>..\..\..\DLL\AxInterop.CTLODONLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DataClass">
+      <HintPath>..\..\..\DLL\DataClass.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CTLODONLib">
+      <HintPath>..\..\..\DLL\Interop.CTLODONLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\DLL\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.APPUIComponents">
+      <HintPath>..\..\..\DLL\Legolas.APPUIComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.Components">
+      <HintPath>..\..\..\DLL\Legolas.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.Configuration">
+      <HintPath>..\..\..\DLL\Legolas.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LBusiness">
+      <HintPath>..\..\..\DLL\Legolas.LBusiness.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LEntity">
+      <HintPath>..\..\..\DLL\Legolas.LEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LType">
+      <HintPath>..\..\..\DLL\Legolas.LType.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config.vb" />
+    <Compile Include="Estadistica\plm\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\plm\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\v5\frmPadinDetalleV2.Designer.vb">
+      <DependentUpon>frmPadinDetalleV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\v5\frmPadinDetalleV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicioSesion.Designer.vb">
+      <DependentUpon>frmInicioSesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\frmReportePopup.Designer.vb">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\frmReportePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\frmExportDetPadin.Designer.vb">
+      <DependentUpon>frmExportDetPadin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\frmExportDetPadin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\frmPadinDetalleMensajePopup.Designer.vb">
+      <DependentUpon>frmPadinDetalleMensajePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\frmPadinDetalleMensajePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\v5\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\v5\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\frmPadinDetalleFamilia.Designer.vb">
+      <DependentUpon>frmPadinDetalleFamilia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\frmPadinDetalleFamilia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\v4.5\frmPadinDetalle.Designer.vb">
+      <DependentUpon>frmPadinDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\v4.5\frmPadinDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\v5\frmPadinDetalle.Designer.vb">
+      <DependentUpon>frmPadinDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\v5\frmPadinDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\v5\frmPadinPopup.Designer.vb">
+      <DependentUpon>frmPadinPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\v5\frmPadinPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAboutBox.Designer.vb">
+      <DependentUpon>frmAboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicioSesion_v2.Designer.vb">
+      <DependentUpon>frmInicioSesion_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioSesion_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPopupAviso.Designer.vb">
+      <DependentUpon>frmPopupAviso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPopupAviso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huella\Registro\frmValidarDNI.designer.vb">
+      <DependentUpon>frmValidarDNI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huella\Registro\frmValidarDNI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huella\Registro\frmValidarHuella.designer.vb">
+      <DependentUpon>frmValidarHuella.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huella\Registro\frmValidarHuella.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load\frmLoadEnviandoSede.Designer.vb">
+      <DependentUpon>frmLoadEnviandoSede.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load\frmLoadEnviandoSede.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load\frmLoad02.Designer.vb">
+      <DependentUpon>frmLoad02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load\frmLoad02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load\frmLoadMensaje.Designer.vb">
+      <DependentUpon>frmLoadMensaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load\frmLoadMensaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load\frmProcesando.Designer.vb">
+      <DependentUpon>frmProcesando.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load\frmProcesando.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Busqueda\frmMovimientoMotivoPopup.Designer.vb">
+      <DependentUpon>frmMovimientoMotivoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Busqueda\frmMovimientoMotivoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Busqueda\frmDistritoJudicialPopup.Designer.vb">
+      <DependentUpon>frmDistritoJudicialPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Busqueda\frmDistritoJudicialPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmAmbientePopup.Designer.vb">
+      <DependentUpon>frmAmbientePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmAmbientePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmMantAleroPopup.Designer.vb">
+      <DependentUpon>frmMantAleroPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmMantAleroPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmMantPisoPopup.Designer.vb">
+      <DependentUpon>frmMantPisoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmMantPisoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Delito\frmBuscar_v2.Designer.vb">
+      <DependentUpon>frmBuscar_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Delito\frmBuscar_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoDelito\frmBuscarPopup.Designer.vb">
+      <DependentUpon>frmBuscarPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoDelito\frmBuscarPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Delito\frmMant_v2.Designer.vb">
+      <DependentUpon>frmMant_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Delito\frmMant_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoEgreso\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoEgreso\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoEgreso\frmMantDetPopup.Designer.vb">
+      <DependentUpon>frmMantDetPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoEgreso\frmMantDetPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantResultadoDetPopup.Designer.vb">
+      <DependentUpon>frmMantResultadoDetPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantResultadoDetPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantResultadoPopup.Designer.vb">
+      <DependentUpon>frmMantResultadoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantResultadoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmCategorizacionPopup.Designer.vb">
+      <DependentUpon>frmCategorizacionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmCategorizacionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantFicha.Designer.vb">
+      <DependentUpon>frmMantFicha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantFicha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantFichaPopup.Designer.vb">
+      <DependentUpon>frmMantFichaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantFichaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantIndicadorPopup.Designer.vb">
+      <DependentUpon>frmMantIndicadorPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantIndicadorPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantVariablePopup.Designer.vb">
+      <DependentUpon>frmMantVariablePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\frmMantVariablePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\frmActualizarWeb_v3.Designer.vb">
+      <DependentUpon>frmActualizarWeb_v3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\frmActualizarWeb_v3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\frmTablasMaestrasPopup.Designer.vb">
+      <DependentUpon>frmTablasMaestrasPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\frmTablasMaestrasPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmMantPopup.Designer.vb">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Pabellon\frmMantPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoDelito\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoDelito\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoDelito\frmCuadro2Popup_v2.Designer.vb">
+      <DependentUpon>frmCuadro2Popup_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Reporte\GrupoDelito\frmCuadro2Popup_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Sala\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Sala\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Sala\frmSalaPopup.Designer.vb">
+      <DependentUpon>frmSalaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Sala\frmSalaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\TablasMaestras.vb" />
+    <Compile Include="MDIParent1.Designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Busqueda\frmDelitoPopup.Designer.vb">
+      <DependentUpon>frmDelitoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Busqueda\frmDelitoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permisos.vb" />
+    <Compile Include="Registro\AlertaSentencias\frmAlertaSentenciaDetalle.Designer.vb">
+      <DependentUpon>frmAlertaSentenciaDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\AlertaSentencias\frmAlertaSentenciaDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\AlertaSentencias\frmAlertasSentenciasCabecera.Designer.vb">
+      <DependentUpon>frmAlertasSentenciasCabecera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\AlertaSentencias\frmAlertasSentenciasCabecera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\AlertaSentencias\frmReporteAlerta.Designer.vb">
+      <DependentUpon>frmReporteAlerta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\AlertaSentencias\frmReporteAlerta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmBusquedaPorHuella.Designer.vb">
+      <DependentUpon>frmBusquedaPorHuella.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmBusquedaPorHuella.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\frmDetalleFicha_v2.Designer.vb">
+      <DependentUpon>frmDetalleFicha_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\frmDetalleFicha_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\frmDetIndicador.Designer.vb">
+      <DependentUpon>frmDetIndicador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\frmDetIndicador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\frmEditorTextPopup.Designer.vb">
+      <DependentUpon>frmEditorTextPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\frmEditorTextPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Identificacion\frmIngresoPopup_V2.Designer.vb">
+      <DependentUpon>frmIngresoPopup_V2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Identificacion\frmIngresoPopup_V2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Movimientos\frmMovimientoConduccionClasificacion.Designer.vb">
+      <DependentUpon>frmMovimientoConduccionClasificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Movimientos\frmMovimientoConduccionClasificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmAnular.Designer.vb">
+      <DependentUpon>frmAnular.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmAnular.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmObsPopup.Designer.vb">
+      <DependentUpon>frmObsPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmObsPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmReporte.Designer.vb">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmTramite.Designer.vb">
+      <DependentUpon>frmTramite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\ConstanciaReclusion\frmTramite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\frmListaDelitosHistoricos.Designer.vb">
+      <DependentUpon>frmListaDelitosHistoricos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\frmListaDelitosHistoricos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmBuscar_v2.designer.vb">
+      <DependentUpon>frmBuscar_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmBuscar_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmListaDocumentosDescargados.Designer.vb">
+      <DependentUpon>frmListaDocumentosDescargados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmListaDocumentosDescargados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmMant_v2.Designer.vb">
+      <DependentUpon>frmMant_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmMant_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\RegularizacionDatos\frmUpdateIngresoInpePopup.Designer.vb">
+      <DependentUpon>frmUpdateIngresoInpePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\RegularizacionDatos\frmUpdateIngresoInpePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\RegularizacionDatos\frmVinculacionPLMPopup.Designer.vb">
+      <DependentUpon>frmVinculacionPLMPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\RegularizacionDatos\frmVinculacionPLMPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Clasificacion\frmDetalleFicha.designer.vb">
+      <DependentUpon>frmDetalleFicha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Clasificacion\frmDetalleFicha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Identificacion\frmIngresoPopup_V2.Designer.vb">
+      <DependentUpon>frmIngresoPopup_V2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Identificacion\frmIngresoPopup_V2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Movimientos\frmMovimientoConducciones.Designer.vb">
+      <DependentUpon>frmMovimientoConducciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Movimientos\frmMovimientoConducciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Antecedentes\frmMantPopup.Designer.vb">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Antecedentes\frmMantPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmBuscar.designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmBuscar_v2.designer.vb">
+      <DependentUpon>frmBuscar_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmBuscar_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmInternoPopup.Designer.vb">
+      <DependentUpon>frmInternoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmInternoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\frmDocDigitalizadoPopup.Designer.vb">
+      <DependentUpon>frmDocDigitalizadoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\frmDocDigitalizadoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Identificacion\frmOdontogramaPopup.designer.vb">
+      <DependentUpon>frmOdontogramaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Identificacion\frmOdontogramaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\frmPanel.Designer.vb">
+      <DependentUpon>frmPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\frmPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Identificacion\frmIngresoPopup.Designer.vb">
+      <DependentUpon>frmIngresoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Identificacion\frmIngresoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Movimientos\frmMovimientoLibertadPLM.Designer.vb">
+      <DependentUpon>frmMovimientoLibertadPLM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Movimientos\frmMovimientoLibertadPLM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmMant.Designer.vb">
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmMant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmMant_v2.Designer.vb">
+      <DependentUpon>frmMant_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\frmMant_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\v5\frmBuscaIntSedeCentralPopup.designer.vb">
+      <DependentUpon>frmBuscaIntSedeCentralPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Busqueda\v5\frmBuscaIntSedeCentralPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmNombreAsociadoPopup_v2.Designer.vb">
+      <DependentUpon>frmNombreAsociadoPopup_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmNombreAsociadoPopup_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoTrasladoHospitalmental.Designer.vb">
+      <DependentUpon>frmMovimientoTrasladoHospitalmental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoTrasladoHospitalmental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v4.5\frmDocJudicial.Designer.vb">
+      <DependentUpon>frmDocJudicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v4.5\frmDocJudicial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmNotaPeriodo.Designer.vb">
+      <DependentUpon>frmNotaPeriodo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmNotaPeriodo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmOrdenTrasladoHospital.Designer.vb">
+      <DependentUpon>frmOrdenTrasladoHospital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmOrdenTrasladoHospital.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmOrdenTrasladoHospital_Nota.designer.vb">
+      <DependentUpon>frmOrdenTrasladoHospital_Nota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmOrdenTrasladoHospital_Nota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmOtrosprocesos.designer.vb">
+      <DependentUpon>frmOtrosprocesos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmOtrosprocesos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmProyeccionVencimientoCondena.Designer.vb">
+      <DependentUpon>frmProyeccionVencimientoCondena.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmProyeccionVencimientoCondena.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolDetencionReferenciado.Designer.vb">
+      <DependentUpon>frmResolDetencionReferenciado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolDetencionReferenciado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolLibertad_v2.designer.vb">
+      <DependentUpon>frmResolLibertad_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolLibertad_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmListarResoluciones.Designer.vb">
+      <DependentUpon>frmListarResoluciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmListarResoluciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmPeriodoCondena.designer.vb">
+      <DependentUpon>frmPeriodoCondena.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmPeriodoCondena.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentenciaNueva.Designer.vb">
+      <DependentUpon>frmResolSentenciaNueva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentenciaNueva.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentenciaConmutacion.designer.vb">
+      <DependentUpon>frmResolSentenciaConmutacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentenciaConmutacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentenciaV2.designer.vb">
+      <DependentUpon>frmResolSentenciaV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentenciaV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmBuscaInternoPopup.Designer.vb">
+      <DependentUpon>frmBuscaInternoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmBuscaInternoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmBuscarAntecedentesPopup.Designer.vb">
+      <DependentUpon>frmBuscarAntecedentesPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmBuscarAntecedentesPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmCertAntecedenteMant.Designer.vb">
+      <DependentUpon>frmCertAntecedenteMant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmCertAntecedenteMant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmDetalleAJPopup.Designer.vb">
+      <DependentUpon>frmDetalleAJPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmDetalleAJPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmTipoCertAntecedente.Designer.vb">
+      <DependentUpon>frmTipoCertAntecedente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Antecedentes\frmTipoCertAntecedente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Busqueda\frmBuscar_v2.Designer.vb">
+      <DependentUpon>frmBuscar_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Busqueda\frmBuscar_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Busqueda\frmMant_v2.Designer.vb">
+      <DependentUpon>frmMant_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Busqueda\frmMant_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Identificacion\frmIngresoPopup_v2.Designer.vb">
+      <DependentUpon>frmIngresoPopup_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Identificacion\frmIngresoPopup_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Identificacion\frmNombreAsociadoPopup.Designer.vb">
+      <DependentUpon>frmNombreAsociadoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Identificacion\frmNombreAsociadoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Identificacion\frmSelectInternoPopup.Designer.vb">
+      <DependentUpon>frmSelectInternoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Identificacion\frmSelectInternoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmBuscaInternoPopup.Designer.vb">
+      <DependentUpon>frmBuscaInternoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmBuscaInternoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmBuscaReniecPopup.Designer.vb">
+      <DependentUpon>frmBuscaReniecPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmBuscaReniecPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Busqueda\frmSalaPopup.Designer.vb">
+      <DependentUpon>frmSalaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Busqueda\frmSalaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\Documento\frmBuscarDocClasificacion.Designer.vb">
+      <DependentUpon>frmBuscarDocClasificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\Documento\frmBuscarDocClasificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\Documento\frmDetGlosaPopup.Designer.vb">
+      <DependentUpon>frmDetGlosaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\Documento\frmDetGlosaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\Documento\frmMantDocClasificacion.Designer.vb">
+      <DependentUpon>frmMantDocClasificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\Documento\frmMantDocClasificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\frmDetalleFicha.designer.vb">
+      <DependentUpon>frmDetalleFicha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Clasificacion\frmDetalleFicha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmListaDocumentosPopup.Designer.vb">
+      <DependentUpon>frmListaDocumentosPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmListaDocumentosPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmExpedientePopup3.Designer.vb">
+      <DependentUpon>frmExpedientePopup3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmExpedientePopup3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmListaExpedientePopup.Designer.vb">
+      <DependentUpon>frmListaExpedientePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmListaExpedientePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmListarLibertad.Designer.vb">
+      <DependentUpon>frmListarLibertad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmListarLibertad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmAliasPopup.Designer.vb">
+      <DependentUpon>frmAliasPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmAliasPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmFamiliarPopupV2.Designer.vb">
+      <DependentUpon>frmFamiliarPopupV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmFamiliarPopupV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmIngresoPopup3.Designer.vb">
+      <DependentUpon>frmIngresoPopup3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmIngresoPopup3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmInternoOrgCriminalPopup.Designer.vb">
+      <DependentUpon>frmInternoOrgCriminalPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmInternoOrgCriminalPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmInternoBandaV2.Designer.vb">
+      <DependentUpon>frmInternoBandaV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmInternoBandaV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmNombreAsociadoDetalle.Designer.vb">
+      <DependentUpon>frmNombreAsociadoDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmNombreAsociadoDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmNombreAsociadoPopup2.Designer.vb">
+      <DependentUpon>frmNombreAsociadoPopup2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmNombreAsociadoPopup2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmRasgosPartiPopup.Designer.vb">
+      <DependentUpon>frmRasgosPartiPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmRasgosPartiPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmSeleccionarIngresoPopup.Designer.vb">
+      <DependentUpon>frmSeleccionarIngresoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmSeleccionarIngresoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmSeñasPartiPopup.Designer.vb">
+      <DependentUpon>frmSeñasPartiPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Identificacion\v5\frmSeñasPartiPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmBuscar.designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmMantenimiento.Designer.vb">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmTipoNacionalidad.Designer.vb">
+      <DependentUpon>frmTipoNacionalidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Busqueda\frmTipoNacionalidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmBuscaIntSedeCentralPopup.designer.vb">
+      <DependentUpon>frmBuscaIntSedeCentralPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmBuscaIntSedeCentralPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmBuscar.designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmMantenimiento.Designer.vb">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\PenaLM\Busqueda\frmMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Busqueda\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Busqueda\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Busqueda\frmMantenimiento.Designer.vb">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Busqueda\frmMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Movimientos\frmInternamiento.Designer.vb">
+      <DependentUpon>frmInternamiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Movimientos\frmInternamiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Movimientos\frmMovimientoTrasladoCarceleta.Designer.vb">
+      <DependentUpon>frmMovimientoTrasladoCarceleta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Carceleta\Movimientos\frmMovimientoTrasladoCarceleta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmListadoDocJudicialPopup.Designer.vb">
+      <DependentUpon>frmListadoDocJudicialPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmListadoDocJudicialPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoConducciones.Designer.vb">
+      <DependentUpon>frmMovimientoConducciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoConducciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoFuga.Designer.vb">
+      <DependentUpon>frmMovimientoFuga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoFuga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoInternamiento.Designer.vb">
+      <DependentUpon>frmMovimientoInternamiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoInternamiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoInternamientoPopup.Designer.vb">
+      <DependentUpon>frmMovimientoInternamientoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoInternamientoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoLibertad.Designer.vb">
+      <DependentUpon>frmMovimientoLibertad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoLibertad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoLibertadPopup.Designer.vb">
+      <DependentUpon>frmMovimientoLibertadPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoLibertadPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoTipoPopup.Designer.vb">
+      <DependentUpon>frmMovimientoTipoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoTipoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoTraslado.Designer.vb">
+      <DependentUpon>frmMovimientoTraslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Movimientos\frmMovimientoTraslado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmNota.Designer.vb">
+      <DependentUpon>frmNota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmNota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmQueda.Designer.vb">
+      <DependentUpon>frmQueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmQueda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolAclaratoriaExpe.Designer.vb">
+      <DependentUpon>frmResolAclaratoriaExpe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolAclaratoriaExpe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolAcumExpedientes.Designer.vb">
+      <DependentUpon>frmResolAcumExpedientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolAcumExpedientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolAmpliaAutoapert.Designer.vb">
+      <DependentUpon>frmResolAmpliaAutoapert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolAmpliaAutoapert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolAvocamiento.Designer.vb">
+      <DependentUpon>frmResolAvocamiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolAvocamiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolDetencion.Designer.vb">
+      <DependentUpon>frmResolDetencion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolDetencion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolIngreso.Designer.vb">
+      <DependentUpon>frmResolIngreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolIngreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolIngresoTraslado.Designer.vb">
+      <DependentUpon>frmResolIngresoTraslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolIngresoTraslado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolLibertad.Designer.vb">
+      <DependentUpon>frmResolLibertad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolLibertad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolPrisionPreventiva.Designer.vb">
+      <DependentUpon>frmResolPrisionPreventiva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolPrisionPreventiva.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolProlongDetencion.Designer.vb">
+      <DependentUpon>frmResolProlongDetencion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolProlongDetencion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolRevocatoriaLibertad.Designer.vb">
+      <DependentUpon>frmResolRevocatoriaLibertad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolRevocatoriaLibertad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolTraslado.Designer.vb">
+      <DependentUpon>frmResolTraslado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolTraslado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolucionTipoPopup.Designer.vb">
+      <DependentUpon>frmResolucionTipoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmResolucionTipoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmVerExpePorResolPopup.Designer.vb">
+      <DependentUpon>frmVerExpePorResolPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Resoluciones\v5\frmVerExpePorResolPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmPeriodoCondenaSentencia.Designer.vb">
+      <DependentUpon>frmPeriodoCondenaSentencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmPeriodoCondenaSentencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolAnulacion.Designer.vb">
+      <DependentUpon>frmResolAnulacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolAnulacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolIntegracionSent.Designer.vb">
+      <DependentUpon>frmResolIntegracionSent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolIntegracionSent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentencia.Designer.vb">
+      <DependentUpon>frmResolSentencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentenciaMultiple.Designer.vb">
+      <DependentUpon>frmResolSentenciaMultiple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Sentencias\frmResolSentenciaMultiple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Siscrico\frmBuscaIntegBand.Designer.vb">
+      <DependentUpon>frmBuscaIntegBand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Siscrico\frmBuscaIntegBand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Reniec\v5\frmReniecLineaV2.Designer.vb">
+      <DependentUpon>frmReniecLineaV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Reniec\v5\frmReniecLineaV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Captura\frmFotoPerfiles.Designer.vb">
+      <DependentUpon>frmFotoPerfiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Captura\frmFotoPerfiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmAgraviadoPopup3.Designer.vb">
+      <DependentUpon>frmAgraviadoPopup3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmAgraviadoPopup3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmDelitoPopup4.Designer.vb">
+      <DependentUpon>frmDelitoPopup4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Expediente\v5\frmDelitoPopup4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Reniec\v5\frmDetalleNombresAsociadosPoput.Designer.vb">
+      <DependentUpon>frmDetalleNombresAsociadosPoput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Reniec\v5\frmDetalleNombresAsociadosPoput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Reniec\v5\frmDetalleValidacionPoput.Designer.vb">
+      <DependentUpon>frmDetalleValidacionPoput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Reniec\v5\frmDetalleValidacionPoput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Reniec\v5\frmTipoValidacionV2.Designer.vb">
+      <DependentUpon>frmTipoValidacionV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Reniec\v5\frmTipoValidacionV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmListarLibros.Designer.vb">
+      <DependentUpon>frmListarLibros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmListarLibros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmQueda.Designer.vb">
+      <DependentUpon>frmQueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmQueda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmQuedaPopup.Designer.vb">
+      <DependentUpon>frmQuedaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmQuedaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmResolRevocatoria.Designer.vb">
+      <DependentUpon>frmResolRevocatoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmResolRevocatoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmResolIngreso.Designer.vb">
+      <DependentUpon>frmResolIngreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmResolIngreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmResolSentenciaPLD.Designer.vb">
+      <DependentUpon>frmResolSentenciaPLD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegionLima\Resoluciones\frmResolSentenciaPLD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reporte\v4.5\frmReporteDocPopup.Designer.vb">
+      <DependentUpon>frmReporteDocPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reporte\v4.5\frmReporteDocPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reporte\v4.5\frmReporteRestriccionPopup.Designer.vb">
+      <DependentUpon>frmReporteRestriccionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reporte\v4.5\frmReporteRestriccionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reporte\v4.5\frmReporteSiscrico.Designer.vb">
+      <DependentUpon>frmReporteSiscrico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reporte\v4.5\frmReporteSiscrico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reporte\v5\frmPrintOdontograma.Designer.vb">
+      <DependentUpon>frmPrintOdontograma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reporte\v5\frmPrintOdontograma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reporte\v5\frmReportePopupv2.Designer.vb">
+      <DependentUpon>frmReportePopupv2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reporte\v5\frmReportePopupv2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Banda\frmBuscarBanda.Designer.vb">
+      <DependentUpon>frmBuscarBanda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Banda\frmBuscarBanda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Siscrico\frmBusquedaBanda.Designer.vb">
+      <DependentUpon>frmBusquedaBanda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Siscrico\frmBusquedaBanda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load\frmLoad.Designer.vb">
+      <DependentUpon>frmLoad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load\frmLoad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Penal\Siscrico\frmInternoBandaPopup2.designer.vb">
+      <DependentUpon>frmInternoBandaPopup2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Penal\Siscrico\frmInternoBandaPopup2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Banda\frmMantBandaPopup.Designer.vb">
+      <DependentUpon>frmMantBandaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Registro\Banda\frmMantBandaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica\frmNominalPopup.Designer.vb">
+      <DependentUpon>frmNominalPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica\frmNominalPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reporte\frmReportePopup_LM.Designer.vb">
+      <DependentUpon>frmReportePopup_LM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reporte\frmReportePopup_LM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reporte\v6\frmReporteAntecedentePopup.Designer.vb">
+      <DependentUpon>frmReporteAntecedentePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reporte\v6\frmReporteAntecedentePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reporte\v6\frmReporteDetalleImpresiones.Designer.vb">
+      <DependentUpon>frmReporteDetalleImpresiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reporte\v6\frmReporteDetalleImpresiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\Reporte\v6\frmReporteDocPopup_v2.Designer.vb">
+      <DependentUpon>frmReporteDocPopup_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\Reporte\v6\frmReporteDocPopup_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro\SedeCentral\frmBuscar.designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\SedeCentral\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Paquetes\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Paquetes\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmSalidaHuelllaPopupv2.Designer.vb">
+      <DependentUpon>frmSalidaHuelllaPopupv2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmSalidaHuelllaPopupv2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmBuscarUsuarioSegPen.Designer.vb">
+      <DependentUpon>frmBuscarUsuarioSegPen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmBuscarUsuarioSegPen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmMotivo.Designer.vb">
+      <DependentUpon>frmMotivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmMotivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmPermisoDetalle.Designer.vb">
+      <DependentUpon>frmPermisoDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmPermisoDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmUsuarioPopupBasico.Designer.vb">
+      <DependentUpon>frmUsuarioPopupBasico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmUsuarioPopupBasico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmUsuarioPopup_v5.Designer.vb">
+      <DependentUpon>frmUsuarioPopup_v5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmUsuarioPopup_v5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmVerificarSesion.Designer.vb">
+      <DependentUpon>frmVerificarSesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmVerificarSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmBloquearSistema.Designer.vb">
+      <DependentUpon>frmBloquearSistema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmBloquearSistema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmBuscarv2.Designer.vb">
+      <DependentUpon>frmBuscarv2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmBuscarv2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmCambiarClave.Designer.vb">
+      <DependentUpon>frmCambiarClave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmCambiarClave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmUsuarioPopupv4.Designer.vb">
+      <DependentUpon>frmUsuarioPopupv4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmUsuarioPopupv4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmEnviarCorreo.Designer.vb">
+      <DependentUpon>frmEnviarCorreo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\frmEnviarCorreo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\Huella\frmRegistrarHuellaPopup.Designer.vb">
+      <DependentUpon>frmRegistrarHuellaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Usuario\Huella\frmRegistrarHuellaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transferencia\Control\frmArchivoInfo2.Designer.vb">
+      <DependentUpon>frmArchivoInfo2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencia\Control\frmArchivoInfo2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transferencia\Control\frmArchivoInfoPopup2.Designer.vb">
+      <DependentUpon>frmArchivoInfoPopup2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencia\Control\frmArchivoInfoPopup2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Licencia\frmPenal.Designer.vb">
+      <DependentUpon>frmPenal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Licencia\frmPenal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Modulo\frmMantPopup.Designer.vb">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Modulo\frmMantPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Modulo\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Modulo\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\PC\frmBuscarPC.Designer.vb">
+      <DependentUpon>frmBuscarPC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\PC\frmBuscarPC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\PC\frmPCMantPopup.Designer.vb">
+      <DependentUpon>frmPCMantPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\PC\frmPCMantPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\PC\frmPCDatosPopup.Designer.vb">
+      <DependentUpon>frmPCDatosPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\PC\frmPCDatosPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPenalPopup.Designer.vb">
+      <DependentUpon>frmPenalPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPenalPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\PC\frmPCPopup.Designer.vb">
+      <DependentUpon>frmPCPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\PC\frmPCPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Penal\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Penal\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Penal\frmUsuarioPenalPopup.Designer.vb">
+      <DependentUpon>frmUsuarioPenalPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Seguridad\Penal\frmUsuarioPenalPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Licencia\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Licencia\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Licencia\frmDetallePopup.Designer.vb">
+      <DependentUpon>frmDetallePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Licencia\frmDetallePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\Licencia\frmMant.Designer.vb">
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\Licencia\frmMant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transferencia\Control\frmLectorXML.Designer.vb">
+      <DependentUpon>frmLectorXML.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencia\Control\frmLectorXML.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transferencia\Control\frmShowSqlPopup.designer.vb">
+      <DependentUpon>frmShowSqlPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencia\Control\frmShowSqlPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transferencia\Fotografia\frmControl.Designer.vb">
+      <DependentUpon>frmControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencia\Fotografia\frmControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmAutorizacionAddPopup.Designer.vb">
+      <DependentUpon>frmAutorizacionAddPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmAutorizacionAddPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmAutorizacionAnularPopup.Designer.vb">
+      <DependentUpon>frmAutorizacionAnularPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmAutorizacionAnularPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmAutorizacionMant.Designer.vb">
+      <DependentUpon>frmAutorizacionMant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmAutorizacionMant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmAutorizacionPopup.Designer.vb">
+      <DependentUpon>frmAutorizacionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmAutorizacionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmParentescoPopup.Designer.vb">
+      <DependentUpon>frmParentescoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmParentescoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmReportePopup.Designer.vb">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Autorizacion\frmReportePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Config\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Config\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Config\frmMantPopup.Designer.vb">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Config\frmMantPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Etapa\frmAddPopup.Designer.vb">
+      <DependentUpon>frmAddPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Etapa\frmAddPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Etapa\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Etapa\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\frmReporteHistorialPopup.Designer.vb">
+      <DependentUpon>frmReporteHistorialPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\frmReporteHistorialPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\frmReportePopup.Designer.vb">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\frmReportePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\InternoPJ\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\InternoPJ\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\InternoPJ\frmInternoPopup.Designer.vb">
+      <DependentUpon>frmInternoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\InternoPJ\frmInternoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\InternoPJ\frmMant.Designer.vb">
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\InternoPJ\frmMant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\InternoPJ\frmMantInternoPopup.Designer.vb">
+      <DependentUpon>frmMantInternoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\InternoPJ\frmMantInternoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmInternoHistoricoPopup.Designer.vb">
+      <DependentUpon>frmInternoHistoricoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmInternoHistoricoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmInternoPopup.Designer.vb">
+      <DependentUpon>frmInternoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmInternoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmMant.Designer.vb">
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmMant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmSancionDetallePopup.Designer.vb">
+      <DependentUpon>frmSancionDetallePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmSancionDetallePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmSancionPopup.Designer.vb">
+      <DependentUpon>frmSancionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Interno\frmSancionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmMovSalidaObs.Designer.vb">
+      <DependentUpon>frmMovSalidaObs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmMovSalidaObs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmLeyendaMovimientoPopup.Designer.vb">
+      <DependentUpon>frmLeyendaMovimientoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmLeyendaMovimientoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmReportePopup_v2.Designer.vb">
+      <DependentUpon>frmReportePopup_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmReportePopup_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmServicioHuella.Designer.vb">
+      <DependentUpon>frmServicioHuella.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmServicioHuella.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmVerificacionIngreso.Designer.vb">
+      <DependentUpon>frmVerificacionIngreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmVerificacionIngreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmBuscar2.Designer.vb">
+      <DependentUpon>frmBuscar2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmBuscar2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmDetalle.Designer.vb">
+      <DependentUpon>frmDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmMonitoreo.Designer.vb">
+      <DependentUpon>frmMonitoreo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmMonitoreo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmSalidaPopup.Designer.vb">
+      <DependentUpon>frmSalidaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmSalidaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmVisitaSalidaPopup.Designer.vb">
+      <DependentUpon>frmVisitaSalidaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmVisitaSalidaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmVisitaSinSalidaPopup.Designer.vb">
+      <DependentUpon>frmVisitaSinSalidaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmVisitaSinSalidaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmDetalleExtraordinarioPopup.Designer.vb">
+      <DependentUpon>frmDetalleExtraordinarioPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmDetalleExtraordinarioPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmCalendario.Designer.vb">
+      <DependentUpon>frmCalendario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmCalendario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmDetallePopup.Designer.vb">
+      <DependentUpon>frmDetallePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmDetallePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmMantenimiento.Designer.vb">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmReportePopup.Designer.vb">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmReportePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmTipoVisitaPopup.Designer.vb">
+      <DependentUpon>frmTipoVisitaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Programacion\frmTipoVisitaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmTransferirSancionPopup.Designer.vb">
+      <DependentUpon>frmTransferirSancionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmTransferirSancionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmAnulacionPopup.Designer.vb">
+      <DependentUpon>frmAnulacionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmAnulacionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmExtraordinarioMenoresPopup.Designer.vb">
+      <DependentUpon>frmExtraordinarioMenoresPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmExtraordinarioMenoresPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmBuscarPopup.Designer.vb">
+      <DependentUpon>frmBuscarPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmBuscarPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmMantenimiento.Designer.vb">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmMantPopup.Designer.vb">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmMantPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmVisitanteReniec.Designer.vb">
+      <DependentUpon>frmVisitanteReniec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Movimiento\frmVisitanteReniec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmRestriccionPopup.Designer.vb">
+      <DependentUpon>frmRestriccionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmRestriccionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmSancionAnuladoPopup.Designer.vb">
+      <DependentUpon>frmSancionAnuladoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmSancionAnuladoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmSancionPopup.Designer.vb">
+      <DependentUpon>frmSancionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmSancionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmVisitanteMenorPopup.Designer.vb">
+      <DependentUpon>frmVisitanteMenorPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Visita\Visitante\frmVisitanteMenorPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\AfiliacionSIS\frmBuscarSIS.designer.vb">
+      <DependentUpon>frmBuscarSIS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\AfiliacionSIS\frmBuscarSIS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\AfiliacionSIS\frmReniec.Designer.vb">
+      <DependentUpon>frmReniec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\AfiliacionSIS\frmReniec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantClasifPenalLM.Designer.vb">
+      <DependentUpon>frmMantClasifPenalLM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantClasifPenalLM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantClasifPenalProv_v2.Designer.vb">
+      <DependentUpon>frmMantClasifPenalProv_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantClasifPenalProv_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\Pabellon\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\Pabellon\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\Pabellon\frmMantPopup.Designer.vb">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\Pabellon\frmMantPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\Pabellon\frmRegimenPopup.Designer.vb">
+      <DependentUpon>frmRegimenPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\Pabellon\frmRegimenPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\frmBuscarInterno.designer.vb">
+      <DependentUpon>frmBuscarInterno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\frmBuscarInterno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Control\frmRegularizarAsistencia.Designer.vb">
+      <DependentUpon>frmRegularizarAsistencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Control\frmRegularizarAsistencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Planilla\frmPlanillaDetalle.Designer.vb">
+      <DependentUpon>frmPlanillaDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Planilla\frmPlanillaDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Control\frmRegistrarFaltas.Designer.vb">
+      <DependentUpon>frmRegistrarFaltas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Control\frmRegistrarFaltas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Registro\frmRetiroTaller.Designer.vb">
+      <DependentUpon>frmRetiroTaller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Registro\frmRetiroTaller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Taller\frmBuscarTallerPopup.Designer.vb">
+      <DependentUpon>frmBuscarTallerPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Taller\frmBuscarTallerPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Registro\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Registro\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Horario\frmCalendario.Designer.vb">
+      <DependentUpon>frmCalendario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Horario\frmCalendario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Control\frmControlAsistencia.Designer.vb">
+      <DependentUpon>frmControlAsistencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Control\frmControlAsistencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Registro\frmMant.Designer.vb">
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Registro\frmMant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Registro\frmInscripcionTaller.Designer.vb">
+      <DependentUpon>frmInscripcionTaller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Registro\frmInscripcionTaller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Buscar\frmInternoPopup.Designer.vb">
+      <DependentUpon>frmInternoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Buscar\frmInternoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Planilla\frmPlanillaBuscar.Designer.vb">
+      <DependentUpon>frmPlanillaBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Planilla\frmPlanillaBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Planilla\frmPlanillaPopup.Designer.vb">
+      <DependentUpon>frmPlanillaPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Planilla\frmPlanillaPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Planilla\frmRegistrarMontoPopup.Designer.vb">
+      <DependentUpon>frmRegistrarMontoPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Planilla\frmRegistrarMontoPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Control\frmRegularizar.Designer.vb">
+      <DependentUpon>frmRegularizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Control\frmRegularizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Horario\frmHorario.Designer.vb">
+      <DependentUpon>frmHorario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Horario\frmHorario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Reporte\frmReportePopup.Designer.vb">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TallerAsistencia\Reporte\frmReportePopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Estadistica\plm\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\v5\frmPadinDetalleV2.resx">
+      <DependentUpon>frmPadinDetalleV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioSesion.resx">
+      <DependentUpon>frmInicioSesion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\frmReportePopup.resx">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\frmExportDetPadin.resx">
+      <DependentUpon>frmExportDetPadin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\frmPadinDetalleMensajePopup.resx">
+      <DependentUpon>frmPadinDetalleMensajePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\v5\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\frmPadinDetalleFamilia.resx">
+      <DependentUpon>frmPadinDetalleFamilia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\v4.5\frmPadinDetalle.resx">
+      <DependentUpon>frmPadinDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\v5\frmPadinDetalle.resx">
+      <DependentUpon>frmPadinDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\v5\frmPadinPopup.resx">
+      <DependentUpon>frmPadinPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAboutBox.resx">
+      <DependentUpon>frmAboutBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioSesion_v2.resx">
+      <DependentUpon>frmInicioSesion_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPopupAviso.resx">
+      <DependentUpon>frmPopupAviso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huella\Registro\frmValidarDNI.resx">
+      <DependentUpon>frmValidarDNI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huella\Registro\frmValidarHuella.resx">
+      <DependentUpon>frmValidarHuella.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load\frmLoadEnviandoSede.resx">
+      <DependentUpon>frmLoadEnviandoSede.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load\frmLoad02.resx">
+      <DependentUpon>frmLoad02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load\frmLoadMensaje.resx">
+      <DependentUpon>frmLoadMensaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load\frmProcesando.resx">
+      <DependentUpon>frmProcesando.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Busqueda\frmMovimientoMotivoPopup.resx">
+      <DependentUpon>frmMovimientoMotivoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Busqueda\frmDistritoJudicialPopup.resx">
+      <DependentUpon>frmDistritoJudicialPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Pabellon\frmAmbientePopup.resx">
+      <DependentUpon>frmAmbientePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Pabellon\frmMantAleroPopup.resx">
+      <DependentUpon>frmMantAleroPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Pabellon\frmMantPisoPopup.resx">
+      <DependentUpon>frmMantPisoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Registro\Delito\frmBuscar_v2.resx">
+      <DependentUpon>frmBuscar_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Reporte\GrupoDelito\frmBuscarPopup.resx">
+      <DependentUpon>frmBuscarPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Registro\Delito\frmMant_v2.resx">
+      <DependentUpon>frmMant_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Reporte\GrupoEgreso\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Reporte\GrupoEgreso\frmMantDetPopup.resx">
+      <DependentUpon>frmMantDetPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Tratamiento\Clasificacion\frmMantResultadoDetPopup.resx">
+      <DependentUpon>frmMantResultadoDetPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Tratamiento\Clasificacion\frmMantResultadoPopup.resx">
+      <DependentUpon>frmMantResultadoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Tratamiento\Clasificacion\frmCategorizacionPopup.resx">
+      <DependentUpon>frmCategorizacionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Tratamiento\Clasificacion\frmMantFicha.resx">
+      <DependentUpon>frmMantFicha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Tratamiento\Clasificacion\frmMantFichaPopup.resx">
+      <DependentUpon>frmMantFichaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Tratamiento\Clasificacion\frmMantIndicadorPopup.resx">
+      <DependentUpon>frmMantIndicadorPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Tratamiento\Clasificacion\frmMantVariablePopup.resx">
+      <DependentUpon>frmMantVariablePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\frmActualizarWeb_v3.resx">
+      <DependentUpon>frmActualizarWeb_v3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\frmTablasMaestrasPopup.resx">
+      <DependentUpon>frmTablasMaestrasPopup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Pabellon\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Pabellon\frmMantPopup.resx">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Reporte\GrupoDelito\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Reporte\GrupoDelito\frmCuadro2Popup_v2.resx">
+      <DependentUpon>frmCuadro2Popup_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Registro\Sala\frmBuscar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Registro\Sala\frmSalaPopup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSalaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Busqueda\frmDelitoPopup.resx">
+      <DependentUpon>frmDelitoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\AlertaSentencias\frmAlertaSentenciaDetalle.resx">
+      <DependentUpon>frmAlertaSentenciaDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\AlertaSentencias\frmAlertasSentenciasCabecera.resx">
+      <DependentUpon>frmAlertasSentenciasCabecera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\AlertaSentencias\frmReporteAlerta.resx">
+      <DependentUpon>frmReporteAlerta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Busqueda\frmBusquedaPorHuella.resx">
+      <DependentUpon>frmBusquedaPorHuella.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Clasificacion\frmDetalleFicha_v2.resx">
+      <DependentUpon>frmDetalleFicha_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Clasificacion\frmDetIndicador.resx">
+      <DependentUpon>frmDetIndicador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Clasificacion\frmEditorTextPopup.resx">
+      <DependentUpon>frmEditorTextPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Identificacion\frmIngresoPopup_V2.resx">
+      <DependentUpon>frmIngresoPopup_V2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Movimientos\frmMovimientoConduccionClasificacion.resx">
+      <DependentUpon>frmMovimientoConduccionClasificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\frmAnular.resx">
+      <DependentUpon>frmAnular.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\frmObsPopup.resx">
+      <DependentUpon>frmObsPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\frmReporte.resx">
+      <DependentUpon>frmReporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\ConstanciaReclusion\frmTramite.resx">
+      <DependentUpon>frmTramite.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\frmListaDelitosHistoricos.resx">
+      <DependentUpon>frmListaDelitosHistoricos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Busqueda\frmBuscar_v2.resx">
+      <DependentUpon>frmBuscar_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Busqueda\frmListaDocumentosDescargados.resx">
+      <DependentUpon>frmListaDocumentosDescargados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Busqueda\frmMant_v2.resx">
+      <DependentUpon>frmMant_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Busqueda\RegularizacionDatos\frmUpdateIngresoInpePopup.resx">
+      <DependentUpon>frmUpdateIngresoInpePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Busqueda\RegularizacionDatos\frmVinculacionPLMPopup.resx">
+      <DependentUpon>frmVinculacionPLMPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Clasificacion\frmDetalleFicha.resx">
+      <DependentUpon>frmDetalleFicha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Identificacion\frmIngresoPopup_V2.resx">
+      <DependentUpon>frmIngresoPopup_V2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Movimientos\frmMovimientoConducciones.resx">
+      <DependentUpon>frmMovimientoConducciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Antecedentes\frmMantPopup.resx">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Busqueda\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Busqueda\frmBuscar_v2.resx">
+      <DependentUpon>frmBuscar_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Busqueda\frmInternoPopup.resx">
+      <DependentUpon>frmInternoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\frmDocDigitalizadoPopup.resx">
+      <DependentUpon>frmDocDigitalizadoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Identificacion\frmOdontogramaPopup.resx">
+      <DependentUpon>frmOdontogramaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\frmPanel.resx">
+      <DependentUpon>frmPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Identificacion\frmIngresoPopup.resx">
+      <DependentUpon>frmIngresoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Movimientos\frmMovimientoLibertadPLM.resx">
+      <DependentUpon>frmMovimientoLibertadPLM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Busqueda\frmMant.resx">
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Busqueda\frmMant_v2.resx">
+      <DependentUpon>frmMant_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Busqueda\v5\frmBuscaIntSedeCentralPopup.resx">
+      <DependentUpon>frmBuscaIntSedeCentralPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmNombreAsociadoPopup_v2.resx">
+      <DependentUpon>frmNombreAsociadoPopup_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmMovimientoTrasladoHospitalmental.resx">
+      <DependentUpon>frmMovimientoTrasladoHospitalmental.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v4.5\frmDocJudicial.resx">
+      <DependentUpon>frmDocJudicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmNotaPeriodo.resx">
+      <DependentUpon>frmNotaPeriodo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmOrdenTrasladoHospital.resx">
+      <DependentUpon>frmOrdenTrasladoHospital.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmOrdenTrasladoHospital_Nota.resx">
+      <DependentUpon>frmOrdenTrasladoHospital_Nota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmOtrosprocesos.resx">
+      <DependentUpon>frmOtrosprocesos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmProyeccionVencimientoCondena.resx">
+      <DependentUpon>frmProyeccionVencimientoCondena.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolDetencionReferenciado.resx">
+      <DependentUpon>frmResolDetencionReferenciado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolLibertad_v2.resx">
+      <DependentUpon>frmResolLibertad_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmListarResoluciones.resx">
+      <DependentUpon>frmListarResoluciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmPeriodoCondena.resx">
+      <DependentUpon>frmPeriodoCondena.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmResolSentenciaNueva.resx">
+      <DependentUpon>frmResolSentenciaNueva.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmResolSentenciaConmutacion.resx">
+      <DependentUpon>frmResolSentenciaConmutacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmResolSentenciaV2.resx">
+      <DependentUpon>frmResolSentenciaV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Antecedentes\frmBuscaInternoPopup.resx">
+      <DependentUpon>frmBuscaInternoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Antecedentes\frmBuscarAntecedentesPopup.resx">
+      <DependentUpon>frmBuscarAntecedentesPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Antecedentes\frmCertAntecedenteMant.resx">
+      <DependentUpon>frmCertAntecedenteMant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Antecedentes\frmDetalleAJPopup.resx">
+      <DependentUpon>frmDetalleAJPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Antecedentes\frmTipoCertAntecedente.resx">
+      <DependentUpon>frmTipoCertAntecedente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Busqueda\frmBuscar_v2.resx">
+      <DependentUpon>frmBuscar_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Busqueda\frmMant_v2.resx">
+      <DependentUpon>frmMant_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Identificacion\frmIngresoPopup_v2.resx">
+      <DependentUpon>frmIngresoPopup_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Identificacion\frmNombreAsociadoPopup.resx">
+      <DependentUpon>frmNombreAsociadoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Identificacion\frmSelectInternoPopup.resx">
+      <DependentUpon>frmSelectInternoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Busqueda\frmBuscaInternoPopup.resx">
+      <DependentUpon>frmBuscaInternoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Busqueda\frmBuscaReniecPopup.resx">
+      <DependentUpon>frmBuscaReniecPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Busqueda\frmSalaPopup.resx">
+      <DependentUpon>frmSalaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Clasificacion\Documento\frmBuscarDocClasificacion.resx">
+      <DependentUpon>frmBuscarDocClasificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Clasificacion\Documento\frmDetGlosaPopup.resx">
+      <DependentUpon>frmDetGlosaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Clasificacion\Documento\frmMantDocClasificacion.resx">
+      <DependentUpon>frmMantDocClasificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Clasificacion\frmDetalleFicha.resx">
+      <DependentUpon>frmDetalleFicha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Expediente\v5\frmListaDocumentosPopup.resx">
+      <DependentUpon>frmListaDocumentosPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Expediente\v5\frmExpedientePopup3.resx">
+      <DependentUpon>frmExpedientePopup3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Expediente\v5\frmListaExpedientePopup.resx">
+      <DependentUpon>frmListaExpedientePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Expediente\v5\frmListarLibertad.resx">
+      <DependentUpon>frmListarLibertad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmAliasPopup.resx">
+      <DependentUpon>frmAliasPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmFamiliarPopupV2.resx">
+      <DependentUpon>frmFamiliarPopupV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmIngresoPopup3.resx">
+      <DependentUpon>frmIngresoPopup3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmInternoOrgCriminalPopup.resx">
+      <DependentUpon>frmInternoOrgCriminalPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmInternoBandaV2.resx">
+      <DependentUpon>frmInternoBandaV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmNombreAsociadoDetalle.resx">
+      <DependentUpon>frmNombreAsociadoDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmNombreAsociadoPopup2.resx">
+      <DependentUpon>frmNombreAsociadoPopup2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmRasgosPartiPopup.resx">
+      <DependentUpon>frmRasgosPartiPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmSeleccionarIngresoPopup.resx">
+      <DependentUpon>frmSeleccionarIngresoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Identificacion\v5\frmSeñasPartiPopup.resx">
+      <DependentUpon>frmSeñasPartiPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Busqueda\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Busqueda\frmMantenimiento.resx">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Busqueda\frmTipoNacionalidad.resx">
+      <DependentUpon>frmTipoNacionalidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Busqueda\frmBuscaIntSedeCentralPopup.resx">
+      <DependentUpon>frmBuscaIntSedeCentralPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Busqueda\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\PenaLM\Busqueda\frmMantenimiento.resx">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Busqueda\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Busqueda\frmMantenimiento.resx">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Movimientos\frmInternamiento.resx">
+      <DependentUpon>frmInternamiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Carceleta\Movimientos\frmMovimientoTrasladoCarceleta.resx">
+      <DependentUpon>frmMovimientoTrasladoCarceleta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmListadoDocJudicialPopup.resx">
+      <DependentUpon>frmListadoDocJudicialPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmMovimientoConducciones.resx">
+      <DependentUpon>frmMovimientoConducciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmMovimientoFuga.resx">
+      <DependentUpon>frmMovimientoFuga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmMovimientoInternamiento.resx">
+      <DependentUpon>frmMovimientoInternamiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmMovimientoInternamientoPopup.resx">
+      <DependentUpon>frmMovimientoInternamientoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmMovimientoLibertad.resx">
+      <DependentUpon>frmMovimientoLibertad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmMovimientoLibertadPopup.resx">
+      <DependentUpon>frmMovimientoLibertadPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmMovimientoTipoPopup.resx">
+      <DependentUpon>frmMovimientoTipoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Movimientos\frmMovimientoTraslado.resx">
+      <DependentUpon>frmMovimientoTraslado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Reniec\v5\frmReniecLineaV2.resx">
+      <DependentUpon>frmReniecLineaV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Captura\frmFotoPerfiles.resx">
+      <DependentUpon>frmFotoPerfiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Expediente\v5\frmAgraviadoPopup3.resx">
+      <DependentUpon>frmAgraviadoPopup3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Expediente\v5\frmDelitoPopup4.resx">
+      <DependentUpon>frmDelitoPopup4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Reniec\v5\frmDetalleNombresAsociadosPoput.resx">
+      <DependentUpon>frmDetalleNombresAsociadosPoput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Reniec\v5\frmDetalleValidacionPoput.resx">
+      <DependentUpon>frmDetalleValidacionPoput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Reniec\v5\frmTipoValidacionV2.resx">
+      <DependentUpon>frmTipoValidacionV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Resoluciones\frmListarLibros.resx">
+      <DependentUpon>frmListarLibros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Resoluciones\frmQueda.resx">
+      <DependentUpon>frmQueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Resoluciones\frmQuedaPopup.resx">
+      <DependentUpon>frmQuedaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Resoluciones\frmResolRevocatoria.resx">
+      <DependentUpon>frmResolRevocatoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Resoluciones\frmResolIngreso.resx">
+      <DependentUpon>frmResolIngreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\RegionLima\Resoluciones\frmResolSentenciaPLD.resx">
+      <DependentUpon>frmResolSentenciaPLD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reporte\v4.5\frmReporteDocPopup.resx">
+      <DependentUpon>frmReporteDocPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reporte\v4.5\frmReporteRestriccionPopup.resx">
+      <DependentUpon>frmReporteRestriccionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reporte\v4.5\frmReporteSiscrico.resx">
+      <DependentUpon>frmReporteSiscrico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reporte\v5\frmPrintOdontograma.resx">
+      <DependentUpon>frmPrintOdontograma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reporte\v5\frmReportePopupv2.resx">
+      <DependentUpon>frmReportePopupv2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmNota.resx">
+      <DependentUpon>frmNota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmQueda.resx">
+      <DependentUpon>frmQueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolAclaratoriaExpe.resx">
+      <DependentUpon>frmResolAclaratoriaExpe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolAcumExpedientes.resx">
+      <DependentUpon>frmResolAcumExpedientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolAmpliaAutoapert.resx">
+      <DependentUpon>frmResolAmpliaAutoapert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolAvocamiento.resx">
+      <DependentUpon>frmResolAvocamiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolDetencion.resx">
+      <DependentUpon>frmResolDetencion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolIngreso.resx">
+      <DependentUpon>frmResolIngreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolIngresoTraslado.resx">
+      <DependentUpon>frmResolIngresoTraslado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolLibertad.resx">
+      <DependentUpon>frmResolLibertad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolPrisionPreventiva.resx">
+      <DependentUpon>frmResolPrisionPreventiva.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolProlongDetencion.resx">
+      <DependentUpon>frmResolProlongDetencion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolRevocatoriaLibertad.resx">
+      <DependentUpon>frmResolRevocatoriaLibertad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolTraslado.resx">
+      <DependentUpon>frmResolTraslado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmResolucionTipoPopup.resx">
+      <DependentUpon>frmResolucionTipoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Resoluciones\v5\frmVerExpePorResolPopup.resx">
+      <DependentUpon>frmVerExpePorResolPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Registro\Banda\frmBuscarBanda.resx">
+      <DependentUpon>frmBuscarBanda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmPeriodoCondenaSentencia.resx">
+      <DependentUpon>frmPeriodoCondenaSentencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmResolAnulacion.resx">
+      <DependentUpon>frmResolAnulacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmResolIntegracionSent.resx">
+      <DependentUpon>frmResolIntegracionSent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmResolSentencia.resx">
+      <DependentUpon>frmResolSentencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Sentencias\frmResolSentenciaMultiple.resx">
+      <DependentUpon>frmResolSentenciaMultiple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Siscrico\frmBuscaIntegBand.resx">
+      <DependentUpon>frmBuscaIntegBand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Siscrico\frmBusquedaBanda.resx">
+      <DependentUpon>frmBusquedaBanda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPenalPopup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPenalPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load\frmLoad.resx">
+      <DependentUpon>frmLoad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Penal\Siscrico\frmInternoBandaPopup2.resx">
+      <DependentUpon>frmInternoBandaPopup2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Registro\Banda\frmMantBandaPopup.resx">
+      <DependentUpon>frmMantBandaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica\frmNominalPopup.resx">
+      <DependentUpon>frmNominalPopup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reporte\frmReportePopup_LM.resx">
+      <DependentUpon>frmReportePopup_LM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reporte\v6\frmReporteAntecedentePopup.resx">
+      <DependentUpon>frmReporteAntecedentePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reporte\v6\frmReporteDetalleImpresiones.resx">
+      <DependentUpon>frmReporteDetalleImpresiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\Reporte\v6\frmReporteDocPopup_v2.resx">
+      <DependentUpon>frmReporteDocPopup_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro\SedeCentral\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Paquetes\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmSalidaHuelllaPopupv2.resx">
+      <DependentUpon>frmSalidaHuelllaPopupv2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmBuscarUsuarioSegPen.resx">
+      <DependentUpon>frmBuscarUsuarioSegPen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmMotivo.resx">
+      <DependentUpon>frmMotivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmPermisoDetalle.resx">
+      <DependentUpon>frmPermisoDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmUsuarioPopupBasico.resx">
+      <DependentUpon>frmUsuarioPopupBasico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmUsuarioPopup_v5.resx">
+      <DependentUpon>frmUsuarioPopup_v5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmVerificarSesion.resx">
+      <DependentUpon>frmVerificarSesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmBloquearSistema.resx">
+      <DependentUpon>frmBloquearSistema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmBuscarv2.resx">
+      <DependentUpon>frmBuscarv2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmCambiarClave.resx">
+      <DependentUpon>frmCambiarClave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmUsuarioPopupv4.resx">
+      <DependentUpon>frmUsuarioPopupv4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\frmEnviarCorreo.resx">
+      <DependentUpon>frmEnviarCorreo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Usuario\Huella\frmRegistrarHuellaPopup.resx">
+      <DependentUpon>frmRegistrarHuellaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transferencia\Control\frmArchivoInfo2.resx">
+      <DependentUpon>frmArchivoInfo2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transferencia\Control\frmArchivoInfoPopup2.resx">
+      <DependentUpon>frmArchivoInfoPopup2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Licencia\frmPenal.resx">
+      <DependentUpon>frmPenal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Modulo\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Modulo\frmMantPopup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\PC\frmBuscarPC.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBuscarPC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\PC\frmPCMantPopup.resx">
+      <DependentUpon>frmPCMantPopup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\PC\frmPCDatosPopup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPCDatosPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\PC\frmPCPopup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPCPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Penal\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Seguridad\Penal\frmUsuarioPenalPopup.resx">
+      <DependentUpon>frmUsuarioPenalPopup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Licencia\frmBuscar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Licencia\frmDetallePopup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDetallePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\Licencia\frmMant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transferencia\Control\frmLectorXML.resx">
+      <DependentUpon>frmLectorXML.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transferencia\Control\frmShowSqlPopup.resx">
+      <DependentUpon>frmShowSqlPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transferencia\Fotografia\frmControl.resx">
+      <DependentUpon>frmControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Autorizacion\frmAutorizacionAddPopup.resx">
+      <DependentUpon>frmAutorizacionAddPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Autorizacion\frmAutorizacionAnularPopup.resx">
+      <DependentUpon>frmAutorizacionAnularPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Autorizacion\frmAutorizacionMant.resx">
+      <DependentUpon>frmAutorizacionMant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Autorizacion\frmAutorizacionPopup.resx">
+      <DependentUpon>frmAutorizacionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Autorizacion\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Autorizacion\frmParentescoPopup.resx">
+      <DependentUpon>frmParentescoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Autorizacion\frmReportePopup.resx">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Config\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Config\frmMantPopup.resx">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Etapa\frmAddPopup.resx">
+      <DependentUpon>frmAddPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Etapa\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\frmReporteHistorialPopup.resx">
+      <DependentUpon>frmReporteHistorialPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\frmReportePopup.resx">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\InternoPJ\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\InternoPJ\frmInternoPopup.resx">
+      <DependentUpon>frmInternoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\InternoPJ\frmMant.resx">
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\InternoPJ\frmMantInternoPopup.resx">
+      <DependentUpon>frmMantInternoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Interno\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Interno\frmInternoHistoricoPopup.resx">
+      <DependentUpon>frmInternoHistoricoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Interno\frmInternoPopup.resx">
+      <DependentUpon>frmInternoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Interno\frmMant.resx">
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Interno\frmSancionDetallePopup.resx">
+      <DependentUpon>frmSancionDetallePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Interno\frmSancionPopup.resx">
+      <DependentUpon>frmSancionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmMovSalidaObs.resx">
+      <DependentUpon>frmMovSalidaObs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmLeyendaMovimientoPopup.resx">
+      <DependentUpon>frmLeyendaMovimientoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmReportePopup_v2.resx">
+      <DependentUpon>frmReportePopup_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmServicioHuella.resx">
+      <DependentUpon>frmServicioHuella.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmVerificacionIngreso.resx">
+      <DependentUpon>frmVerificacionIngreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmBuscar2.resx">
+      <DependentUpon>frmBuscar2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmDetalle.resx">
+      <DependentUpon>frmDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmMonitoreo.resx">
+      <DependentUpon>frmMonitoreo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmSalidaPopup.resx">
+      <DependentUpon>frmSalidaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmVisitaSalidaPopup.resx">
+      <DependentUpon>frmVisitaSalidaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmVisitaSinSalidaPopup.resx">
+      <DependentUpon>frmVisitaSinSalidaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\frmDetalleExtraordinarioPopup.resx">
+      <DependentUpon>frmDetalleExtraordinarioPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\frmCalendario.resx">
+      <DependentUpon>frmCalendario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\frmDetallePopup.resx">
+      <DependentUpon>frmDetallePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\frmMantenimiento.resx">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\frmReportePopup.resx">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Programacion\frmTipoVisitaPopup.resx">
+      <DependentUpon>frmTipoVisitaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmTransferirSancionPopup.resx">
+      <DependentUpon>frmTransferirSancionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmAnulacionPopup.resx">
+      <DependentUpon>frmAnulacionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmExtraordinarioMenoresPopup.resx">
+      <DependentUpon>frmExtraordinarioMenoresPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmBuscarPopup.resx">
+      <DependentUpon>frmBuscarPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmMantenimiento.resx">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmMantPopup.resx">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Movimiento\frmVisitanteReniec.resx">
+      <DependentUpon>frmVisitanteReniec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmRestriccionPopup.resx">
+      <DependentUpon>frmRestriccionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmSancionAnuladoPopup.resx">
+      <DependentUpon>frmSancionAnuladoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmSancionPopup.resx">
+      <DependentUpon>frmSancionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Visita\Visitante\frmVisitanteMenorPopup.resx">
+      <DependentUpon>frmVisitanteMenorPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\AfiliacionSIS\frmBuscarSIS.resx">
+      <DependentUpon>frmBuscarSIS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\AfiliacionSIS\frmReniec.resx">
+      <DependentUpon>frmReniec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantClasifPenalLM.resx">
+      <DependentUpon>frmMantClasifPenalLM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\frmMantClasifPenalProv_v2.resx">
+      <DependentUpon>frmMantClasifPenalProv_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\Pabellon\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\Asistencia\Clasificacion\Penal\Pabellon\frmMantPopup.resx">
+      <DependentUpon>frmMantPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\frmBuscarInterno.resx">
+      <DependentUpon>frmBuscarInterno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Control\frmRegularizarAsistencia.resx">
+      <DependentUpon>frmRegularizarAsistencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Planilla\frmPlanillaDetalle.resx">
+      <DependentUpon>frmPlanillaDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Control\frmRegistrarFaltas.resx">
+      <DependentUpon>frmRegistrarFaltas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Registro\frmRetiroTaller.resx">
+      <DependentUpon>frmRetiroTaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Taller\frmBuscarTallerPopup.resx">
+      <DependentUpon>frmBuscarTallerPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Registro\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Horario\frmCalendario.resx">
+      <DependentUpon>frmCalendario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Control\frmControlAsistencia.resx">
+      <DependentUpon>frmControlAsistencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Registro\frmMant.resx">
+      <DependentUpon>frmMant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Registro\frmInscripcionTaller.resx">
+      <DependentUpon>frmInscripcionTaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Buscar\frmInternoPopup.resx">
+      <DependentUpon>frmInternoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Planilla\frmPlanillaBuscar.resx">
+      <DependentUpon>frmPlanillaBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Planilla\frmPlanillaPopup.resx">
+      <DependentUpon>frmPlanillaPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Planilla\frmRegistrarMontoPopup.resx">
+      <DependentUpon>frmRegistrarMontoPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Control\frmRegularizar.resx">
+      <DependentUpon>frmRegularizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Horario\frmHorario.resx">
+      <DependentUpon>frmHorario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TallerAsistencia\Reporte\frmReportePopup.resx">
+      <DependentUpon>frmReportePopup.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APPCamaraWeb\APPCamaraWeb.vbproj">
+      <Project>{818BD653-A107-4935-BC67-9B0F234D1F87}</Project>
+      <Name>APPCamaraWeb</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APPControlHuellaVisita\APPControlHuellaVisita.vbproj">
+      <Project>{FAB74AE6-B2B3-487F-9BFB-CFDB4BD1AD8B}</Project>
+      <Name>APPControlHuellaVisita</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APPControls\APPControls.vbproj">
+      <Project>{0d52a260-7d3c-449a-b81c-28d93c9753c1}</Project>
+      <Name>APPControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APPReporte\APPReporte.vbproj">
+      <Project>{d17e2712-d4d5-4e9e-bb47-708090ffc0f5}</Project>
+      <Name>APPReporte</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APPWebService\APPWebService.vbproj">
+      <Project>{9CED347B-6371-4CCC-81F0-A756B5744B83}</Project>
+      <Name>APPWebService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bussines\Bussines.vbproj">
+      <Project>{911c818a-9997-44cf-abec-e83b8389faa7}</Project>
+      <Name>Bussines</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.vbproj">
+      <Project>{210ED754-A914-44F3-BDF5-2C69B54D343C}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Type\Type.vbproj">
+      <Project>{657717A6-5EFF-45C7-B4A7-1B285EE58C53}</Project>
+      <Name>Type</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\index_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabecera_SIP_09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="inpe_ico.ico" />
+    <None Include="Resources\logo_migraciones.bmp" />
+    <None Include="Resources\logo_migraciones.png" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\pdf_18x24.png" />
+    <None Include="Resources\verificar_biometria_32x32.png" />
+    <None Include="Resources\recapturar.png" />
+    <None Include="Resources\sip_02.png" />
+    <None Include="Resources\upload.gif" />
+    <None Include="Resources\Refrescar.png" />
+    <None Include="Resources\recibir.png" />
+    <None Include="Resources\reniec03.jpg" />
+    <None Include="Resources\ovoide_sup.png" />
+    <None Include="Resources\ovoid_inf.png" />
+    <None Include="Resources\ruga_palatina.png" />
+    <None Include="Resources\tri_inf.png" />
+    <None Include="Resources\trian_sup.png" />
+    <None Include="Resources\warning_32x32.png" />
+    <None Include="Resources\1316210268_go-bottom.png" />
+    <Content Include="Resources\04.gif" />
+    <Content Include="Resources\10.png" />
+    <None Include="Resources\1_next.gif" />
+    <None Include="Resources\advertencia.png" />
+    <Content Include="Resources\anim_alerta.gif" />
+    <Content Include="Resources\anular2.png" />
+    <None Include="Resources\nspm_fotografia.png" />
+    <None Include="Resources\fotografia_eliminada.png" />
+    <None Include="Resources\fotografia_por_transferir.png" />
+    <None Include="Resources\cuad_inf.png" />
+    <None Include="Resources\cuadr_sup.png" />
+    <None Include="Resources\huella.gif" />
+    <None Include="Resources\cabecerav2.jpg" />
+    <None Include="Resources\cabecerav3.jpg" />
+    <None Include="Resources\cabecerav31.jpg" />
+    <None Include="Resources\cabecerav32.jpg" />
+    <None Include="Resources\cabecerav33.jpg" />
+    <None Include="Resources\estado_amarillo.png" />
+    <None Include="Resources\estado_azul.png" />
+    <None Include="Resources\estado_verde.png" />
+    <None Include="Resources\capturar.png" />
+    <None Include="Resources\huella_lupa.png" />
+    <None Include="Resources\huella_x.png" />
+    <None Include="Resources\huella_digital.png" />
+    <None Include="Resources\develop.gif" />
+    <Content Include="Resources\eye_32x32.png" />
+    <Content Include="Resources\flechacombo.jpg" />
+    <Content Include="Resources\icon_fondo_blanco.jpg" />
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\id_card_view.png" />
+    <None Include="Resources\logo_reniec.jpg" />
+    <None Include="Resources\logo_pj.jpg" />
+    <None Include="Resources\logo_pj02.png" />
+    <None Include="Resources\logo_inpe.png" />
+    <None Include="Resources\mano_derecha.png" />
+    <None Include="Resources\mano_derecha02.png" />
+    <None Include="Resources\mano_izquierda.png" />
+    <None Include="Resources\mano_izquierda02.png" />
+    <None Include="Resources\Libro.png" />
+    <Content Include="Resources\mas_16x16.png" />
+    <Content Include="Resources\minus_16x16.png" />
+    <None Include="Resources\ws_config.png" />
+    <None Include="Resources\sin_fotografia.png" />
+    <None Include="Resources\reniec-peru.jpg" />
+    <None Include="Resources\planilla.png" />
+    <None Include="Resources\Camembert-32.png" />
+    <None Include="Resources\1345240399_search_button.png" />
+    <None Include="Resources\view.ico" />
+    <None Include="Resources\inpe_escudo2.png" />
+    <None Include="Resources\fondo_degrade.jpg" />
+    <None Include="Resources\inpe_scudo.jpeg" />
+    <None Include="Resources\house_128.png" />
+    <None Include="Resources\house.png" />
+    <None Include="Resources\row_add_before.ico" />
+    <None Include="Resources\1337706653_webcam.png" />
+    <None Include="Resources\sincronizar.png" />
+    <None Include="Resources\silueta.jpg" />
+    <None Include="Resources\check_box_green.png" />
+    <None Include="Resources\up.png" />
+    <None Include="Resources\replace2.ico" />
+    <None Include="Resources\revocatoria.png" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\pawn_glass_green.png" />
+    <None Include="Resources\Calendar-32.png" />
+    <None Include="Resources\Computer1_32.png" />
+    <None Include="Resources\mail-32x32.png" />
+    <None Include="Resources\1277961326_folder_edit.png" />
+    <None Include="Resources\History-32.png" />
+    <None Include="Resources\History-Channel-32.png" />
+    <None Include="Resources\Excel_32.png" />
+    <None Include="Resources\Personal-information-32.png" />
+    <None Include="Resources\back-32.png" />
+    <None Include="Resources\next-32.png" />
+    <None Include="Resources\Distributor-report-32.png" />
+    <None Include="Resources\add-32.png" />
+    <None Include="Resources\1277961158_folder_new.png" />
+    <None Include="Resources\Key-32.png" />
+    <None Include="Resources\Keychain-Access-32.png" />
+    <None Include="Resources\Delete-32%282%29.png" />
+    <None Include="Resources\accept-32.png" />
+    <None Include="Resources\delete-32.png" />
+    <None Include="Resources\system-log-out.png" />
+    <None Include="Resources\Search files-32.png" />
+    <None Include="Resources\printer3.png" />
+    <None Include="Resources\Drive - USB_32.png" />
+    <None Include="Resources\NikonD40-Folder-48.png" />
+    <None Include="Resources\NikonD40-Folder-32.png" />
+    <None Include="Resources\1285024056_camera.png" />
+    <None Include="Resources\sin_foto.jpg" />
+    <None Include="Resources\windows.ico" />
+    <None Include="Resources\question.png" />
+    <None Include="Resources\cargandov3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Registro\Penal\Identificacion\v6\" />
+    <Folder Include="Registro\Region\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

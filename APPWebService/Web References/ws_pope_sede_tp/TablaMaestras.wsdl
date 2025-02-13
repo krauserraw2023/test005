@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FechaHoy">
+        <s:complexType />
+      </s:element>
+      <s:element name="FechaHoyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FechaHoyResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Listar_IDMax">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDLicencia" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Listar_IDMaxResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Listar_IDMaxResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Listar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDLicencia" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoTabla" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Fecha" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Listar_Test">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDLicencia" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoTabla" type="tns:TipoTabla" />
+            <s:element minOccurs="1" maxOccurs="1" name="Fecha" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="TipoTabla">
+        <s:restriction base="s:string">
+          <s:enumeration value="Ninguno" />
+          <s:enumeration value="SIS_Tabla" />
+          <s:enumeration value="CLA_ClasificacionTipo" />
+          <s:enumeration value="CLA_Ficha" />
+          <s:enumeration value="CLA_Resultado" />
+          <s:enumeration value="CLA_Valores" />
+          <s:enumeration value="CLA_Variable" />
+          <s:enumeration value="GEN_Biometrico" />
+          <s:enumeration value="GEN_Dependencia" />
+          <s:enumeration value="GEN_Discapacidad" />
+          <s:enumeration value="GEN_DocumentoTipo" />
+          <s:enumeration value="GEN_EstadoCivil" />
+          <s:enumeration value="GEN_FamiliaTipo" />
+          <s:enumeration value="GEN_GradoInstruccion" />
+          <s:enumeration value="GEN_Idioma" />
+          <s:enumeration value="GEN_Ocupacion" />
+          <s:enumeration value="GEN_OcupacionGrupo" />
+          <s:enumeration value="GEN_OcupacionTipo" />
+          <s:enumeration value="GEN_Profesion" />
+          <s:enumeration value="GEN_Rasgo" />
+          <s:enumeration value="GEN_RasgoTipo" />
+          <s:enumeration value="GEN_Region" />
+          <s:enumeration value="GEN_Sexo" />
+          <s:enumeration value="GLO_Parentesco" />
+          <s:enumeration value="INT_AutoridadJudicial" />
+          <s:enumeration value="INT_AutoridadJudicialTipo" />
+          <s:enumeration value="INT_Banda" />
+          <s:enumeration value="INT_BandaMiembroTipo" />
+          <s:enumeration value="INT_BandaTipo" />
+          <s:enumeration value="INT_DelitoCapitulo" />
+          <s:enumeration value="INT_DelitoSeccion" />
+          <s:enumeration value="INT_DelitosEspecifico" />
+          <s:enumeration value="INT_DelitosGenerico" />
+          <s:enumeration value="INT_DelitoTipo" />
+          <s:enumeration value="INT_Estado" />
+          <s:enumeration value="INT_LibertadTipo" />
+          <s:enumeration value="INT_MotivoIngreso" />
+          <s:enumeration value="INT_MovimientoGrupo" />
+          <s:enumeration value="INT_MovimientoMotivo" />
+          <s:enumeration value="INT_MovimientoTipo" />
+          <s:enumeration value="INT_Penal" />
+          <s:enumeration value="INT_SenaParticular" />
+          <s:enumeration value="INT_SenaParticularTipo" />
+          <s:enumeration value="INT_SentenciaTipo" />
+          <s:enumeration value="INT_SituacionJuridica" />
+          <s:enumeration value="INT_Traslado" />
+          <s:enumeration value="INT_TrasladoTipo" />
+          <s:enumeration value="REG_DOC_Tipo" />
+          <s:enumeration value="RPT_Cuadro002" />
+          <s:enumeration value="RPT_Cuadro003" />
+          <s:enumeration value="RPT_Cuadro007" />
+          <s:enumeration value="RPT_Cuadro008" />
+          <s:enumeration value="RPT_Cuadro010" />
+          <s:enumeration value="RPT_Cuadro012" />
+          <s:enumeration value="RPT_Cuadro013" />
+          <s:enumeration value="RPT_Reporte" />
+          <s:enumeration value="UBG_Departamento" />
+          <s:enumeration value="UBG_Distrito" />
+          <s:enumeration value="UBG_Pais" />
+          <s:enumeration value="UBG_Provincia" />
+          <s:enumeration value="VIS_Etapa" />
+          <s:enumeration value="VIS_Regimen" />
+          <s:enumeration value="VIS_RestriccionTipo" />
+          <s:enumeration value="VIS_SancionTipo" />
+          <s:enumeration value="VIS_Tipo" />
+          <s:enumeration value="REG_DOC_subtipo" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="Listar_TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Listar_TestResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="FechaHoySoapIn">
+    <wsdl:part name="parameters" element="tns:FechaHoy" />
+  </wsdl:message>
+  <wsdl:message name="FechaHoySoapOut">
+    <wsdl:part name="parameters" element="tns:FechaHoyResponse" />
+  </wsdl:message>
+  <wsdl:message name="Listar_IDMaxSoapIn">
+    <wsdl:part name="parameters" element="tns:Listar_IDMax" />
+  </wsdl:message>
+  <wsdl:message name="Listar_IDMaxSoapOut">
+    <wsdl:part name="parameters" element="tns:Listar_IDMaxResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarSoapIn">
+    <wsdl:part name="parameters" element="tns:Listar" />
+  </wsdl:message>
+  <wsdl:message name="ListarSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="Listar_TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Listar_Test" />
+  </wsdl:message>
+  <wsdl:message name="Listar_TestSoapOut">
+    <wsdl:part name="parameters" element="tns:Listar_TestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TablaMaestrasSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FechaHoy">
+      <wsdl:input message="tns:FechaHoySoapIn" />
+      <wsdl:output message="tns:FechaHoySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Listar_IDMax">
+      <wsdl:input message="tns:Listar_IDMaxSoapIn" />
+      <wsdl:output message="tns:Listar_IDMaxSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Listar">
+      <wsdl:input message="tns:ListarSoapIn" />
+      <wsdl:output message="tns:ListarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Listar_Test">
+      <wsdl:input message="tns:Listar_TestSoapIn" />
+      <wsdl:output message="tns:Listar_TestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TablaMaestrasSoap" type="tns:TablaMaestrasSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FechaHoy">
+      <soap:operation soapAction="http://tempuri.org/FechaHoy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar_IDMax">
+      <soap:operation soapAction="http://tempuri.org/Listar_IDMax" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar">
+      <soap:operation soapAction="http://tempuri.org/Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar_Test">
+      <soap:operation soapAction="http://tempuri.org/Listar_Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TablaMaestrasSoap12" type="tns:TablaMaestrasSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FechaHoy">
+      <soap12:operation soapAction="http://tempuri.org/FechaHoy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar_IDMax">
+      <soap12:operation soapAction="http://tempuri.org/Listar_IDMax" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar">
+      <soap12:operation soapAction="http://tempuri.org/Listar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar_Test">
+      <soap12:operation soapAction="http://tempuri.org/Listar_Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TablaMaestras">
+    <wsdl:port name="TablaMaestrasSoap" binding="tns:TablaMaestrasSoap">
+      <soap:address location="http://ws.inpe.gob.pe/POPE/Sede/TablaMaestras.asmx" />
+    </wsdl:port>
+    <wsdl:port name="TablaMaestrasSoap12" binding="tns:TablaMaestrasSoap12">
+      <soap12:address location="http://ws.inpe.gob.pe/POPE/Sede/TablaMaestras.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

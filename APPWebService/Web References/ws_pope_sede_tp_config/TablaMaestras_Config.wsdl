@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Cantidad_Test">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDLicencia" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoTabla" type="tns:TipoTabla_Config" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="TipoTabla_Config">
+        <s:restriction base="s:string">
+          <s:enumeration value="Ninguno" />
+          <s:enumeration value="Licencia" />
+          <s:enumeration value="LicenciaDetalle" />
+          <s:enumeration value="Modulo" />
+          <s:enumeration value="Usuario" />
+          <s:enumeration value="UsuarioModulo" />
+          <s:enumeration value="UsuarioRegion" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="Cantidad_TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Cantidad_TestResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Listar_Test">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDLicencia" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoTabla" type="tns:TipoTabla_Config" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Listar_TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Listar_TestResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarxLicencia_Test">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDLicencia" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoTabla" type="tns:TipoTabla_Config" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarxLicencia_TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarxLicencia_TestResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Cantidad">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDLicencia" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoTabla" type="tns:TipoTabla_Config" />
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CantidadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CantidadResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Listar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDLicencia" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoTabla" type="tns:TipoTabla_Config" />
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarxLicencia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IDLicencia" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoTabla" type="tns:TipoTabla_Config" />
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarxLicenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarxLicenciaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Cantidad_TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Cantidad_Test" />
+  </wsdl:message>
+  <wsdl:message name="Cantidad_TestSoapOut">
+    <wsdl:part name="parameters" element="tns:Cantidad_TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="Listar_TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Listar_Test" />
+  </wsdl:message>
+  <wsdl:message name="Listar_TestSoapOut">
+    <wsdl:part name="parameters" element="tns:Listar_TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarxLicencia_TestSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarxLicencia_Test" />
+  </wsdl:message>
+  <wsdl:message name="ListarxLicencia_TestSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarxLicencia_TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="CantidadSoapIn">
+    <wsdl:part name="parameters" element="tns:Cantidad" />
+  </wsdl:message>
+  <wsdl:message name="CantidadSoapOut">
+    <wsdl:part name="parameters" element="tns:CantidadResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarSoapIn">
+    <wsdl:part name="parameters" element="tns:Listar" />
+  </wsdl:message>
+  <wsdl:message name="ListarSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarxLicenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarxLicencia" />
+  </wsdl:message>
+  <wsdl:message name="ListarxLicenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarxLicenciaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TablaMaestras_ConfigSoap">
+    <wsdl:operation name="Cantidad_Test">
+      <wsdl:input message="tns:Cantidad_TestSoapIn" />
+      <wsdl:output message="tns:Cantidad_TestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Listar_Test">
+      <wsdl:input message="tns:Listar_TestSoapIn" />
+      <wsdl:output message="tns:Listar_TestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarxLicencia_Test">
+      <wsdl:input message="tns:ListarxLicencia_TestSoapIn" />
+      <wsdl:output message="tns:ListarxLicencia_TestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Cantidad">
+      <wsdl:input message="tns:CantidadSoapIn" />
+      <wsdl:output message="tns:CantidadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Listar">
+      <wsdl:input message="tns:ListarSoapIn" />
+      <wsdl:output message="tns:ListarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarxLicencia">
+      <wsdl:input message="tns:ListarxLicenciaSoapIn" />
+      <wsdl:output message="tns:ListarxLicenciaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TablaMaestras_ConfigSoap" type="tns:TablaMaestras_ConfigSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Cantidad_Test">
+      <soap:operation soapAction="http://tempuri.org/Cantidad_Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar_Test">
+      <soap:operation soapAction="http://tempuri.org/Listar_Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarxLicencia_Test">
+      <soap:operation soapAction="http://tempuri.org/ListarxLicencia_Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cantidad">
+      <soap:operation soapAction="http://tempuri.org/Cantidad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar">
+      <soap:operation soapAction="http://tempuri.org/Listar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarxLicencia">
+      <soap:operation soapAction="http://tempuri.org/ListarxLicencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TablaMaestras_ConfigSoap12" type="tns:TablaMaestras_ConfigSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Cantidad_Test">
+      <soap12:operation soapAction="http://tempuri.org/Cantidad_Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar_Test">
+      <soap12:operation soapAction="http://tempuri.org/Listar_Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarxLicencia_Test">
+      <soap12:operation soapAction="http://tempuri.org/ListarxLicencia_Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cantidad">
+      <soap12:operation soapAction="http://tempuri.org/Cantidad" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar">
+      <soap12:operation soapAction="http://tempuri.org/Listar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarxLicencia">
+      <soap12:operation soapAction="http://tempuri.org/ListarxLicencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TablaMaestras_Config">
+    <wsdl:port name="TablaMaestras_ConfigSoap" binding="tns:TablaMaestras_ConfigSoap">
+      <soap:address location="http://wsdev.inpe.gob.pe/Pope/sede/TablaMaestras_Config.asmx" />
+    </wsdl:port>
+    <wsdl:port name="TablaMaestras_ConfigSoap12" binding="tns:TablaMaestras_ConfigSoap12">
+      <soap12:address location="http://wsdev.inpe.gob.pe/Pope/sede/TablaMaestras_Config.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

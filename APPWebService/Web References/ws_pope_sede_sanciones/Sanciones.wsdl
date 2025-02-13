@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Version">
+        <s:complexType />
+      </s:element>
+      <s:element name="VersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GrabarSancion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDTO" type="tns:DTOVisitanteSancion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTOVisitanteSancion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Visitante" type="tns:DTOVisitante" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sancion" type="tns:DTOSancion" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTOVisitante">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Visitante" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Visitante">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Auditoria">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="IDVisitanteSede" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDRegionOrigen" type="s:short" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDPenalOrigen" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDVisitanteLocal" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="FechaSede" type="s:long" />
+              <s:element minOccurs="0" maxOccurs="1" name="PrimerApellido" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SegundoApellido" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Nombres" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Sexo" type="s:short" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDTipoDocumento" type="s:short" />
+              <s:element minOccurs="0" maxOccurs="1" name="NumeroDocumento" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="FechaNacimiento" type="s:long" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDNacionalidad" type="s:short" />
+              <s:element minOccurs="0" maxOccurs="1" name="Observacion" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FotoByte" type="s:base64Binary" />
+              <s:element minOccurs="0" maxOccurs="1" name="FotoNombre" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDUsuarioCapturaFoto" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="ValidadoReniec" type="s:short" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDUsuarioValidaReniec" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="FechaValidaReniec" type="s:long" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Auditoria">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDUsuarioCreacion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaCreacion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDUsuarioModificacion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaModificacion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDUsuarioEliminacion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaEliminacion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="Eliminado" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Sancion">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Auditoria">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="IDSancionSede" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDVisitanteSede" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDRegionOrigen" type="s:short" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDPenalOrigen" type="s:short" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDSancionLocal" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDVisitanteLocal" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="FechaSedeSubida" type="s:long" />
+              <s:element minOccurs="0" maxOccurs="1" name="ApellidosyNombres" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="FechaDoc" type="s:long" />
+              <s:element minOccurs="1" maxOccurs="1" name="FechaInicio" type="s:long" />
+              <s:element minOccurs="1" maxOccurs="1" name="FechaFin" type="s:long" />
+              <s:element minOccurs="1" maxOccurs="1" name="Indeterminado" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDTipoSancion" type="s:short" />
+              <s:element minOccurs="1" maxOccurs="1" name="Estado" type="s:short" />
+              <s:element minOccurs="0" maxOccurs="1" name="Obs" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DocumentoAnulacion" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MotivoAnulacion" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="FechaAnulacion" type="s:long" />
+              <s:element minOccurs="0" maxOccurs="1" name="ObsAnulacion" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDUsuarioAnulacion" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="EstadoTransferencia" type="s:short" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="DTOSancion">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Sancion" />
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GrabarSancionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GrabarSancionResult" type="tns:DTOResultVisitanteSancion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTOResultVisitanteSancion">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoError" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDSancion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDVisitante" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaSede" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GrabarSancionEstadoEnviadoSede">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDTO" type="tns:DTOVisitanteSancionEstado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTOVisitanteSancionEstado">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDSancion" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GrabarSancionEstadoEnviadoSedeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GrabarSancionEstadoEnviadoSedeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarSancionesPenalDestino">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDTO" type="tns:DTOSolicitud" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTOSolicitud">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDRegion" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDPenal" type="s:short" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListarSancionesPenalDestinoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarSancionesPenalDestinoResult" type="tns:DTOResultSolicitud" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTOResultSolicitud">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoError" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeError" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SancionLista" type="tns:ArrayOfDTOSancionDetalle" />
+          <s:element minOccurs="0" maxOccurs="1" name="VisitanteLista" type="tns:ArrayOfDTOVisitanteFoto" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDTOSancionDetalle">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DTOSancionDetalle" nillable="true" type="tns:DTOSancionDetalle" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTOSancionDetalle">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DTOSancion">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="IDSolicitudDetalle" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IDSolicitud" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfDTOVisitanteFoto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DTOVisitanteFoto" nillable="true" type="tns:DTOVisitanteFoto" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTOVisitanteFoto">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DTOVisitante" />
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GrabarSancionDestinoPenal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDTO" type="tns:DTOSancionDestinoPenal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTOSancionDestinoPenal">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDRegion" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDPenal" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="SancionDestinoPenalLista" type="tns:ArrayOfDTOSancionDestinoPenalDetalle" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDTOSancionDestinoPenalDetalle">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DTOSancionDestinoPenalDetalle" nillable="true" type="tns:DTOSancionDestinoPenalDetalle" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DTOSancionDestinoPenalDetalle">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:SancionDestinoPenal" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="SancionDestinoPenal">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IDSancionDestinoPenal" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDSolicitud" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDSancionSede" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDVisistanteSede" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaRecepcion" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="Estado" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDRegionDestino" type="s:short" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDPenalDestino" type="s:short" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GrabarSancionDestinoPenalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GrabarSancionDestinoPenalResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarPenalInicio">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDTO" type="tns:DTOSolicitud" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarPenalInicioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarPenalInicioResult" type="tns:DTOResultPenalInicio" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTOResultPenalInicio">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoError" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="MensajeOut" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaInicio" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="VersionSoapIn">
+    <wsdl:part name="parameters" element="tns:Version" />
+  </wsdl:message>
+  <wsdl:message name="VersionSoapOut">
+    <wsdl:part name="parameters" element="tns:VersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GrabarSancionSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarSancion" />
+  </wsdl:message>
+  <wsdl:message name="GrabarSancionSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarSancionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GrabarSancionEstadoEnviadoSedeSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarSancionEstadoEnviadoSede" />
+  </wsdl:message>
+  <wsdl:message name="GrabarSancionEstadoEnviadoSedeSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarSancionEstadoEnviadoSedeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarSancionesPenalDestinoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarSancionesPenalDestino" />
+  </wsdl:message>
+  <wsdl:message name="ListarSancionesPenalDestinoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarSancionesPenalDestinoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GrabarSancionDestinoPenalSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarSancionDestinoPenal" />
+  </wsdl:message>
+  <wsdl:message name="GrabarSancionDestinoPenalSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarSancionDestinoPenalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarPenalInicioSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarPenalInicio" />
+  </wsdl:message>
+  <wsdl:message name="ListarPenalInicioSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarPenalInicioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WSSancionesSoap">
+    <wsdl:operation name="Version">
+      <wsdl:input message="tns:VersionSoapIn" />
+      <wsdl:output message="tns:VersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GrabarSancion">
+      <wsdl:input message="tns:GrabarSancionSoapIn" />
+      <wsdl:output message="tns:GrabarSancionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GrabarSancionEstadoEnviadoSede">
+      <wsdl:input message="tns:GrabarSancionEstadoEnviadoSedeSoapIn" />
+      <wsdl:output message="tns:GrabarSancionEstadoEnviadoSedeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSancionesPenalDestino">
+      <wsdl:input message="tns:ListarSancionesPenalDestinoSoapIn" />
+      <wsdl:output message="tns:ListarSancionesPenalDestinoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GrabarSancionDestinoPenal">
+      <wsdl:input message="tns:GrabarSancionDestinoPenalSoapIn" />
+      <wsdl:output message="tns:GrabarSancionDestinoPenalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarPenalInicio">
+      <wsdl:input message="tns:ListarPenalInicioSoapIn" />
+      <wsdl:output message="tns:ListarPenalInicioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSSancionesSoap" type="tns:WSSancionesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Version">
+      <soap:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarSancion">
+      <soap:operation soapAction="http://tempuri.org/GrabarSancion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarSancionEstadoEnviadoSede">
+      <soap:operation soapAction="http://tempuri.org/GrabarSancionEstadoEnviadoSede" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSancionesPenalDestino">
+      <soap:operation soapAction="http://tempuri.org/ListarSancionesPenalDestino" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarSancionDestinoPenal">
+      <soap:operation soapAction="http://tempuri.org/GrabarSancionDestinoPenal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarPenalInicio">
+      <soap:operation soapAction="http://tempuri.org/ListarPenalInicio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSSancionesSoap12" type="tns:WSSancionesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Version">
+      <soap12:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarSancion">
+      <soap12:operation soapAction="http://tempuri.org/GrabarSancion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarSancionEstadoEnviadoSede">
+      <soap12:operation soapAction="http://tempuri.org/GrabarSancionEstadoEnviadoSede" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSancionesPenalDestino">
+      <soap12:operation soapAction="http://tempuri.org/ListarSancionesPenalDestino" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarSancionDestinoPenal">
+      <soap12:operation soapAction="http://tempuri.org/GrabarSancionDestinoPenal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarPenalInicio">
+      <soap12:operation soapAction="http://tempuri.org/ListarPenalInicio" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSSanciones">
+    <wsdl:port name="WSSancionesSoap" binding="tns:WSSancionesSoap">
+      <soap:address location="http://wsdev.inpe.gob.pe/Pope/sedesanciones/Sanciones.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSSancionesSoap12" binding="tns:WSSancionesSoap12">
+      <soap12:address location="http://wsdev.inpe.gob.pe/Pope/sedesanciones/Sanciones.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

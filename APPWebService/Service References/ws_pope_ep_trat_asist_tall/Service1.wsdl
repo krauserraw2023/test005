@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://10.4.16.72/ws_apibiostar_2/api_biostar.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://10.4.16.72/ws_apibiostar_2/api_biostar.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://10.4.16.72/ws_apibiostar_2/api_biostar.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ws_biostar_2.Entity" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IApiBiostar_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_Login_API_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login_API" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_Login_API_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Login_APIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_CargaUsuarioSupremaV2_InputMessage">
+    <wsdl:part name="parameters" element="tns:CargaUsuarioSupremaV2" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_CargaUsuarioSupremaV2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CargaUsuarioSupremaV2Response" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_EliminarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_EliminarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_DesHabUsuarioSupremaV2_InputMessage">
+    <wsdl:part name="parameters" element="tns:DesHabUsuarioSupremaV2" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_DesHabUsuarioSupremaV2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DesHabUsuarioSupremaV2Response" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_CambiarCodigo_InputMessage">
+    <wsdl:part name="parameters" element="tns:CambiarCodigo" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_CambiarCodigo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CambiarCodigoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_ListarGrupoAcceso_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarGrupoAcceso" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_ListarGrupoAcceso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarGrupoAccesoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_ListarGrupoUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarGrupoUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_ListarGrupoUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarGrupoUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_test_InputMessage">
+    <wsdl:part name="parameters" element="tns:test" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_test_OutputMessage">
+    <wsdl:part name="parameters" element="tns:testResponse" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_ListarUsuarioAPI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarUsuarioAPI" />
+  </wsdl:message>
+  <wsdl:message name="IApiBiostar_ListarUsuarioAPI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarUsuarioAPIResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IApiBiostar">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/GetData" message="tns:IApiBiostar_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/GetDataResponse" message="tns:IApiBiostar_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login_API">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/Login_API" message="tns:IApiBiostar_Login_API_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/Login_APIResponse" message="tns:IApiBiostar_Login_API_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CargaUsuarioSupremaV2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/CargaUsuarioSupremaV2" message="tns:IApiBiostar_CargaUsuarioSupremaV2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/CargaUsuarioSupremaV2Response" message="tns:IApiBiostar_CargaUsuarioSupremaV2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/EliminarUsuario" message="tns:IApiBiostar_EliminarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/EliminarUsuarioResponse" message="tns:IApiBiostar_EliminarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DesHabUsuarioSupremaV2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/DesHabUsuarioSupremaV2" message="tns:IApiBiostar_DesHabUsuarioSupremaV2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/DesHabUsuarioSupremaV2Response" message="tns:IApiBiostar_DesHabUsuarioSupremaV2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CambiarCodigo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/CambiarCodigo" message="tns:IApiBiostar_CambiarCodigo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/CambiarCodigoResponse" message="tns:IApiBiostar_CambiarCodigo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarGrupoAcceso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/ListarGrupoAcceso" message="tns:IApiBiostar_ListarGrupoAcceso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/ListarGrupoAccesoResponse" message="tns:IApiBiostar_ListarGrupoAcceso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarGrupoUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/ListarGrupoUsuario" message="tns:IApiBiostar_ListarGrupoUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/ListarGrupoUsuarioResponse" message="tns:IApiBiostar_ListarGrupoUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/test" message="tns:IApiBiostar_test_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/testResponse" message="tns:IApiBiostar_test_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarUsuarioAPI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IApiBiostar/ListarUsuarioAPI" message="tns:IApiBiostar_ListarUsuarioAPI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IApiBiostar/ListarUsuarioAPIResponse" message="tns:IApiBiostar_ListarUsuarioAPI_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IApiBiostar" type="tns:IApiBiostar">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login_API">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/Login_API" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargaUsuarioSupremaV2">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/CargaUsuarioSupremaV2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/EliminarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DesHabUsuarioSupremaV2">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/DesHabUsuarioSupremaV2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambiarCodigo">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/CambiarCodigo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarGrupoAcceso">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/ListarGrupoAcceso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarGrupoUsuario">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/ListarGrupoUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarUsuarioAPI">
+      <soap:operation soapAction="http://tempuri.org/IApiBiostar/ListarUsuarioAPI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IApiBiostar" binding="tns:BasicHttpBinding_IApiBiostar">
+      <soap:address location="http://10.4.16.72/ws_apibiostar_2/api_biostar.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

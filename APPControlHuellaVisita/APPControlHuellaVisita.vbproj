@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{FAB74AE6-B2B3-487F-9BFB-CFDB4BD1AD8B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>APPControlHuellaVisita</RootNamespace>
+    <AssemblyName>APPControlHuellaVisita</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>APPControlHuellaVisita.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>APPControlHuellaVisita.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MathAPIHelperFS60">
+      <HintPath>..\..\..\DLL\MathAPIHelperFS60.dll</HintPath>
+    </Reference>
+    <Reference Include="ScanAPIHelper">
+      <HintPath>..\..\..\DLL\ScanAPIHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="ScanAPIHelperFS60">
+      <HintPath>..\..\..\DLL\ScanAPIHelperFS60.dll</HintPath>
+    </Reference>
+    <Reference Include="Suprema.UFMatcher">
+      <HintPath>..\..\..\DLL\Suprema.UFMatcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Wsq2Bmp">
+      <HintPath>..\..\..\DLL\Wsq2Bmp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AfisDemo.vb" />
+    <Compile Include="Business\Bss_HuellaTemplate.vb" />
+    <Compile Include="Business\Bss_HuellaWSQ.vb" />
+    <Compile Include="Entity\Comparer.vb" />
+    <Compile Include="Data\Dat_HuellaTemplate.vb" />
+    <Compile Include="Data\Dat_HuellaWSQ.vb" />
+    <Compile Include="Entity\Ent_HuellaTemplate.vb" />
+    <Compile Include="Entity\Ent_HuellaWSQ.vb" />
+    <Compile Include="Entity\Huella.vb" />
+    <Compile Include="Huellero\DDL\FS10\MyBitmapFile.vb" />
+    <Compile Include="Huellero\DDL\FS60\LoadDll.vb" />
+    <Compile Include="Huellero\DDL\FS60\Utilidad.vb" />
+    <Compile Include="Huellero\DDL\FS88H\ftrNativeLib.vb" />
+    <Compile Include="Huellero\DDL\FS88H\MyBitmapFile.vb" />
+    <Compile Include="Huellero\UI\FS10\frmCapturaHuellaUnico.designer.vb">
+      <DependentUpon>frmCapturaHuellaUnico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS10\frmCapturaHuellaUnico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS10\frmIdentificarPopup.Designer.vb">
+      <DependentUpon>frmIdentificarPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS10\frmIdentificarPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS10\frmCaptura.Designer.vb">
+      <DependentUpon>frmCaptura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS10\frmCaptura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS10\uscValidarHuellaBasic.Designer.vb">
+      <DependentUpon>uscValidarHuellaBasic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS10\uscValidarHuellaBasic.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmCapturaDeca.designer.vb">
+      <DependentUpon>frmCapturaDeca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmCapturaDeca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmCapturaMonoDac_v2.designer.vb">
+      <DependentUpon>frmCapturaMonoDac_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmCapturaMonoDac_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmCapturaMonoDac.designer.vb">
+      <DependentUpon>frmCapturaMonoDac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmCapturaMonoDac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmConfigAmputadoDeca.designer.vb">
+      <DependentUpon>frmConfigAmputadoDeca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmConfigAmputadoDeca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmObservacion.Designer.vb">
+      <DependentUpon>frmObservacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmObservacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmVisorHuella.designer.vb">
+      <DependentUpon>frmVisorHuella.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\frmVisorHuella.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\uscCapturaMonoDactilar.Designer.vb">
+      <DependentUpon>uscCapturaMonoDactilar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\uscCapturaMonoDactilar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\uscIconFinger.designer.vb">
+      <DependentUpon>uscIconFinger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\uscIconFinger.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\uscThumbFinger.designer.vb">
+      <DependentUpon>uscThumbFinger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\uscThumbFinger.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\uscVisorDetalleHuellas.designer.vb">
+      <DependentUpon>uscVisorDetalleHuellas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\FS60\uscVisorDetalleHuellas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Huellero\UI\RealScanG1\frmCaptura.Designer.vb">
+      <DependentUpon>frmCaptura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\RealScanG1\frmCaptura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdentificarDispositivo.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Huellero\DDL\RealScanG1\RSE_Error.vb" />
+    <Compile Include="Huellero\DDL\RealScanG1\RSE_SDK.vb" />
+    <Compile Include="Huellero\DDL\RealScanG1\RS_Error.vb" />
+    <Compile Include="Huellero\DDL\RealScanG1\RS_SDK.vb" />
+    <Compile Include="Huellero\DDL\RealScanG1\SDK.vb" />
+    <Compile Include="Business\SysBiometria.vb" />
+    <Compile Include="Type\Enumeracion.vb" />
+    <Compile Include="Huellero\UI\RealScanG1\uscCaptura.Designer.vb">
+      <DependentUpon>uscCaptura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Huellero\UI\RealScanG1\uscCaptura.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Huellero\UI\FS10\frmCapturaHuellaUnico.resx">
+      <DependentUpon>frmCapturaHuellaUnico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS10\frmIdentificarPopup.resx">
+      <DependentUpon>frmIdentificarPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS10\frmCaptura.resx">
+      <DependentUpon>frmCaptura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS10\uscValidarHuellaBasic.resx">
+      <DependentUpon>uscValidarHuellaBasic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\frmCapturaDeca.resx">
+      <DependentUpon>frmCapturaDeca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\frmCapturaMonoDac_v2.resx">
+      <DependentUpon>frmCapturaMonoDac_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\frmCapturaMonoDac.resx">
+      <DependentUpon>frmCapturaMonoDac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\frmConfigAmputadoDeca.resx">
+      <DependentUpon>frmConfigAmputadoDeca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\frmObservacion.resx">
+      <DependentUpon>frmObservacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\frmVisorHuella.resx">
+      <DependentUpon>frmVisorHuella.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\uscCapturaMonoDactilar.resx">
+      <DependentUpon>uscCapturaMonoDactilar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\uscIconFinger.resx">
+      <DependentUpon>uscIconFinger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\uscThumbFinger.resx">
+      <DependentUpon>uscThumbFinger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\FS60\uscVisorDetalleHuellas.resx">
+      <DependentUpon>uscVisorDetalleHuellas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\RealScanG1\frmCaptura.resx">
+      <DependentUpon>frmCaptura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huellero\UI\RealScanG1\uscCaptura.resx">
+      <DependentUpon>uscCaptura.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mano_derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mano_derecha02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mano_izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mano_izquierda02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anular2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\replace2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capturar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedo_ampuado.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recapturar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huella_x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estado_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estado_amarillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estado_azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Green16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Invalido16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Red16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Yellow16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huella_digital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-32%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drive - USB_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fle_pri1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fle_pri11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fle_ant1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fle_ult1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mano_derecha03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mano_izquierda03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

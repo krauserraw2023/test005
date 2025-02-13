@@ -1,0 +1,317 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Bussines
+</name>
+</assembly>
+<members>
+<member name="T:Bussines.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Bussines.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Bussines.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="M:Bussines.Globall.GradoInstruccion.ListarNombreGradoReniec(System.Int32)">
+ <summary>
+ Retorna el nombre de grado de instruccion de acuerdo al id de la reniec
+ </summary>
+ <param name="CodigoGradInsRENIEC"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Globall.ArchivoDigital.TestServicioArchivoDigital(System.Boolean)">
+ <summary>
+ Retorna el estado del servicio, TRUE:En linea, FALSE: Servicio no disponible
+ </summary>
+ <param name="ServicioSedeCentral">True: Servicio de la sede central, False: Servicio local</param>
+ <returns>Retorna el estado del servicio si esta disponible o no</returns>
+ <history>
+ Creado: hrosario - 08/01/2015 14:41 
+ </history>
+</member>
+<member name="M:Bussines.General.Penal.Listar_v2(System.Int32)">
+ <summary>
+ 08-01/2019 - hnrb - se agrego PenalTipoLicencia
+ </summary>
+ <param name="IDPenal"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Registro.Documento.NombresAsociados.ActualizarNombrePrincipal_LM(Entity.Registro.Documento.NombresAsociados,System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="EntNA"></param>
+ <param name="n_ActivarFlagTransferSede"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Registro.Antecedente.SolicitudAntecedente.EsAntecedenteNegativo(System.Int32)">
+ <summary>
+ Autor: Hugo N. Rosario
+ Fecha:22/02/2018
+ Verifica la persona tiene antecedente negativo
+ </summary>
+ <param name="internoId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Registro.Antecedente.SolicitudAntecedente.RegistraProcesoPendienteConMD(System.Int32,Type.Enumeracion.AntecedenteJudicial.enmAmbitoJurisdiccionAutJud)">
+ <summary>
+ Verifica si posee procesos pendientes con mandato de detencion
+ </summary>
+ <param name="internoId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Registro.Antecedente.SolicitudAntecedente.ListarDetalleAntecedentePositivo_LM(System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ Autor: Hugo N. Rosario
+ Fecha:19-10-2016
+ Retorna los antecedentes del interno hasta la fecha actual
+ </summary>
+ <param name="IdInterno">Id del interno</param>
+ <returns>Lista de detalles de antecedentes</returns>
+ 
+</member>
+<member name="M:Bussines.Registro.Antecedente.SolicitudAntecedente.ListarGrilla(Entity.Registro.Antecedente.SolicitudAntecedente)">
+ <summary>
+ Autor: Hugo N. Rosario
+ Fecha:09/07/2018
+ Retorna los antecedentes del interno desde el historico de datos migrados, solo válido para registros migrados del SRP Sybase.
+ </summary>
+ <param name="SolAntJudId"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Registro.InternoInimputable.ListarMandatosCarceleta(Entity.Registro.Expediente)">
+ <summary>
+ Retorna los expediente de todos los mandatos de detencion que corresponden al ingreso (Internamiento)
+ </summary>
+ <param name="objIntExp"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Registro.InternoHistorico.Grabar_HistoricoDeInterno_LM(System.Int64,System.Int64,System.Int32)">
+ <summary>
+ Version modificada de Grabar_HistoricoCopia(...), con la diferencia que genera el historico a partir del int_Intenro y no de InternoHistorico.
+ </summary>
+ <param name="IDInterno"></param>
+ <param name="IDIngresoActual"></param>
+ <param name="IdIngresoNew"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Registro.InternoMovimiento.UltimoMovimiento_LM(System.Int32)">
+ <summary>
+ Retorna el último movimiento del interno del ultimo ingreso.
+ </summary>
+ <param name="internoId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Registro.InternoMovimiento.PrimerMovimientoIngreso_LM(System.Int32)">
+ <summary>
+ Retorne al primer movimiento de ingreso correspondientes al ultimo Ingreso INPE.
+ </summary>
+ <param name="internoId"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Registro.Interno.ListarDuplicadosXNumDoc_LM(System.Int32,System.String)">
+ <summary>
+ Retorna la lista de los internos x tipo de documento y numero, buscar los internos dentro de los EP lima metropolitana
+ considerando solo los registros de la version V6_LM
+ </summary>
+ <param name="tipoIdent"></param>
+ <param name="numDocIdent"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Registro.Interno.Grabar_PLM(Entity.Registro.Interno,System.String@)">
+ <summary>
+ Autor:Hnrb - 13/12/2016
+ Guarda los datos del interno
+ obs:Se agrego campo idiomaNativoId, generoId
+ </summary>
+ <param name="objEntInterno"></param>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:Bussines.Registro.Interno.Grabar_Carceleta(Entity.Registro.Interno,System.String@)">
+ <summary>
+ Autor:Hnrb - 13/12/2016
+ Guarda los datos del interno
+ obs:Se agrego campo idiomaNativoId, generoId
+ </summary>
+ <param name="objEntInterno"></param>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:Bussines.Registro.Interno.Grabar_RegionLima(Entity.Registro.Interno,System.String@)">
+ <summary>
+ Permite grabar los datos del interno con penId=-1 a 35 para poder ser visualizado en carceleta
+ </summary>
+ <param name="objEntInterno"></param>
+ <param name="outSms"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Registro.Interno.ActualizarInternoORL_ParaCarceleta(Entity.Registro.Interno,System.String@)">
+ <summary>
+ Permite actualizar todos los datos de interno que fue registrado en la ORL para que pueda ser visualizado en carceleta.
+ </summary>
+ <param name="objEntInterno"></param>
+ <param name="outSms"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Registro.Expediente.ListarMandatosCarceleta(Entity.Registro.Expediente)">
+ <summary>
+ Retorna los expediente de todos los mandatos de detencion que corresponden al ingreso (Internamiento)
+ </summary>
+ <param name="objIntExp"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Registro.NombreAsociado.GrabarSinDoc_ORL(Entity.Registro.NombreAsociado)">
+ <summary>
+ 03/05/2019 - hnrb
+ Registro de nombre asociado sin documento de aclaratoria, valido solo para ORL
+ </summary>
+ <param name="objEnt"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Clasificacion.Documento.DocClasificacion.ListarUltimosRegistros">
+ <summary>
+ Retorna los 10 últimos registros agregados
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Clasificacion.Documento.DocClasificacion.ListarDocDuplicadosValidos(System.String)">
+ <summary>
+ Retorma la lista de documentos validos sin anulados ni eliminados por numero de documento
+ </summary>
+ <param name="NumDoc">Numero de documento</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Clasificacion.Documento.DocClasificacion.BloquearClasificacion(System.Int32)">
+ <summary>
+ hnrb -> 22/03/2016
+ Permite cambiar el estado de la ficha de clasificacion a bloqueado para no ser alterado
+ </summary>
+ <param name="DocumentoClasificacionId"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Clasificacion.Documento.DocClasificacion.DesBloquearClasificacion(System.Int32)">
+ <summary>
+ hnrb -> 22/03/2016
+ Permite cambiar el estado de la ficha de clasificacion de BLOQUEADO a PENDIENTE
+ </summary>
+ <param name="DocumentoClasificacionId"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Clasificacion.InternoClasificacion.InternoFicha.ListarFichas_x_fichaFinal(System.Int32)">
+ <summary>
+ hnrb - 05/01/2020
+ retorna todas las fichas por ficha final
+ </summary>
+ <param name="FichaFinalId"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Clasificacion.InternoClasificacion.InternoFicha.ListarInternoSinDocClasificacion(Entity.Clasificacion.InternoClasificacion.InternoFicha)">
+ <summary>
+ Autor:Hnrb -> 22/03/2016
+ Retorna la lista de todos los internos clasificados pero pendientes de generacion de documento para su derivación 
+ a los penales destino.
+ </summary>
+ <param name="entFich"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Clasificacion.InternoClasificacion.InternoFicha.Eliminar(System.Int32,System.String@)">
+ <summary>
+ Elimina la ficha del interno, en caso la ficha sea de tipo Ficha Final se debe setear el num de clasificacion a 0 de las demas fichas
+ asociadas o relacionadas eso con la finalidad de relacionar las fichas con las q se relacionaran con la nueva fich final en la interface de usuario
+ considerando que las fichas de clasificacion pendientes el num clasif debe ser 0.
+ </summary>
+ <param name="Codigo">Id de interno ficha</param>
+ <param name="outErr">Mensaje de error para retornar a la interface de usuario</param>
+ <returns>Retorna el Id del registro eliminado caso contrario si hay algun error retorna -1</returns>
+</member>
+<member name="M:Bussines.Reporte.Clasificacion.DatosInterno_v2(System.Int32,System.Int32)">
+ <summary>
+ 05/07/2018-> se agrego para filtrar por ingresoInpe para obtener informacion de cada ingreso.
+ </summary>
+ <param name="InternoID"></param>
+ <param name="IngresoInpeId"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Reporte.ReporteCabecera.UltimoNumImpresion(System.Int32)">
+ <summary>
+ Retorna el último número de serie de las impresiones hijas excluyendo la cabecera principal de reporte.
+ </summary>
+ <param name="ReporteCabeceraId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Transferencia.ProcesaZXP.ProcesarDocumentosORL_ZXP(APPWebService.ws_pope_sede_plm_carceleta.Carceleta@,System.Data.DataSet@,System.Int32,System.Int32,System.String@)">
+ <summary>
+ Procesa la data proveniente de la region hacia los penales (documentos + otros).
+ </summary>
+ <param name="dtsXml"></param>
+ <param name="n_int_id"></param>
+ <param name="n_inp_ing_id"></param>
+ <param name="n_ingId"></param>
+ <param name="outSMS"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Transferencia.RecepcionInternoTraslado.RecepcionIntTrasladoOrigenEPLM(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Operacion encargada de la recepcion de internos por traslado en carceleta provenientes de otros penales
+ de lima metropolitana.
+ </summary>
+ <param name="InternoId"></param>
+ <param name="regOrigenId"></param>
+ <param name="penOrigenId"></param>
+ <param name="MovimientoTrasladoId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Bussines.Transferencia.RecepcionInternoTraslado.Grabar_DatosBasicosInternoSede_PLM(System.Int32,System.String@)">
+ <summary>
+ Retorna datos basicos del interno desde la sede central x id del interno de la sede
+ </summary>
+ <param name="regOrigenId"></param>
+ <param name="penIdOrigen"></param>
+ <param name="intIDinternoSede"></param>
+ <param name="strMensajeOut"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Tratamiento.TallerAsistencia.InternoTaller.WS_IniciarLoggin(APPWebService.ws_pope_ep_trat_asist_tall.ApiBiostarClient,System.String)">
+ <summary>
+ Inicia sesion en el servicio biometrico de BIOSTAR.
+ </summary>
+ <param name="ws">Servicio web ya instanciado</param>
+ <param name="out_SMS"></param>
+ <returns></returns>
+</member>
+<member name="M:Bussines.Tratamiento.TallerAsistencia.MarcacionAsistenciaEquipo.ImportMarcacionDesdeBdBiometricoATmp(System.String@)">
+ <summary>
+ Importar marcaciones desde la tabla t_lg201810 del biometrico hacia la tabla intermedia tra_int_marcacionasistencia_mov
+ </summary>
+ <param name="outSms"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

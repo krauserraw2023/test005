@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ListarDataZXP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="internoSedeId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDataZXPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarDataZXPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDocumentosZXP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="internoSedeId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PenId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDocumentosZXPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarDocumentosZXPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConfirmarDescargaDataZXP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dat">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConfirmarDescargaDataZXPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConfirmarDescargaDataZXPResult" type="tns:DTO_ResultOfBoolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DTO_ResultOfBoolean">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Resultado" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error_cod" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error_Mensaje" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ConfirmarDescargaDocumentosZXP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dat">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConfirmarDescargaDocumentosZXPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConfirmarDescargaDocumentosZXPResult" type="tns:DTO_ResultOfBoolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDatIntOtrosZXP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IngInpId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDatIntOtrosZXPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarDatIntOtrosZXPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaPendRecepTraslado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pen_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaPendRecepTrasladoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaPendRecepTrasladoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDetPaqueteEPLimMet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="int_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDetPaqueteEPLimMetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarDetPaqueteEPLimMetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConfirmarRecepTraslado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="internoIdSede" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="mov_trs_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConfirmarRecepTrasladoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConfirmarRecepTrasladoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDetPaqIntEPProv">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="int_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDetPaqIntEPProvResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarDetPaqIntEPProvResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDatBasicoInterno">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="int_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDatBasicoInternoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarDatBasicoInternoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarInterno_Para_LimaProvincias">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="intIDInterno" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarInterno_Para_LimaProvinciasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarInterno_Para_LimaProvinciasResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="_test">
+        <s:complexType />
+      </s:element>
+      <s:element name="_testResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="_testResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="getVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ListarDataZXPSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarDataZXP" />
+  </wsdl:message>
+  <wsdl:message name="ListarDataZXPSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarDataZXPResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarDocumentosZXPSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarDocumentosZXP" />
+  </wsdl:message>
+  <wsdl:message name="ListarDocumentosZXPSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarDocumentosZXPResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmarDescargaDataZXPSoapIn">
+    <wsdl:part name="parameters" element="tns:ConfirmarDescargaDataZXP" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmarDescargaDataZXPSoapOut">
+    <wsdl:part name="parameters" element="tns:ConfirmarDescargaDataZXPResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmarDescargaDocumentosZXPSoapIn">
+    <wsdl:part name="parameters" element="tns:ConfirmarDescargaDocumentosZXP" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmarDescargaDocumentosZXPSoapOut">
+    <wsdl:part name="parameters" element="tns:ConfirmarDescargaDocumentosZXPResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarDatIntOtrosZXPSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarDatIntOtrosZXP" />
+  </wsdl:message>
+  <wsdl:message name="ListarDatIntOtrosZXPSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarDatIntOtrosZXPResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaPendRecepTrasladoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaPendRecepTraslado" />
+  </wsdl:message>
+  <wsdl:message name="ListaPendRecepTrasladoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaPendRecepTrasladoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarDetPaqueteEPLimMetSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarDetPaqueteEPLimMet" />
+  </wsdl:message>
+  <wsdl:message name="ListarDetPaqueteEPLimMetSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarDetPaqueteEPLimMetResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmarRecepTrasladoSoapIn">
+    <wsdl:part name="parameters" element="tns:ConfirmarRecepTraslado" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmarRecepTrasladoSoapOut">
+    <wsdl:part name="parameters" element="tns:ConfirmarRecepTrasladoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarDetPaqIntEPProvSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarDetPaqIntEPProv" />
+  </wsdl:message>
+  <wsdl:message name="ListarDetPaqIntEPProvSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarDetPaqIntEPProvResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarDatBasicoInternoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarDatBasicoInterno" />
+  </wsdl:message>
+  <wsdl:message name="ListarDatBasicoInternoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarDatBasicoInternoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarInterno_Para_LimaProvinciasSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarInterno_Para_LimaProvincias" />
+  </wsdl:message>
+  <wsdl:message name="ListarInterno_Para_LimaProvinciasSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarInterno_Para_LimaProvinciasResponse" />
+  </wsdl:message>
+  <wsdl:message name="_testSoapIn">
+    <wsdl:part name="parameters" element="tns:_test" />
+  </wsdl:message>
+  <wsdl:message name="_testSoapOut">
+    <wsdl:part name="parameters" element="tns:_testResponse" />
+  </wsdl:message>
+  <wsdl:message name="getVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:getVersion" />
+  </wsdl:message>
+  <wsdl:message name="getVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:getVersionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CarceletaSoap">
+    <wsdl:operation name="ListarDataZXP">
+      <wsdl:input message="tns:ListarDataZXPSoapIn" />
+      <wsdl:output message="tns:ListarDataZXPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarDocumentosZXP">
+      <wsdl:input message="tns:ListarDocumentosZXPSoapIn" />
+      <wsdl:output message="tns:ListarDocumentosZXPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmarDescargaDataZXP">
+      <wsdl:input message="tns:ConfirmarDescargaDataZXPSoapIn" />
+      <wsdl:output message="tns:ConfirmarDescargaDataZXPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmarDescargaDocumentosZXP">
+      <wsdl:input message="tns:ConfirmarDescargaDocumentosZXPSoapIn" />
+      <wsdl:output message="tns:ConfirmarDescargaDocumentosZXPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarDatIntOtrosZXP">
+      <wsdl:input message="tns:ListarDatIntOtrosZXPSoapIn" />
+      <wsdl:output message="tns:ListarDatIntOtrosZXPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaPendRecepTraslado">
+      <wsdl:input message="tns:ListaPendRecepTrasladoSoapIn" />
+      <wsdl:output message="tns:ListaPendRecepTrasladoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarDetPaqueteEPLimMet">
+      <wsdl:input message="tns:ListarDetPaqueteEPLimMetSoapIn" />
+      <wsdl:output message="tns:ListarDetPaqueteEPLimMetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmarRecepTraslado">
+      <wsdl:input message="tns:ConfirmarRecepTrasladoSoapIn" />
+      <wsdl:output message="tns:ConfirmarRecepTrasladoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarDetPaqIntEPProv">
+      <wsdl:input message="tns:ListarDetPaqIntEPProvSoapIn" />
+      <wsdl:output message="tns:ListarDetPaqIntEPProvSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarDatBasicoInterno">
+      <wsdl:input message="tns:ListarDatBasicoInternoSoapIn" />
+      <wsdl:output message="tns:ListarDatBasicoInternoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarInterno_Para_LimaProvincias">
+      <wsdl:input message="tns:ListarInterno_Para_LimaProvinciasSoapIn" />
+      <wsdl:output message="tns:ListarInterno_Para_LimaProvinciasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="_test">
+      <wsdl:input message="tns:_testSoapIn" />
+      <wsdl:output message="tns:_testSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <wsdl:input message="tns:getVersionSoapIn" />
+      <wsdl:output message="tns:getVersionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CarceletaSoap" type="tns:CarceletaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListarDataZXP">
+      <soap:operation soapAction="http://tempuri.org/ListarDataZXP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDocumentosZXP">
+      <soap:operation soapAction="http://tempuri.org/ListarDocumentosZXP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmarDescargaDataZXP">
+      <soap:operation soapAction="http://tempuri.org/ConfirmarDescargaDataZXP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmarDescargaDocumentosZXP">
+      <soap:operation soapAction="http://tempuri.org/ConfirmarDescargaDocumentosZXP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDatIntOtrosZXP">
+      <soap:operation soapAction="http://tempuri.org/ListarDatIntOtrosZXP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaPendRecepTraslado">
+      <soap:operation soapAction="http://tempuri.org/ListaPendRecepTraslado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDetPaqueteEPLimMet">
+      <soap:operation soapAction="http://tempuri.org/ListarDetPaqueteEPLimMet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmarRecepTraslado">
+      <soap:operation soapAction="http://tempuri.org/ConfirmarRecepTraslado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDetPaqIntEPProv">
+      <soap:operation soapAction="http://tempuri.org/ListarDetPaqIntEPProv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDatBasicoInterno">
+      <soap:operation soapAction="http://tempuri.org/ListarDatBasicoInterno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarInterno_Para_LimaProvincias">
+      <soap:operation soapAction="http://tempuri.org/ListarInterno_Para_LimaProvincias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="_test">
+      <soap:operation soapAction="http://tempuri.org/_test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <soap:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CarceletaSoap12" type="tns:CarceletaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListarDataZXP">
+      <soap12:operation soapAction="http://tempuri.org/ListarDataZXP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDocumentosZXP">
+      <soap12:operation soapAction="http://tempuri.org/ListarDocumentosZXP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmarDescargaDataZXP">
+      <soap12:operation soapAction="http://tempuri.org/ConfirmarDescargaDataZXP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmarDescargaDocumentosZXP">
+      <soap12:operation soapAction="http://tempuri.org/ConfirmarDescargaDocumentosZXP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDatIntOtrosZXP">
+      <soap12:operation soapAction="http://tempuri.org/ListarDatIntOtrosZXP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaPendRecepTraslado">
+      <soap12:operation soapAction="http://tempuri.org/ListaPendRecepTraslado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDetPaqueteEPLimMet">
+      <soap12:operation soapAction="http://tempuri.org/ListarDetPaqueteEPLimMet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmarRecepTraslado">
+      <soap12:operation soapAction="http://tempuri.org/ConfirmarRecepTraslado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDetPaqIntEPProv">
+      <soap12:operation soapAction="http://tempuri.org/ListarDetPaqIntEPProv" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDatBasicoInterno">
+      <soap12:operation soapAction="http://tempuri.org/ListarDatBasicoInterno" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarInterno_Para_LimaProvincias">
+      <soap12:operation soapAction="http://tempuri.org/ListarInterno_Para_LimaProvincias" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="_test">
+      <soap12:operation soapAction="http://tempuri.org/_test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVersion">
+      <soap12:operation soapAction="http://tempuri.org/getVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Carceleta">
+    <wsdl:port name="CarceletaSoap" binding="tns:CarceletaSoap">
+      <soap:address location="http://ws.inpe.gob.pe/Pope/sedeplm/InternoCarceleta.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CarceletaSoap12" binding="tns:CarceletaSoap12">
+      <soap12:address location="http://ws.inpe.gob.pe/Pope/sedeplm/InternoCarceleta.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

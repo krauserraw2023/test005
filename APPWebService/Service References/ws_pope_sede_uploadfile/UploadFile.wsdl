@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UploadImageJpg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImagenByte" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadImageJpgResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UploadImageJpgResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubirArchivoByte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegionID" type="s:short" />
+            <s:element minOccurs="1" maxOccurs="1" name="PenalID" type="s:short" />
+            <s:element minOccurs="1" maxOccurs="1" name="Anio" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="MesCorrelativo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileByte" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="tns:TipoArchivo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="TipoArchivo">
+        <s:restriction base="s:string">
+          <s:enumeration value="Ninguno" />
+          <s:enumeration value="Interno" />
+          <s:enumeration value="Personal" />
+          <s:enumeration value="Visitante" />
+          <s:enumeration value="Reniec" />
+          <s:enumeration value="Reniec_Sybase" />
+          <s:enumeration value="Odontograma" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="SubirArchivoByteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubirArchivoByteResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LeerArchivoByte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDirectorio" type="tns:TipoArchivo" />
+            <s:element minOccurs="0" maxOccurs="1" name="NameFile" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PathWeb" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LeerArchivoByteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LeerArchivoByteResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EnviarCorreo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Asunto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EnviarCorreoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EnviarCorreoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Version">
+        <s:complexType />
+      </s:element>
+      <s:element name="VersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="test">
+        <s:complexType />
+      </s:element>
+      <s:element name="testResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="testResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UploadImageJpgSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadImageJpg" />
+  </wsdl:message>
+  <wsdl:message name="UploadImageJpgSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadImageJpgResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByteSoapIn">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByte" />
+  </wsdl:message>
+  <wsdl:message name="SubirArchivoByteSoapOut">
+    <wsdl:part name="parameters" element="tns:SubirArchivoByteResponse" />
+  </wsdl:message>
+  <wsdl:message name="LeerArchivoByteSoapIn">
+    <wsdl:part name="parameters" element="tns:LeerArchivoByte" />
+  </wsdl:message>
+  <wsdl:message name="LeerArchivoByteSoapOut">
+    <wsdl:part name="parameters" element="tns:LeerArchivoByteResponse" />
+  </wsdl:message>
+  <wsdl:message name="EnviarCorreoSoapIn">
+    <wsdl:part name="parameters" element="tns:EnviarCorreo" />
+  </wsdl:message>
+  <wsdl:message name="EnviarCorreoSoapOut">
+    <wsdl:part name="parameters" element="tns:EnviarCorreoResponse" />
+  </wsdl:message>
+  <wsdl:message name="VersionSoapIn">
+    <wsdl:part name="parameters" element="tns:Version" />
+  </wsdl:message>
+  <wsdl:message name="VersionSoapOut">
+    <wsdl:part name="parameters" element="tns:VersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="testSoapIn">
+    <wsdl:part name="parameters" element="tns:test" />
+  </wsdl:message>
+  <wsdl:message name="testSoapOut">
+    <wsdl:part name="parameters" element="tns:testResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UploadFileSoap">
+    <wsdl:operation name="UploadImageJpg">
+      <wsdl:input message="tns:UploadImageJpgSoapIn" />
+      <wsdl:output message="tns:UploadImageJpgSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte">
+      <wsdl:input message="tns:SubirArchivoByteSoapIn" />
+      <wsdl:output message="tns:SubirArchivoByteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LeerArchivoByte">
+      <wsdl:input message="tns:LeerArchivoByteSoapIn" />
+      <wsdl:output message="tns:LeerArchivoByteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarCorreo">
+      <wsdl:input message="tns:EnviarCorreoSoapIn" />
+      <wsdl:output message="tns:EnviarCorreoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Version">
+      <wsdl:input message="tns:VersionSoapIn" />
+      <wsdl:output message="tns:VersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <wsdl:input message="tns:testSoapIn" />
+      <wsdl:output message="tns:testSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UploadFileSoap" type="tns:UploadFileSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadImageJpg">
+      <soap:operation soapAction="http://tempuri.org/UploadImageJpg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte">
+      <soap:operation soapAction="http://tempuri.org/SubirArchivoByte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LeerArchivoByte">
+      <soap:operation soapAction="http://tempuri.org/LeerArchivoByte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarCorreo">
+      <soap:operation soapAction="http://tempuri.org/EnviarCorreo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Version">
+      <soap:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <soap:operation soapAction="http://tempuri.org/test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UploadFileSoap12" type="tns:UploadFileSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadImageJpg">
+      <soap12:operation soapAction="http://tempuri.org/UploadImageJpg" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubirArchivoByte">
+      <soap12:operation soapAction="http://tempuri.org/SubirArchivoByte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LeerArchivoByte">
+      <soap12:operation soapAction="http://tempuri.org/LeerArchivoByte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarCorreo">
+      <soap12:operation soapAction="http://tempuri.org/EnviarCorreo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Version">
+      <soap12:operation soapAction="http://tempuri.org/Version" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <soap12:operation soapAction="http://tempuri.org/test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UploadFile">
+    <wsdl:port name="UploadFileSoap" binding="tns:UploadFileSoap">
+      <soap:address location="http://ws.inpe.gob.pe/Pope/MultimediaTransferencia/UploadFile.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UploadFileSoap12" binding="tns:UploadFileSoap12">
+      <soap12:address location="http://ws.inpe.gob.pe/Pope/MultimediaTransferencia/UploadFile.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

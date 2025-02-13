@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{210ED754-A914-44F3-BDF5-2C69B54D343C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
+    <MyType>Windows</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Entity.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Entity.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Legolas.Components">
+      <HintPath>..\..\..\DLL\Legolas.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.Configuration">
+      <HintPath>..\..\..\DLL\Legolas.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LBusiness">
+      <HintPath>..\..\..\DLL\Legolas.LBusiness.dll</HintPath>
+    </Reference>
+    <Reference Include="Legolas.LEntity">
+      <HintPath>..\..\..\DLL\Legolas.LEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Biometria\Huella.vb" />
+    <Compile Include="Biometria\HuellaDigital.vb" />
+    <Compile Include="Biometria\InternoHuella.vb" />
+    <Compile Include="Biometria\InternoHuellaTratamiento.vb" />
+    <Compile Include="Biometria\VisitanteHuella.vb" />
+    <Compile Include="EntityCol.vb" />
+    <Compile Include="Estadistica\Padin.vb" />
+    <Compile Include="Estadistica\PadinDelito.vb" />
+    <Compile Include="Estadistica\PadinDetalle.vb" />
+    <Compile Include="Estadistica\PadinDetalleFamilia.vb" />
+    <Compile Include="Global\ArchivoDigitalizado.vb" />
+    <Compile Include="Global\AuditUser.vb" />
+    <Compile Include="Global\GlosaDocumento.vb" />
+    <Compile Include="Global\GradoInstruccion.vb" />
+    <Compile Include="Global\Parentesco.vb" />
+    <Compile Include="Global\TipoDocumento.vb" />
+    <Compile Include="Mantenimiento\General\Alero_BE.vb" />
+    <Compile Include="Mantenimiento\General\Ambiente_BE.vb" />
+    <Compile Include="Mantenimiento\General\Delito.vb" />
+    <Compile Include="Mantenimiento\General\Dependencia.vb" />
+    <Compile Include="Mantenimiento\General\Pabellon.vb" />
+    <Compile Include="Mantenimiento\General\Pabellon_BE.vb" />
+    <Compile Include="Mantenimiento\General\Piso_BE.vb" />
+    <Compile Include="Mantenimiento\General\RegimenPenitenciario.vb" />
+    <Compile Include="Mantenimiento\Registro\PadinCuadro13.vb" />
+    <Compile Include="Mantenimiento\Registro\PadinCuadro13_Detalle.vb" />
+    <Compile Include="Mantenimiento\Registro\ReporteCuadro2_Detalle.vb" />
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\CategoriaFicha_BE.vb" />
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\MaestroFicha_BE.vb" />
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\MaestroIndicador_BE.vb" />
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\MaestroTipoFicha_BE.vb" />
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\MaestroVariable_BE.vb" />
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\ResultadoDet_BE.vb" />
+    <Compile Include="Mantenimiento\Tratamiento\Clasificacion\Resultado_BE.vb" />
+    <Compile Include="Registro\Antecedente\DetalleAntecedente.vb" />
+    <Compile Include="Registro\Antecedente\MotivoSolicitudAntecedente.vb" />
+    <Compile Include="Registro\Antecedente\SolicitudAntecedente.vb" />
+    <Compile Include="Registro\Banda.vb" />
+    <Compile Include="Registro\Carceleta\Clasificacion\Documento\DatosFicha.vb" />
+    <Compile Include="Registro\Carceleta\Clasificacion\Documento\DetDocClasificacion.vb" />
+    <Compile Include="Registro\Carceleta\Clasificacion\Documento\DocClasificacion.vb" />
+    <Compile Include="Registro\Carceleta\Clasificacion\InternoClasificacion\InternoAgraviado.vb" />
+    <Compile Include="Registro\Carceleta\Clasificacion\InternoClasificacion\InternoClasificacion.vb" />
+    <Compile Include="Registro\Carceleta\Clasificacion\InternoClasificacion\InternoDelito.vb" />
+    <Compile Include="Registro\Carceleta\Clasificacion\InternoClasificacion\InternoExpediente.vb" />
+    <Compile Include="Registro\Carceleta\Clasificacion\InternoClasificacion\InternoFichaDetalle.vb" />
+    <Compile Include="Registro\Carceleta\Clasificacion\InternoClasificacion\Resultado.vb" />
+    <Compile Include="Registro\AlertaSentencias\AlertaSentenciaCabecera.vb" />
+    <Compile Include="Registro\AlertaSentencias\AlertaSentenciaDetalle.vb" />
+    <Compile Include="Registro\ConstanciaReclusion\Expedicion.vb" />
+    <Compile Include="Registro\ConstanciaReclusion\Impresion.vb" />
+    <Compile Include="Registro\ConstanciaReclusion\ReporteConstanciaReclusion.vb" />
+    <Compile Include="Registro\ConstanciaReclusion\ReporteFiltro.vb" />
+    <Compile Include="Registro\ConstanciaReclusion\Tramite.vb" />
+    <Compile Include="Registro\Documento\DocumentoDescarga.vb" />
+    <Compile Include="Registro\Documento\DocumentoDigitalizado.vb" />
+    <Compile Include="Registro\Documento\DocumentoJudicialExpediente.vb" />
+    <Compile Include="Mantenimiento\Registro\DocumentoJudicialSubTipo.vb" />
+    <Compile Include="Mantenimiento\Registro\DocumentoJudicialTipo.vb" />
+    <Compile Include="Registro\Documento\PeriodoCondenaSentencia.vb" />
+    <Compile Include="Registro\Integracion\CodigoUnicoInterno.vb" />
+    <Compile Include="Registro\Integracion\IntegracionInterno.vb" />
+    <Compile Include="Registro\Integracion\IntegracionInternoDetalle.vb" />
+    <Compile Include="Registro\InternoBanda.vb" />
+    <Compile Include="Registro\InternoDatosComplementarios.vb" />
+    <Compile Include="Registro\InternoDomicilio.vb" />
+    <Compile Include="Registro\InternoLibertadSubtipo.vb" />
+    <Compile Include="Registro\InternoExpedientePadre.vb" />
+    <Compile Include="Registro\InternoGradoInstruccion.vb" />
+    <Compile Include="Registro\InternoHistorico.vb" />
+    <Compile Include="Registro\InternoIdioma.vb" />
+    <Compile Include="Registro\InternoIngresoInpe.vb" />
+    <Compile Include="Registro\InternoInimputables.vb" />
+    <Compile Include="Registro\InternoOrgCriminal.vb" />
+    <Compile Include="Registro\InternoPenal.vb" />
+    <Compile Include="Registro\InternoPersona.vb" />
+    <Compile Include="Registro\InternoReniecModel.vb" />
+    <Compile Include="Registro\InternoReniec.vb" />
+    <Compile Include="Registro\InternoReniecError.vb" />
+    <Compile Include="Registro\InternoReniecNomAsoc.vb" />
+    <Compile Include="Registro\Interno_Grilla.vb" />
+    <Compile Include="Registro\MovimientoExpediente.vb" />
+    <Compile Include="Mantenimiento\Registro\Movimiento.vb" />
+    <Compile Include="Registro\Movimiento\InternoMovimiento.vb" />
+    <Compile Include="Registro\Odontograma\InternoOdontograma.vb" />
+    <Compile Include="Registro\Persona.vb" />
+    <Compile Include="Registro\PersonaInterno.vb" />
+    <Compile Include="Registro\Reniec\RequestReniec.vb" />
+    <Compile Include="Registro\Reniec\ResultReniec.vb" />
+    <Compile Include="Reporte\Clasificacion\DatosInterno.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro001.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro002A.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro002B.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro003.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro004.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro005.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro006.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro007.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro008.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro009.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro010.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro011.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro012.vb" />
+    <Compile Include="Reporte\Estadistica\F1\Cuadro013.vb" />
+    <Compile Include="Reporte\Estadistica\Formato1.vb" />
+    <Compile Include="Reporte\Estadistica\Reporte02.vb" />
+    <Compile Include="Reporte\Estadistica\Reporte03.vb" />
+    <Compile Include="Global\AppKey.vb" />
+    <Compile Include="Global\Nacionalidad.vb" />
+    <Compile Include="Mantenimiento\General\Penal.vb" />
+    <Compile Include="Global\ArchivoDigital.vb" />
+    <Compile Include="Global\Persona.vb" />
+    <Compile Include="Mantenimiento\Registro\ReporteCuadro2.vb" />
+    <Compile Include="Mantenimiento\General\SalaJuzgado.vb" />
+    <Compile Include="Registro\Documento\DocumentoJudicial.vb" />
+    <Compile Include="Registro\Documento\NombresAsociados.vb" />
+    <Compile Include="Registro\Documento\NotasEgreso.vb" />
+    <Compile Include="Registro\InternoAnulacion.vb" />
+    <Compile Include="Registro\InternoFoto.vb" />
+    <Compile Include="Registro\InternoRasgo.vb" />
+    <Compile Include="Registro\InternoSenaParticular.vb" />
+    <Compile Include="Reporte\Registro\AntecedendeJudicial\AntecedenteJudicial.vb" />
+    <Compile Include="Reporte\Registro\CertificadoLibertad\Certificado.vb" />
+    <Compile Include="Reporte\Registro\CertificadoLibertad\Restriccion.vb" />
+    <Compile Include="Reporte\Registro\CertificadoLibertad_v2\CertificadoLibertad.vb" />
+    <Compile Include="Reporte\Registro\CertificadoReclusion\Certificado.vb" />
+    <Compile Include="Reporte\Registro\CertificadoReclusion\Expediente.vb" />
+    <Compile Include="Reporte\Registro\CertificadoReclusion_v2\CertificadoReclusion.vb" />
+    <Compile Include="Reporte\Registro\Delito.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reporte\Registro\FichaIdentificacion\Delitos.vb" />
+    <Compile Include="Reporte\Registro\FichaIdentificacion\FichaInterno.vb" />
+    <Compile Include="Reporte\Registro\FichaIdentificacion\Rasgos.vb" />
+    <Compile Include="Reporte\Registro\FichaIdentificacion\SituacionJuridica.vb" />
+    <Compile Include="Reporte\Registro\FichaIdentificacion\SituacionJuridicaAgraviado.vb" />
+    <Compile Include="Reporte\Registro\FichaIdentificacion\SituacionJuridicaExpediente.vb" />
+    <Compile Include="Reporte\Registro\Filtro.vb" />
+    <Compile Include="Reporte\Registro\HistorialAntecedentes\Historial.vb" />
+    <Compile Include="Reporte\Registro\HistorialAntecedentes\SituacionJuridica.vb" />
+    <Compile Include="Reporte\Registro\PapeletaExcarcelacion\Papeleta.vb" />
+    <Compile Include="Reporte\Registro\FichaIdentificacion\SenasParticulares.vb" />
+    <Compile Include="Reporte\ReporteCabecera.vb" />
+    <Compile Include="Reporte\ReporteContenido.vb" />
+    <Compile Include="Reporte\ReporteDoc.vb" />
+    <Compile Include="Reporte\ReporteTipo.vb" />
+    <Compile Include="Reporte\Tratamiento\Asistencia.vb" />
+    <Compile Include="Reporte\Tratamiento\FichaInterno.vb" />
+    <Compile Include="Reporte\Tratamiento\Filtro.vb" />
+    <Compile Include="Reporte\Visita\Autorizacion.vb" />
+    <Compile Include="Reporte\Visita\Filtro.vb" />
+    <Compile Include="Reporte\Visita\HistorialInterno.vb" />
+    <Compile Include="Reporte\Visita\HistorialVisitante.vb" />
+    <Compile Include="Reporte\Visita\SancionInterno.vb" />
+    <Compile Include="Reporte\Visita\SancionVisita.vb" />
+    <Compile Include="Seguridad\Paquetes\ArchivoDigital.vb" />
+    <Compile Include="Seguridad\Paquetes\Registro.vb" />
+    <Compile Include="Seguridad\Visita\AutorizacionConfiguracion.vb" />
+    <Compile Include="Sistema\Seguridad\Penal\Region.vb" />
+    <Compile Include="Comparer.vb" />
+    <Compile Include="Mantenimiento\General\Parametrica.vb" />
+    <Compile Include="Global\Ubigeo.vb" />
+    <Compile Include="Registro\Interno.vb" />
+    <Compile Include="Registro\InternoAgraviado.vb" />
+    <Compile Include="Registro\Alias.vb" />
+    <Compile Include="Registro\InternoDelito.vb" />
+    <Compile Include="Registro\InternoExpediente.vb" />
+    <Compile Include="Registro\Familiar.vb" />
+    <Compile Include="Registro\InternoIngreso.vb" />
+    <Compile Include="Registro\NombreAsociado.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sistema\Instalacion.vb" />
+    <Compile Include="Sistema\InstalacionDetalle.vb" />
+    <Compile Include="Sistema\Seguridad\Session.vb" />
+    <Compile Include="Sistema\Seguridad\Usuario.vb" />
+    <Compile Include="Sistema\Seguridad\UsuarioHuella.vb" />
+    <Compile Include="Sistema\Seguridad\UsuarioNotificacion.vb" />
+    <Compile Include="Transferencia\Archivo.vb" />
+    <Compile Include="Transferencia\ArchivoInfo2.vb" />
+    <Compile Include="Transferencia\ArchivoInfoRegion.vb" />
+    <Compile Include="Transferencia\BandejaQuery.vb" />
+    <Compile Include="Transferencia\Fotografia.vb" />
+    <Compile Include="Auditoria.vb" />
+    <Compile Include="Seguridad\Visita\Autorizacion.vb" />
+    <Compile Include="Seguridad\Visita\Calendario.vb" />
+    <Compile Include="Seguridad\Visita\CalendarioDetalle.vb" />
+    <Compile Include="Seguridad\Visita\Config.vb" />
+    <Compile Include="Seguridad\Visita\ConfigHuella.vb" />
+    <Compile Include="Seguridad\Visita\Huella.vb" />
+    <Compile Include="Seguridad\Visita\Interno.vb" />
+    <Compile Include="Seguridad\Visita\InternoEtapa.vb" />
+    <Compile Include="Seguridad\Visita\InternoFoto.vb" />
+    <Compile Include="Seguridad\Visita\InternoPJ.vb" />
+    <Compile Include="Seguridad\Visita\InternoSancion.vb" />
+    <Compile Include="Seguridad\Visita\Movimiento.vb" />
+    <Compile Include="Reporte\Visita\Movimiento.vb" />
+    <Compile Include="Seguridad\Visita\Programacion\Calendario.vb" />
+    <Compile Include="Seguridad\Visita\Programacion\CalendarioDetalle.vb" />
+    <Compile Include="Seguridad\Visita\Programacion\CalendarioValidar.vb" />
+    <Compile Include="Seguridad\Visita\Programacion\Etapa.vb" />
+    <Compile Include="Seguridad\Visita\Visitante.vb" />
+    <Compile Include="Seguridad\Visita\VisitanteRestriccion.vb" />
+    <Compile Include="Seguridad\Visita\VisitanteSancion.vb" />
+    <Compile Include="Seguridad\Visita\VisitaPermiso.vb" />
+    <Compile Include="Seguridad\Visita\VisitaTipo.vb" />
+    <Compile Include="Tratamiento\Afiliacion\InternoAfiliacion.vb" />
+    <Compile Include="Tratamiento\Afiliacion\InternoSolicitud.vb" />
+    <Compile Include="Tratamiento\Afiliacion\InternoSolicitudDetalle.vb" />
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\CausalTraslado_BE.vb" />
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\DatosFicha_BE.vb" />
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\InternoFichaDetalle_BE.vb" />
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\InternoFichaOtro_BE.vb" />
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\InternoFicha_BE.vb" />
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\InternoPabellon_BE.vb" />
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\Pabellon.vb" />
+    <Compile Include="Tratamiento\Asistencia\Clasificacion\Penal\PabellonRegimenEtapa_BE.vb" />
+    <Compile Include="Tratamiento\TallerAsistencia\AsistenciaGrupo.vb" />
+    <Compile Include="Tratamiento\TallerAsistencia\Calendario.vb" />
+    <Compile Include="Tratamiento\TallerAsistencia\InternoAsistencia.vb" />
+    <Compile Include="Tratamiento\TallerAsistencia\InternoTaller.vb" />
+    <Compile Include="Tratamiento\TallerAsistencia\MarcacionAsistenciaEquipo.vb" />
+    <Compile Include="Tratamiento\TallerAsistencia\PlanillaCabecera.vb" />
+    <Compile Include="Tratamiento\TallerAsistencia\PlanillaDetalle.vb" />
+    <Compile Include="Tratamiento\TallerAsistencia\TallerMae.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APPWebService\APPWebService.vbproj">
+      <Project>{9CED347B-6371-4CCC-81F0-A756B5744B83}</Project>
+      <Name>APPWebService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Type\Type.vbproj">
+      <Project>{657717A6-5EFF-45C7-B4A7-1B285EE58C53}</Project>
+      <Name>Type</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pawn_glass_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pawn_glass_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anular2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_box_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_box_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_box_green2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sin_foto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libro_amarillo.jpg" />
+    <None Include="Resources\libro_verde.png" />
+    <None Include="Resources\libro_rojo.png" />
+    <None Include="Resources\Fondo_blanco.png" />
+    <None Include="Resources\warning_32x32.png" />
+    <None Include="Resources\icon_blanco.png" />
+    <None Include="Resources\book_link.png" />
+    <None Include="Resources\book_link_plomo.png" />
+    <None Include="Resources\cuadro_blanco.png" />
+    <None Include="Resources\cuadro_naranja.png" />
+    <None Include="Resources\cuadro_rojo.png" />
+    <Content Include="Resources\delete-32.png" />
+    <None Include="Resources\sin_fotografia.png" />
+    <None Include="Resources\nspm_fotografia.png" />
+    <None Include="Resources\fotografia_por_transferir.png" />
+    <None Include="Resources\fotografia_eliminada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Biometria\Tratamiento\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+APPControlHuellaVisita
+</name>
+</assembly>
+<members>
+<member name="T:APPControlHuellaVisita.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.accept_32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.back_32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.capturar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.Circle_Green16x16">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.Circle_Invalido16x16">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.Circle_Red16x16">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.Circle_Yellow16x16">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.configurar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.dedo_ampuado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.Delete_32_2_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.Drive___USB_32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.estado_amarillo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.estado_azul">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.estado_verde">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.fle_ant1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.fle_pri1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.fle_pri11">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.fle_ult1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.huella_digital">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.huella_x">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.mano_derecha">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.mano_derecha02">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.mano_derecha03">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.mano_izquierda">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.mano_izquierda02">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.mano_izquierda03">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.next_32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.recapturar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.replace2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APPControlHuellaVisita.My.Resources.Resources.system_log_out">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:APPControlHuellaVisita.AfisDemo.GrabarHuella(APPControlHuellaVisita.Type.Enumeracion.enumTipoDispositivo,System.Int32,System.String,APPControlHuellaVisita.Type.Enumeracion.TipoDedo,System.Byte[],System.Byte[],System.Byte[],APPControlHuellaVisita.Type.Enumeracion.IndiceCalidadHuella,APPControlHuellaVisita.Type.Enumeracion.EstadoDedo,System.String,System.Int32,System.Int32,System.Int32,System.String@)">
+ <summary>
+ Metodo que permite grabar la huella.
+ </summary>
+ <param name="TipoDoc">Tipo de documento de identidad</param>
+ <param name="numDocIdent">Número de documento de indentidad</param>
+ <param name="tipoDedo">Tipo de dedo</param>
+ <param name="TemplateSuprema">Template de tipo propietario (Suprema)</param>
+ <param name="TemplateAnsi">Template ansi</param>
+ <param name="wsq">Wsq de la huella</param>
+ <param name="IndiceCalidadImg">Indice de calidad de la huella capturada</param>
+ <param name="estadoDedo">Estado del dedo</param>
+ <param name="Observacion">Observaciones</param>
+ <param name="regionId">Id de la region</param>
+ <param name="penalId">Id del penal</param>
+ <param name="IdUsuario">Id del usuario</param>
+ <param name="out_sms">Mensaje de error</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:APPControlHuellaVisita.AfisDemo.VerificarHuella(System.Int32,System.String,APPControlHuellaVisita.Type.Enumeracion.TipoPlantilla,System.Byte[],APPControlHuellaVisita.Type.Enumeracion.TipoDedo,APPControlHuellaVisita.Type.Enumeracion.enumRSE_NivelSeguridad,System.Collections.Generic.List{System.Int32}@,System.String@)">
+ <summary>
+ Método de verificación de huella dactilar.
+ </summary>
+ <param name="TipoDoc">Tipo de documento de identidad</param>
+ <param name="NumDoc">Número de documento de identidad</param>
+ <param name="TipoTmpl">Tipo de template para la verificación</param>
+ <param name="Tmpl">Template en array de bits</param>
+ <param name="TipoDedo">Tipo de dedo</param>
+ <param name="ratioAceptacion"></param>
+ <param name="outListIdRptaTemplate">Resultado ids del match</param>
+ <param name="outSMS">Mensaje de error</param>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:APPControlHuellaVisita.AfisDemo.Identificar(System.Byte[],APPControlHuellaVisita.Type.Enumeracion.TipoDedo,System.Boolean,APPControlHuellaVisita.Type.Enumeracion.enumRSE_NivelSeguridad,System.Collections.Generic.List{System.Int32}@,System.String@)">
+ <summary>
+ Identificación biometrica por tipo de plantilla (propietaria) suprema.
+ </summary>
+ <param name="Tmpl_suprema">Plantilla de tipo propietario (Suprema)</param>
+ <param name="TipoDedo">Tipo de dedo el cual se va a identificar</param>
+ <param name="filtrarPorTipoDedo">Flag para filtrar por tipo de dedo</param>
+ <param name="ratioAceptacion">Nivel de seguridad o Ratio de falsa aceptación</param>
+ <param name="outListIdRptaTemplate">Lista de id del template para el match</param>
+ <param name="out_sms">Mensaje de respuesta</param>
+ <returns>0=OK, -1=Error</returns>
+ <remarks></remarks>
+</member>
+<member name="P:APPControlHuellaVisita.uscThumbFinger._Imagen">
+ <summary>
+ Retorna la imagen asociada como un objeto Image
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:APPControlHuellaVisita.uscCaptura._IniciarDispositivo">
+ <summary>
+ Permite iniciar dispositivo de captura, internamente inicia el SDK, luego el dispositivo.
+ </summary>
+ <param name="liberarMemoriaCaptura">Flag que indica si se debe o no liberar memoria luego de la captura</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

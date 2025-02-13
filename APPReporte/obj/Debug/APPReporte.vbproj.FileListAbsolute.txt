@@ -1,0 +1,335 @@
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptCuadro15.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptFormato1.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptLogo.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptFichaIdentificacion.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptHistorialAntecedentes.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptCertificadoLibertad.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptPapeletaExcarcelacion.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptCertificadoReclusion.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptFicha.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptCuadro14.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptHistorialInterno.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptHistorialVisitante.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptSancionInterno.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptSancionVisita.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptVisita.rdlc
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPReporte.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPReporte.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPReporte.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControlHuellaVisita.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControls.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\AxInterop.CTLODONLib.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Bussines.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Data.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\DataClass.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Entity.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Ionic.Zip.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.APPUIComponents.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.Components.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.Configuration.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.LBusiness.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.LEntity.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Type.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Suprema.UFMatcher.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ScanAPIHelper.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ScanAPIHelperFS60.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Wsq2Bmp.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\MathAPIHelperFS60.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\WebCAM.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPCamaraWeb.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Newtonsoft.Json.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\MySql.Data.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.LData.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Interop.CTLODONLib.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\AForge.Video.DirectShow.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\AForge.Video.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\stdole.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControlHuellaVisita.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControlHuellaVisita.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControls.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControls.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.dll.config
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Bussines.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Bussines.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Data.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Data.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Entity.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Entity.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Type.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Type.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPCamaraWeb.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPCamaraWeb.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Newtonsoft.Json.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.AssemblyReference.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Estadistica.frmReporte.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Estadistica.ReporteCrystal.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Load.frmLoad.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.ParteDiario.ReporteCrystal.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ConstanciaReclusion.frmObsPopup.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ConstanciaReclusion.frmReporte.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ConstanciaReclusion.ReporteCrystal.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.frmPrintOdontograma.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.frmPrintOdontograma_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Resources.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Movimiento.ReporteCrystal.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Reniec.ReporteCrystal.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ReporteCrystal.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ReporteCrystal_v2.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.frmReporte.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.frmReporteFichInterno.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.uscContentReport.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.uscReporte.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Tratamiento.TallerAsistencia.ReporteCrystal.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Visita.ReporteCrystal.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Visita.frmReporte.resources
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.GenerateResource.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.CoreCompileInputs.cache
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.CopyComplete
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.xml
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.pdb
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Desarrollo\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptCuadro15.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptFormato1.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptLogo.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptFichaIdentificacion.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptHistorialAntecedentes.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptCertificadoLibertad.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptPapeletaExcarcelacion.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptCertificadoReclusion.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptFicha.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptCuadro14.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptHistorialInterno.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptHistorialVisitante.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptSancionInterno.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptSancionVisita.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptVisita.rdlc
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPReporte.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPReporte.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPReporte.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControlHuellaVisita.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControls.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\AxInterop.CTLODONLib.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Bussines.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Data.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\DataClass.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Entity.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Ionic.Zip.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.APPUIComponents.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.Components.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.Configuration.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.LBusiness.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.LEntity.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Type.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Suprema.UFMatcher.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ScanAPIHelper.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ScanAPIHelperFS60.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Wsq2Bmp.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\MathAPIHelperFS60.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\WebCAM.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPCamaraWeb.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Newtonsoft.Json.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\MySql.Data.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.LData.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Interop.CTLODONLib.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\EnvDTE.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\AForge.Video.DirectShow.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\AForge.Video.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\stdole.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.MSXML.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControlHuellaVisita.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControlHuellaVisita.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControls.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControls.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.dll.config
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Bussines.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Bussines.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Data.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Data.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Entity.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Entity.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Type.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Type.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPCamaraWeb.pdb
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPCamaraWeb.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.AssemblyReference.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Estadistica.frmReporte.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Estadistica.ReporteCrystal.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Load.frmLoad.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.ParteDiario.ReporteCrystal.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ConstanciaReclusion.frmObsPopup.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ConstanciaReclusion.frmReporte.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ConstanciaReclusion.ReporteCrystal.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.frmPrintOdontograma.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.frmPrintOdontograma_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Resources.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Movimiento.ReporteCrystal.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Reniec.ReporteCrystal.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ReporteCrystal.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ReporteCrystal_v2.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.frmReporte.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.frmReporteFichInterno.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.uscContentReport.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.uscReporte.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Tratamiento.TallerAsistencia.ReporteCrystal.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Visita.ReporteCrystal.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Visita.frmReporte.resources
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.GenerateResource.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.CoreCompileInputs.cache
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.CopyComplete
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.dll
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.xml
+D:\DESARROLLO2020\Desarrollo 2022\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptCuadro15.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptFormato1.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptLogo.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptFichaIdentificacion.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptHistorialAntecedentes.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptCertificadoLibertad.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptPapeletaExcarcelacion.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptCertificadoReclusion.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Registro\rptFicha.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Estadistica\rptCuadro14.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptHistorialInterno.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptHistorialVisitante.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptSancionInterno.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptSancionVisita.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Reporte\Visita\rptVisita.rdlc
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPReporte.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPReporte.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPReporte.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControlHuellaVisita.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControls.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Bussines.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Data.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Entity.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Type.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Suprema.UFMatcher.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ScanAPIHelper.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\ScanAPIHelperFS60.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Wsq2Bmp.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\MathAPIHelperFS60.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\WebCAM.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPCamaraWeb.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Newtonsoft.Json.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\MySql.Data.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Legolas.LData.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Interop.CTLODONLib.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\AForge.Video.DirectShow.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\AForge.Video.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\stdole.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControlHuellaVisita.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControlHuellaVisita.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControls.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPControls.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPWebService.dll.config
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Bussines.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Bussines.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Data.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Data.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Entity.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Entity.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Type.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\Type.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPCamaraWeb.pdb
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\bin\Debug\APPCamaraWeb.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.AssemblyReference.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Estadistica.frmReporte.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Estadistica.ReporteCrystal.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Load.frmLoad.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.ParteDiario.ReporteCrystal.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ConstanciaReclusion.frmObsPopup.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ConstanciaReclusion.frmReporte.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ConstanciaReclusion.ReporteCrystal.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.frmPrintOdontograma.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.frmPrintOdontograma_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Resources.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Movimiento.ReporteCrystal.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Reniec.ReporteCrystal.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ReporteCrystal.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.ReporteCrystal_v2.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.frmReporte.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.frmReporteFichInterno.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.uscContentReport.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Registro.Siscrico.uscReporte.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Tratamiento.TallerAsistencia.ReporteCrystal.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Visita.ReporteCrystal.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.Visita.frmReporte.resources
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.GenerateResource.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.CoreCompileInputs.cache
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.vbproj.CopyComplete
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.dll
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.xml
+D:\Nueva carpeta (4)\repo_azure_sol_sip_desktop\sol_sip_desktop_2022\APPReporte\obj\Debug\APPReporte.pdb
